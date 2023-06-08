@@ -11981,7 +11981,7 @@ const struct BattleMove gBattleMoves[] =
 		.split = SPLIT_SPECIAL,
 		.z_move_effect = 0
 	},
-
+	
 	[MOVE_THUNDERCAGE] =
 	{
 		.effect = EFFECT_TRAP,
@@ -13960,7 +13960,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_VINE_LASH,
 	},
-
+	
 	[MOVE_G_MAX_VINE_LASH_S] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -13976,7 +13976,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_VINE_LASH,
 	},
-
+	
 	[MOVE_G_MAX_WILDFIRE_P] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14008,7 +14008,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_WILDFIRE,
 	},
-
+	
 	[MOVE_G_MAX_CANNONADE_P] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14024,7 +14024,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_CANNONADE,
 	},
-
+	
 	[MOVE_G_MAX_CANNONADE_S] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14040,7 +14040,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_CANNONADE,
 	},
-
+	
 	[MOVE_G_MAX_BEFUDDLE_P] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14392,7 +14392,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_TORMENT_FOES,
 	},
-
+	
 	[MOVE_G_MAX_DRUM_SOLO_P] =
 	{	//ANIM TODO
 		.effect = EFFECT_MAX_MOVE,
@@ -14408,7 +14408,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_IGNORE_ABILITY,
 	},
-
+	
 	[MOVE_G_MAX_DRUM_SOLO_S] =
 	{	//ANIM TODO
 		.effect = EFFECT_MAX_MOVE,
@@ -14424,7 +14424,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_IGNORE_ABILITY,
 	},
-
+	
 	[MOVE_G_MAX_FIREBALL_P] =
 	{	//ANIM TODO
 		.effect = EFFECT_MAX_MOVE,
@@ -14440,7 +14440,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_IGNORE_ABILITY,
 	},
-
+	
 	[MOVE_G_MAX_FIREBALL_S] =
 	{	//ANIM TODO
 		.effect = EFFECT_MAX_MOVE,
@@ -14456,7 +14456,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_IGNORE_ABILITY,
 	},
-
+	
 	[MOVE_G_MAX_HYDROSNIPE_P] =
 	{	//ANIM TODO
 		.effect = EFFECT_MAX_MOVE,
@@ -14472,7 +14472,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_IGNORE_ABILITY,
 	},
-
+	
 	[MOVE_G_MAX_HYDROSNIPE_S] =
 	{	//ANIM TODO
 		.effect = EFFECT_MAX_MOVE,
@@ -14488,7 +14488,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_IGNORE_ABILITY,
 	},
-
+	
 	[MOVE_G_MAX_WIND_RAGE_P] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14552,7 +14552,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_GRAVITY,
 	},
-
+	
 	[MOVE_G_MAX_STONESURGE_P] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14680,7 +14680,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_AROMATHERAPY,
 	},
-
+	
 	[MOVE_G_MAX_SANDBLAST_P] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14712,7 +14712,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_SANDBLAST_FOES,
 	},
-
+	
 	[MOVE_G_MAX_STUN_SHOCK_P] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14776,7 +14776,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_FIRE_SPIN_FOES,
 	},
-
+	
 	[MOVE_G_MAX_SMITE_P] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14792,7 +14792,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_CONFUSE_FOES,
 	},
-
+	
 	[MOVE_G_MAX_SMITE_S] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14905,7 +14905,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_STEELSURGE,
 	},
-
+	
 	[MOVE_G_MAX_DEPLETION_P] =
 	{
 		.effect = EFFECT_MAX_MOVE,
@@ -14936,7 +14936,7 @@ const struct BattleMove gBattleMoves[] =
 		.split = SPLIT_SPECIAL,
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_SPITE,
-	},
+	},	
 
 	[MOVE_G_MAX_ONE_BLOW_P] =
 	{
@@ -14953,7 +14953,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_BYPASS_PROTECT,
 	},
-
+	
 	[MOVE_G_MAX_ONE_BLOW_S] =
 	{	//ANIM TODO
 		.effect = EFFECT_MAX_MOVE,
@@ -14969,7 +14969,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_BYPASS_PROTECT,
 	},
-
+	
 	[MOVE_G_MAX_RAPID_FLOW_P] =
 	{	//ANIM TODO
 		.effect = EFFECT_MAX_MOVE,
@@ -14985,7 +14985,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_power = 0,
 		.z_move_effect = MAX_EFFECT_BYPASS_PROTECT,
 	},
-
+	
 	[MOVE_G_MAX_RAPID_FLOW_S] =
 	{	//ANIM TODO
 		.effect = EFFECT_MAX_MOVE,
@@ -15002,6 +15002,7 @@ const struct BattleMove gBattleMoves[] =
 		.z_move_effect = MAX_EFFECT_BYPASS_PROTECT,
 	}
 #endif
+
 };
 
 #ifdef DYNAMAX_FEATURE
