@@ -22,8 +22,7 @@ func main() {
 	}
 	// Creating a new session.
 	s := session.New("Bot " + token)
-	// Adding a handler to our session that checks whenever a message is sent and prints the username of the sender
-	// and the content of the message
+	// Adding a message handler
 	s.AddHandler(handle_message)
 	// Adding Intents
 	s.AddIntents(gateway.IntentGuildMessages)
