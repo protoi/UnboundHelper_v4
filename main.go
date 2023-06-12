@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	token  = "MTA0NDEyMjE3MDExODM4NTc3NQ.GgMhci.cMzKZog3m9vpEBfBBdzFmCsUBS04OqK4MqvW8M"
+	token  = ""
 	prefix = ";"
 )
 
