@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	token  = "MTA0NDEyMjE3MDExODM4NTc3NQ.GgMhci.cMzKZog3m9vpEBfBBdzFmCsUBS04OqK4MqvW8M"
+	token  = ""
 	prefix = ";"
 )
 
@@ -22,6 +22,9 @@ func main() {
 	}
 	// Creating a new session.
 	s := session.New("Bot " + token)
+	if s == nil {
+		log.Fatalln("Token Not Functional.")
+	}
 	// Adding a message handler
 	s.AddHandler(handle_message)
 	// Adding Intents
