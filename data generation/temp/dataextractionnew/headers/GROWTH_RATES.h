@@ -1,0 +1,6 @@
+#define GROWTH_MEDIUM_FAST "Medium Fast"
+#define GROWTH_ERRATIC "Erratic"
+#define GROWTH_FLUCTUATING " Fluctuating"
+#define GROWTH_MEDIUM_SLOW "Medium Slow"
+#define GROWTH_FAST "Fast"
+#define GROWTH_SLOW "Slow"

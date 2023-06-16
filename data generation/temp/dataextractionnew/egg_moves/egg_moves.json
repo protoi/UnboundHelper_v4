@@ -1,0 +1,5202 @@
+[
+  {
+    "BULBASAUR": [
+      "Skull Bash",
+      "Charm",
+      "Petal Dance",
+      "Magical Leaf",
+      "Grass Whistle",
+      "Curse",
+      "Ingrain",
+      "Nature Power",
+      "Amnesia",
+      "Leaf Storm",
+      "Power Whip",
+      "Sludge",
+      "Endure",
+      "Giga Drain",
+      "Grassy Terrain",
+      "Toxic",
+      "Celebrate"
+    ]
+  },
+  {
+    "CHARMANDER": [
+      "Belly Drum",
+      "Ancient Power",
+      "Bite",
+      "Outrage",
+      "Beat Up",
+      "Dragon Dance",
+      "Crunch",
+      "Dragon Rush",
+      "Metal Claw",
+      "Counter",
+      "Dragon Pulse",
+      "Focus Punch",
+      "Air Cutter",
+      "Wing Attack",
+      "Dragon Tail",
+      "Celebrate"
+    ]
+  },
+  {
+    "SQUIRTLE": [
+      "Mirror Coat",
+      "Haze",
+      "Mist",
+      "Foresight",
+      "Flail",
+      "Refresh",
+      "Mud Sport",
+      "Yawn",
+      "Muddy Water",
+      "Fake Out",
+      "Aqua Ring",
+      "Aqua Jet",
+      "Water Spout",
+      "Brine",
+      "Dragon Pulse",
+      "Aura Sphere",
+      "Life Dew",
+      "Follow Me",
+      "Celebrate"
+    ]
+  },
+  {
+    "PIDGEY": [
+      "Pursuit",
+      "Feint Attack",
+      "Foresight",
+      "Air Cutter",
+      "Uproar",
+      "Defog"
+    ]
+  },
+  {
+    "RATTATA": [
+      "Screech",
+      "Flame Wheel",
+      "Fury Swipes",
+      "Counter",
+      "Reversal",
+      "Uproar",
+      "Me First",
+      "Revenge",
+      "Take Down",
+      "Final Gambit"
+    ]
+  },
+  {
+    "SPEAROW": [
+      "Feint Attack",
+      "Scary Face",
+      "Quick Attack",
+      "Tri Attack",
+      "Astonish",
+      "Sky Attack",
+      "Whirlwind",
+      "Uproar",
+      "Feather Dance",
+      "Steel Wing",
+      "Razor Wind"
+    ]
+  },
+  {
+    "EKANS": [
+      "Pursuit",
+      "Slam",
+      "Spite",
+      "Beat Up",
+      "Scary Face",
+      "Poison Tail",
+      "Disable",
+      "Switcheroo",
+      "Iron Tail",
+      "Sucker Punch",
+      "Snatch",
+      "Toxic Spikes"
+    ]
+  },
+  {
+    "SANDSHREW": [
+      "Flail",
+      "Counter",
+      "Metal Claw",
+      "Crush Claw",
+      "Night Slash",
+      "Mud Shot",
+      "Endure",
+      "Chip Away",
+      "Rock Climb",
+      "Rototiller",
+      "Hone Claws",
+      "Mud-Slap"
+    ]
+  },
+  {
+    "NIDORAN_F": [
+      "Supersonic",
+      "Disable",
+      "Take Down",
+      "Focus Energy",
+      "Charm",
+      "Counter",
+      "Beat Up",
+      "Pursuit",
+      "Skull Bash",
+      "Iron Tail",
+      "Poison Tail",
+      "Endure",
+      "Chip Away",
+      "Venom Drench",
+      "Sucker Punch"
+    ]
+  },
+  {
+    "NIDORAN_M": [
+      "Counter",
+      "Disable",
+      "Supersonic",
+      "Take Down",
+      "Amnesia",
+      "Confusion",
+      "Beat Up",
+      "Sucker Punch",
+      "Head Smash",
+      "Iron Tail",
+      "Endure",
+      "Chip Away",
+      "Venom Drench"
+    ]
+  },
+  {
+    "VULPIX": [
+      "Feint Attack",
+      "Hypnosis",
+      "Flail",
+      "Howl",
+      "Heat Wave",
+      "Flare Blitz",
+      "Power Swap",
+      "Secret Power",
+      "Tail Slap",
+      "Captivate",
+      "Memento",
+      "Baby-Doll Eyes",
+      "Roar",
+      "Flame Charge"
+    ]
+  },
+  {
+    "ZUBAT": [
+      "Quick Attack",
+      "Pursuit",
+      "Feint Attack",
+      "Gust",
+      "Whirlwind",
+      "Curse",
+      "Nasty Plot",
+      "Hypnosis",
+      "Zen Headbutt",
+      "Brave Bird",
+      "Giga Drain",
+      "Steel Wing",
+      "Defog",
+      "Venom Drench"
+    ]
+  },
+  {
+    "ODDISH": [
+      "Razor Leaf",
+      "Flail",
+      "Synthesis",
+      "Charm",
+      "Ingrain",
+      "Tickle",
+      "Teeter Dance",
+      "Secret Power",
+      "Nature Power",
+      "After You",
+      "Leech Seed",
+      "Lucky Chant"
+    ]
+  },
+  {
+    "PARAS": [
+      "Screech",
+      "Counter",
+      "Psybeam",
+      "Flail",
+      "Sweet Scent",
+      "Pursuit",
+      "Bug Bite",
+      "Cross Poison",
+      "Agility",
+      "Endure",
+      "Natural Gift",
+      "Leech Seed",
+      "Wide Guard",
+      "Rototiller",
+      "Fell Stinger",
+      "Grassy Terrain"
+    ]
+  },
+  {
+    "VENONAT": [
+      "Baton Pass",
+      "Screech",
+      "Giga Drain",
+      "Signal Beam",
+      "Agility",
+      "Morning Sun",
+      "Toxic Spikes",
+      "Secret Power",
+      "Skill Swap",
+      "Rage Powder"
+    ]
+  },
+  {
+    "DIGLETT": [
+      "Feint Attack",
+      "Screech",
+      "Ancient Power",
+      "Pursuit",
+      "Beat Up",
+      "Uproar",
+      "Reversal",
+      "Headbutt",
+      "Endure",
+      "Final Gambit",
+      "Memento",
+      "Hone Claws"
+    ]
+  },
+  {
+    "MEOWTH": [
+      "Spite",
+      "Charm",
+      "Hypnosis",
+      "Amnesia",
+      "Assist",
+      "Odor Sleuth",
+      "Flail",
+      "Punishment",
+      "Tail Whip",
+      "Snatch",
+      "Iron Tail",
+      "Foul Play",
+      "Covet",
+      "Captivate",
+      "Assurance"
+    ]
+  },
+  {
+    "PSYDUCK": [
+      "Hypnosis",
+      "Psybeam",
+      "Foresight",
+      "Future Sight",
+      "Cross Chop",
+      "Refresh",
+      "Confuse Ray",
+      "Yawn",
+      "Mud Bomb",
+      "Encore",
+      "Secret Power",
+      "Sleep Talk",
+      "Synchronoise",
+      "Simple Beam",
+      "Clear Smog",
+      "Mud Sport",
+      "Tri Attack"
+    ]
+  },
+  {
+    "MANKEY": [
+      "Foresight",
+      "Meditate",
+      "Counter",
+      "Reversal",
+      "Beat Up",
+      "Revenge",
+      "Smelling Salts",
+      "Encore",
+      "Focus Punch",
+      "Sleep Talk",
+      "Night Slash",
+      "Power Trip",
+      "Skull Bash",
+      "Retaliate",
+      "Thunderous Kick"
+    ]
+  },
+  {
+    "GROWLITHE": [
+      "Body Slam",
+      "Thrash",
+      "Fire Spin",
+      "Double-Edge",
+      "Morning Sun",
+      "Covet",
+      "Iron Tail",
+      "Double Kick",
+      "Close Combat",
+      "Burn Up",
+      "Flame Burst",
+      "Teleport"
+    ]
+  },
+  {
+    "POLIWAG": [
+      "Mist",
+      "Splash",
+      "Haze",
+      "Mind Reader",
+      "Ice Ball",
+      "Refresh",
+      "Endeavor",
+      "Encore",
+      "Endure",
+      "Water Pulse"
+    ]
+  },
+  {
+    "ABRA": [
+      "Encore",
+      "Barrier",
+      "Knock Off",
+      "Fire Punch",
+      "Thunder Punch",
+      "Ice Punch",
+      "Power Trick",
+      "Guard Swap",
+      "Skill Swap",
+      "Guard Split",
+      "Psycho Shift",
+      "Psychic Terrain",
+      "Magic Coat",
+      "Counter"
+    ]
+  },
+  {
+    "MACHOP": [
+      "Meditate",
+      "Rolling Kick",
+      "Encore",
+      "Smelling Salts",
+      "Counter",
+      "Fire Punch",
+      "Thunder Punch",
+      "Ice Punch",
+      "Bullet Punch",
+      "Power Trick",
+      "Heavy Slam",
+      "Tickle",
+      "Quick Guard",
+      "Vital Throw",
+      "Mach Punch"
+    ]
+  },
+  {
+    "BELLSPROUT": [
+      "Encore",
+      "Synthesis",
+      "Leech Fang",
+      "Ingrain",
+      "Magical Leaf",
+      "Worry Seed",
+      "Tickle",
+      "Weather Ball",
+      "Bullet Seed",
+      "Natural Gift",
+      "Giga Drain",
+      "Clear Smog",
+      "Power Whip",
+      "Belch",
+      "Strength Sap",
+      "Teeter Dance",
+      "Morning Sun"
+    ]
+  },
+  {
+    "TENTACOOL": [
+      "Aurora Beam",
+      "Mirror Coat",
+      "Rapid Spin",
+      "Haze",
+      "Confuse Ray",
+      "Knock Off",
+      "Acupressure",
+      "Muddy Water",
+      "Bubble",
+      "Aqua Ring",
+      "Tickle",
+      "Barrier"
+    ]
+  },
+  {
+    "GEODUDE": [
+      "Mega Punch",
+      "Block",
+      "Hammer Arm",
+      "Flail",
+      "Curse",
+      "Focus Punch",
+      "Rock Climb",
+      "Endure",
+      "Autotomize",
+      "Wide Guard",
+      "Sucker Punch"
+    ]
+  },
+  {
+    "PONYTA": [
+      "Thrash",
+      "Double Kick",
+      "Hypnosis",
+      "Charm",
+      "Double-Edge",
+      "Horn Drill",
+      "Morning Sun",
+      "Low Kick",
+      "Captivate",
+      "High Horsepower"
+    ]
+  },
+  {
+    "SLOWPOKE": [
+      "Belly Drum",
+      "Future Sight",
+      "Stomp",
+      "Mud Sport",
+      "Sleep Talk",
+      "Snore",
+      "Me First",
+      "Block",
+      "Wonder Room",
+      "Belch",
+      "Teleport"
+    ]
+  },
+  {
+    "FARFETCHD": [
+      "Steel Wing",
+      "Foresight",
+      "Mirror Move",
+      "Gust",
+      "Air Slash",
+      "Quick Attack",
+      "Flail",
+      "Feather Dance",
+      "Curse",
+      "Covet",
+      "Mud-Slap",
+      "Revenge",
+      "Roost",
+      "Trump Card",
+      "Simple Beam",
+      "First Impression",
+      "Final Gambit",
+      "Sky Attack",
+      "Yawn",
+      "Wish"
+    ]
+  },
+  {
+    "DODUO": [
+      "Supersonic",
+      "Haze",
+      "Feint Attack",
+      "Flail",
+      "Mirror Move",
+      "Natural Gift",
+      "Assurance",
+      "Uproar",
+      "Lunge",
+      "Double-Edge"
+    ]
+  },
+  {
+    "SEEL": [
+      "Lick",
+      "Perish Song",
+      "Disable",
+      "Horn Drill",
+      "Slam",
+      "Fake Out",
+      "Icicle Spear",
+      "Signal Beam",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Water Pulse",
+      "Iron Tail",
+      "Sleep Talk",
+      "Belch",
+      "Entrainment"
+    ]
+  },
+  {
+    "GRIMER": [
+      "Haze",
+      "Mean Look",
+      "Lick",
+      "Imprison",
+      "Curse",
+      "Shadow Punch",
+      "Shadow Sneak",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Scary Face",
+      "Acid Spray",
+      "Power-up Punch"
+    ]
+  },
+  {
+    "SHELLDER": [
+      "Bubble Beam",
+      "Take Down",
+      "Barrier",
+      "Rapid Spin",
+      "Screech",
+      "Icicle Spear",
+      "Mud Shot",
+      "Rock Blast",
+      "Water Pulse",
+      "Aqua Ring",
+      "Avalanche",
+      "Twineedle",
+      "Life Dew"
+    ]
+  },
+  {
+    "GASTLY": [
+      "Psywave",
+      "Perish Song",
+      "Haze",
+      "Astonish",
+      "Grudge",
+      "Fire Punch",
+      "Ice Punch",
+      "Thunder Punch",
+      "Disable",
+      "Scary Face",
+      "Clear Smog",
+      "Reflect Type"
+    ]
+  },
+  {
+    "ONIX": [
+      "Flail",
+      "Block",
+      "Defense Curl",
+      "Rollout",
+      "Rock Throw",
+      "Rock Blast",
+      "Rock Climb",
+      "Heavy Slam",
+      "Rototiller",
+      "Wide Guard",
+      "Dragon Tail",
+      "Head Smash",
+      "Rage",
+      "Power Shift"
+    ]
+  },
+  {
+    "DROWZEE": [
+      "Barrier",
+      "Assist",
+      "Role Play",
+      "Fire Punch",
+      "Thunder Punch",
+      "Ice Punch",
+      "Flatter",
+      "Psycho Cut",
+      "Guard Swap",
+      "Secret Power",
+      "Skill Swap",
+      "Power Split",
+      "Psychic Terrain",
+      "Teleport",
+      "Mind Reader",
+      "Wish"
+    ]
+  },
+  {
+    "KRABBY": [
+      "Haze",
+      "Amnesia",
+      "Knock Off",
+      "Tickle",
+      "Ancient Power",
+      "Agility",
+      "Endure",
+      "Chip Away",
+      "Bide",
+      "Hammer Arm",
+      "Slash",
+      "Night Slash"
+    ]
+  },
+  {
+    "EXEGGCUTE": [
+      "Moonlight",
+      "Ancient Power",
+      "Ingrain",
+      "Curse",
+      "Nature Power",
+      "Lucky Chant",
+      "Leaf Storm",
+      "Power Swap",
+      "Skill Swap",
+      "Block",
+      "Grassy Terrain",
+      "Sleep Powder",
+      "Stun Spore",
+      "Poison Powder",
+      "Bestow",
+      "Teleport",
+      "Wish"
+    ]
+  },
+  {
+    "CUBONE": [
+      "Ancient Power",
+      "Belly Drum",
+      "Screech",
+      "Skull Bash",
+      "Perish Song",
+      "Double Kick",
+      "Iron Head",
+      "Detect",
+      "Endure",
+      "Chip Away",
+      "Curse",
+      "Thrash"
+    ]
+  },
+  {
+    "LICKITUNG": [
+      "Magnitude",
+      "Slam",
+      "Curse",
+      "Smelling Salts",
+      "Sleep Talk",
+      "Snore",
+      "Amnesia",
+      "Hammer Arm",
+      "Muddy Water",
+      "Zen Headbutt",
+      "Belch",
+      "Thrash",
+      "Heal Bell",
+      "Wish",
+      "Chip Away",
+      "Me First",
+      "Ice Ball"
+    ]
+  },
+  {
+    "KOFFING": [
+      "Screech",
+      "Psywave",
+      "Psybeam",
+      "Pain Split",
+      "Grudge",
+      "Spite",
+      "Curse",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Toxic Spikes",
+      "Venom Drench"
+    ]
+  },
+  {
+    "KOFFING_G": [
+      "Screech",
+      "Psywave",
+      "Psybeam",
+      "Pain Split",
+      "Grudge",
+      "Spite",
+      "Curse",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Toxic Spikes",
+      "Venom Drench"
+    ]
+  },
+  {
+    "RHYHORN": [
+      "Crunch",
+      "Reversal",
+      "Counter",
+      "Magnitude",
+      "Curse",
+      "Crush Claw",
+      "Dragon Rush",
+      "Ice Fang",
+      "Fire Fang",
+      "Thunder Fang",
+      "Skull Bash",
+      "Iron Tail",
+      "Rock Climb",
+      "Rototiller",
+      "Metal Burst",
+      "Guard Split",
+      "Rock Polish",
+      "Head Smash"
+    ]
+  },
+  {
+    "CHANSEY": [
+      "Present",
+      "Metronome",
+      "Heal Bell",
+      "Aromatherapy",
+      "Counter",
+      "Gravity",
+      "Mud Bomb",
+      "Endure",
+      "Seismic Toss",
+      "Bestow",
+      "Tri Attack",
+      "Wish",
+      "Sweet Kiss"
+    ]
+  },
+  {
+    "TANGELA": [
+      "Flail",
+      "Confusion",
+      "Amnesia",
+      "Leech Seed",
+      "Nature Power",
+      "Endeavor",
+      "Leaf Storm",
+      "Power Swap",
+      "Rage Powder",
+      "Wake-Up Slap",
+      "Morning Sun",
+      "Acid Spray",
+      "Double Hit"
+    ]
+  },
+  {
+    "KANGASKHAN": [
+      "Foresight",
+      "Disable",
+      "Counter",
+      "Crush Claw",
+      "Double-Edge",
+      "Endeavor",
+      "Hammer Arm",
+      "Focus Punch",
+      "Trump Card",
+      "Uproar",
+      "Circle Throw",
+      "Leer",
+      "Headbutt",
+      "Yawn",
+      "Wish"
+    ]
+  },
+  {
+    "HORSEA": [
+      "Flail",
+      "Aurora Beam",
+      "Octazooka",
+      "Disable",
+      "Splash",
+      "Dragon Rage",
+      "Signal Beam",
+      "Razor Wind",
+      "Muddy Water",
+      "Water Pulse",
+      "Clear Smog",
+      "Outrage"
+    ]
+  },
+  {
+    "GOLDEEN": [
+      "Psybeam",
+      "Haze",
+      "Hydro Pump",
+      "Sleep Talk",
+      "Mud Sport",
+      "Mud-Slap",
+      "Aqua Tail",
+      "Body Slam",
+      "Mud Shot",
+      "Skull Bash",
+      "Signal Beam",
+      "Acupressure"
+    ]
+  },
+  {
+    "MR_MIME": [
+      "Future Sight",
+      "Hypnosis",
+      "Fake Out",
+      "Confuse Ray",
+      "Wake-Up Slap",
+      "Nasty Plot",
+      "Power Split",
+      "Magic Room",
+      "Icy Wind",
+      "Psychic Terrain",
+      "Teleport",
+      "Follow Me",
+      "Power Shift"
+    ]
+  },
+  {
+    "SCYTHER": [
+      "Counter",
+      "Baton Pass",
+      "Reversal",
+      "Endure",
+      "Silver Wind",
+      "Bug Buzz",
+      "Defog",
+      "Steel Wing",
+      "Quick Guard",
+      "Pursuit",
+      "Razor Wind",
+      "Vacuum Wave",
+      "Dual Wingbeat"
+    ]
+  },
+  {
+    "PINSIR": [
+      "Fury Attack",
+      "Flail",
+      "Feint Attack",
+      "Quick Attack",
+      "Close Combat",
+      "Feint",
+      "Me First",
+      "Revenge"
+    ]
+  },
+  {
+    "LAPRAS": [
+      "Foresight",
+      "Tickle",
+      "Refresh",
+      "Dragon Dance",
+      "Curse",
+      "Sleep Talk",
+      "Horn Drill",
+      "Ancient Power",
+      "Whirlpool",
+      "Fissure",
+      "Dragon Pulse",
+      "Avalanche",
+      "Future Sight",
+      "Freeze-Dry",
+      "Sparkling Aria"
+    ]
+  },
+  {
+    "EEVEE": [
+      "Flail",
+      "Endure",
+      "Curse",
+      "Tickle",
+      "Wish",
+      "Yawn",
+      "Fake Tears",
+      "Detect",
+      "Natural Gift",
+      "Stored Power",
+      "Synchronoise",
+      "Captivate",
+      "Double Kick",
+      "Mud-Slap",
+      "Celebrate",
+      "Mimic"
+    ]
+  },
+  {
+    "OMANYTE": [
+      "Bubble Beam",
+      "Aurora Beam",
+      "Slam",
+      "Supersonic",
+      "Haze",
+      "Spikes",
+      "Knock Off",
+      "Wring Out",
+      "Toxic Spikes",
+      "Muddy Water",
+      "Bide",
+      "Water Pulse",
+      "Whirlpool",
+      "Reflect Type",
+      "Bite",
+      "Tickle"
+    ]
+  },
+  {
+    "KABUTO": [
+      "Bubble Beam",
+      "Aurora Beam",
+      "Rapid Spin",
+      "Flail",
+      "Knock Off",
+      "Confuse Ray",
+      "Icy Wind",
+      "Screech",
+      "Giga Drain",
+      "Foresight",
+      "Take Down",
+      "Mega Drain",
+      "Wring Out"
+    ]
+  },
+  {
+    "AERODACTYL": [
+      "Whirlwind",
+      "Pursuit",
+      "Foresight",
+      "Steel Wing",
+      "Dragon Breath",
+      "Curse",
+      "Assurance",
+      "Roost",
+      "Tailwind",
+      "Wide Guard",
+      "Dual Wingbeat"
+    ]
+  },
+  {
+    "SNORLAX": [
+      "Charm",
+      "Double-Edge",
+      "Curse",
+      "Fissure",
+      "Whirlwind",
+      "Pursuit",
+      "Counter",
+      "Natural Gift",
+      "After You",
+      "Power-up Punch",
+      "Gastro Acid",
+      "Ice Ball"
+    ]
+  },
+  {
+    "DRATINI": [
+      "Mist",
+      "Haze",
+      "Supersonic",
+      "Dragon Breath",
+      "Extreme Speed",
+      "Water Pulse",
+      "Aqua Jet",
+      "Dragon Pulse",
+      "Iron Tail"
+    ]
+  },
+  {
+    "CHIKORITA": [
+      "Vine Whip",
+      "Leech Seed",
+      "Counter",
+      "Ancient Power",
+      "Flail",
+      "Nature Power",
+      "Ingrain",
+      "Grass Whistle",
+      "Wring Out",
+      "Refresh",
+      "Heal Pulse",
+      "Grassy Terrain"
+    ]
+  },
+  {
+    "CYNDAQUIL": [
+      "Fury Swipes",
+      "Reversal",
+      "Thrash",
+      "Foresight",
+      "Covet",
+      "Howl",
+      "Crush Claw",
+      "Double Kick",
+      "Flare Blitz",
+      "Extrasensory",
+      "Nature Power",
+      "Flame Burst"
+    ]
+  },
+  {
+    "TOTODILE": [
+      "Ancient Power",
+      "Mud Sport",
+      "Water Sport",
+      "Ice Punch",
+      "Metal Claw",
+      "Dragon Dance",
+      "Fake Tears",
+      "Block",
+      "Water Pulse",
+      "Flatter"
+    ]
+  },
+  {
+    "SENTRET": [
+      "Double-Edge",
+      "Pursuit",
+      "Slash",
+      "Focus Energy",
+      "Reversal",
+      "Trick",
+      "Assist",
+      "Charm",
+      "Natural Gift",
+      "Iron Tail",
+      "Captivate",
+      "Baby-Doll Eyes"
+    ]
+  },
+  {
+    "HOOTHOOT": [
+      "Mirror Move",
+      "Supersonic",
+      "Feint Attack",
+      "Wing Attack",
+      "Whirlwind",
+      "Sky Attack",
+      "Feather Dance",
+      "Agility",
+      "Night Shade",
+      "Defog",
+      "Mean Look",
+      "Zen Headbutt",
+      "Synchronoise"
+    ]
+  },
+  {
+    "LEDYBA": [
+      "Psybeam",
+      "Bide",
+      "Screech",
+      "Encore",
+      "Knock Off",
+      "Bug Bite",
+      "Focus Punch",
+      "Drain Punch",
+      "Dizzy Punch",
+      "Tailwind",
+      "Endure",
+      "Counter",
+      "Agility"
+    ]
+  },
+  {
+    "SPINARAK": [
+      "Psybeam",
+      "Disable",
+      "Sonic Boom",
+      "Baton Pass",
+      "Pursuit",
+      "Signal Beam",
+      "Toxic Spikes",
+      "Twineedle",
+      "Electroweb",
+      "Rage Powder",
+      "Night Slash",
+      "Lunge",
+      "First Impression"
+    ]
+  },
+  {
+    "CHINCHOU": [
+      "Screech",
+      "Amnesia",
+      "Psybeam",
+      "Whirlpool",
+      "Agility",
+      "Mist",
+      "Shock Wave",
+      "Brine",
+      "Water Pulse",
+      "Soak"
+    ]
+  },
+  {
+    "PICHU": [
+      "Reversal",
+      "Bide",
+      "Present",
+      "Encore",
+      "Double Slap",
+      "Wish",
+      "Charge",
+      "Fake Out",
+      "Thunder Punch",
+      "Tickle",
+      "Flail",
+      "Endure",
+      "Lucky Chant",
+      "Bestow",
+      "Disarming Voice",
+      "Electric Terrain",
+      "Celebrate",
+      "Extreme Speed"
+    ]
+  },
+  {
+    "CLEFFA": [
+      "Present",
+      "Metronome",
+      "Amnesia",
+      "Belly Drum",
+      "Mimic",
+      "Wish",
+      "Fake Tears",
+      "Covet",
+      "Aromatherapy",
+      "Stored Power",
+      "Tickle",
+      "Misty Terrain",
+      "Heal Pulse",
+      "Cosmic Power",
+      "Teleport",
+      "Soft-Boiled"
+    ]
+  },
+  {
+    "IGGLYBUFF": [
+      "Perish Song",
+      "Present",
+      "Feint Attack",
+      "Wish",
+      "Fake Tears",
+      "Covet",
+      "Gravity",
+      "Sleep Talk",
+      "Captivate",
+      "Punishment",
+      "Misty Terrain",
+      "Heal Pulse",
+      "Teleport",
+      "Tri Attack"
+    ]
+  },
+  {
+    "TOGEPI": [
+      "Present",
+      "Mirror Move",
+      "Peck",
+      "Foresight",
+      "Future Sight",
+      "Nasty Plot",
+      "Psycho Shift",
+      "Lucky Chant",
+      "Extrasensory",
+      "Secret Power",
+      "Stored Power",
+      "Morning Sun",
+      "Bestow",
+      "Soft-Boiled"
+    ]
+  },
+  {
+    "NATU": [
+      "Haze",
+      "Drill Peck",
+      "Quick Attack",
+      "Feint Attack",
+      "Steel Wing",
+      "Feather Dance",
+      "Refresh",
+      "Zen Headbutt",
+      "Sucker Punch",
+      "Synchronoise",
+      "Roost",
+      "Skill Swap",
+      "Simple Beam"
+    ]
+  },
+  {
+    "MAREEP": [
+      "Body Slam",
+      "Screech",
+      "Odor Sleuth",
+      "Flatter",
+      "Sand Attack",
+      "Iron Tail",
+      "After You",
+      "Agility",
+      "Eerie Impulse",
+      "Electric Terrain"
+    ]
+  },
+  {
+    "MARILL": [
+      "Present",
+      "Amnesia",
+      "Future Sight",
+      "Belly Drum",
+      "Perish Song",
+      "Supersonic",
+      "Aqua Jet",
+      "Refresh",
+      "Body Slam",
+      "Muddy Water",
+      "Camouflage",
+      "Copycat",
+      "Sing",
+      "Soak",
+      "Tickle"
+    ]
+  },
+  {
+    "SUDOWOODO": [
+      "Self-Destruct",
+      "Headbutt",
+      "Harden",
+      "Defense Curl",
+      "Rollout",
+      "Sand Tomb",
+      "Stealth Rock",
+      "Curse",
+      "Endure",
+      "Rock Polish"
+    ]
+  },
+  {
+    "HOPPIP": [
+      "Confusion",
+      "Encore",
+      "Double-Edge",
+      "Amnesia",
+      "Helping Hand",
+      "Aromatherapy",
+      "Cotton Guard",
+      "Seed Bomb",
+      "Endure",
+      "Grassy Terrain",
+      "Strength Sap"
+    ]
+  },
+  {
+    "AIPOM": [
+      "Counter",
+      "Pursuit",
+      "Spite",
+      "Slam",
+      "Double Slap",
+      "Beat Up",
+      "Fake Out",
+      "Covet",
+      "Bounce",
+      "Revenge",
+      "Switcheroo",
+      "Quick Guard",
+      "Tail Slap",
+      "Mud Bomb",
+      "Quick Attack"
+    ]
+  },
+  {
+    "SUNKERN": [
+      "Encore",
+      "Nature Power",
+      "Curse",
+      "Helping Hand",
+      "Sweet Scent",
+      "Endure",
+      "Bide",
+      "Morning Sun",
+      "Grassy Terrain"
+    ]
+  },
+  {
+    "YANMA": [
+      "Whirlwind",
+      "Reversal",
+      "Leech Fang",
+      "Signal Beam",
+      "Feint",
+      "Feint Attack",
+      "Double-Edge",
+      "Secret Power",
+      "String Shot",
+      "Gust"
+    ]
+  },
+  {
+    "WOOPER": [
+      "Body Slam",
+      "Ancient Power",
+      "Curse",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Counter",
+      "Encore",
+      "Double Kick",
+      "Recover",
+      "After You",
+      "Sleep Talk",
+      "Acid Spray",
+      "Guard Swap",
+      "Eerie Impulse",
+      "Power-up Punch"
+    ]
+  },
+  {
+    "MURKROW": [
+      "Whirlwind",
+      "Drill Peck",
+      "Mirror Move",
+      "Sky Attack",
+      "Confuse Ray",
+      "Feather Dance",
+      "Perish Song",
+      "Psycho Shift",
+      "Screech",
+      "Brave Bird",
+      "Roost",
+      "Flatter",
+      "Punishment",
+      "Air Cutter",
+      "Night Slash"
+    ]
+  },
+  {
+    "MISDREAVUS": [
+      "Screech",
+      "Destiny Bond",
+      "Imprison",
+      "Memento",
+      "Sucker Punch",
+      "Shadow Sneak",
+      "Curse",
+      "Ominous Wind",
+      "Nasty Plot",
+      "Skill Swap",
+      "Wonder Room",
+      "Me First",
+      "Hypnosis"
+    ]
+  },
+  {
+    "GIRAFARIG": [
+      "Take Down",
+      "Amnesia",
+      "Foresight",
+      "Future Sight",
+      "Beat Up",
+      "Wish",
+      "Magic Coat",
+      "Double Kick",
+      "Mirror Coat",
+      "Razor Wind",
+      "Skill Swap",
+      "Secret Power",
+      "Mean Look",
+      "Psychic Terrain",
+      "Psychic Fangs",
+      "Psywave",
+      "Retaliate"
+    ]
+  },
+  {
+    "PINECO": [
+      "Pin Missile",
+      "Flail",
+      "Swift",
+      "Counter",
+      "Sand Tomb",
+      "Revenge",
+      "Toxic Spikes",
+      "Power Trick",
+      "Endure",
+      "Stealth Rock"
+    ]
+  },
+  {
+    "DUNSPARCE": [
+      "Bide",
+      "Bite",
+      "Headbutt",
+      "Astonish",
+      "Curse",
+      "Trump Card",
+      "Magic Coat",
+      "Snore",
+      "Agility",
+      "Secret Power",
+      "Sleep Talk",
+      "Hex",
+      "Aqua Tail",
+      "Last Resort",
+      "No Retreat"
+    ]
+  },
+  {
+    "GLIGAR": [
+      "Metal Claw",
+      "Wing Attack",
+      "Razor Wind",
+      "Counter",
+      "Sand Tomb",
+      "Agility",
+      "Baton Pass",
+      "Double-Edge",
+      "Feint",
+      "Night Slash",
+      "Cross Poison",
+      "Power Trick",
+      "Rock Climb",
+      "Poison Tail",
+      "Mud Bomb"
+    ]
+  },
+  {
+    "SNUBBULL": [
+      "Metronome",
+      "Feint Attack",
+      "Present",
+      "Heal Bell",
+      "Snore",
+      "Smelling Salts",
+      "Close Combat",
+      "Focus Punch",
+      "Double-Edge",
+      "Mimic",
+      "Fake Tears"
+    ]
+  },
+  {
+    "QWILFISH": [
+      "Flail",
+      "Haze",
+      "Bubble Beam",
+      "Supersonic",
+      "Astonish",
+      "Signal Beam",
+      "Aqua Jet",
+      "Water Pulse",
+      "Acid Spray",
+      "Anchor Shot",
+      "Barb Barrage"
+    ]
+  },
+  {
+    "SHUCKLE": [
+      "Sweet Scent",
+      "Knock Off",
+      "Helping Hand",
+      "Acupressure",
+      "Sand Tomb",
+      "Mud-Slap",
+      "Acid",
+      "Rock Blast",
+      "Final Gambit",
+      "Defense Curl",
+      "Infestation",
+      "Toxic",
+      "Covet"
+    ]
+  },
+  {
+    "HERACROSS": [
+      "Harden",
+      "Bide",
+      "Flail",
+      "Revenge",
+      "Pursuit",
+      "Double-Edge",
+      "Seismic Toss",
+      "Focus Punch",
+      "Rock Blast"
+    ]
+  },
+  {
+    "SNEASEL": [
+      "Counter",
+      "Spite",
+      "Foresight",
+      "Bite",
+      "Crush Claw",
+      "Fake Out",
+      "Double Hit",
+      "Pursuit",
+      "Ice Punch",
+      "Assist",
+      "Avalanche",
+      "Feint",
+      "Icicle Crash",
+      "Throat Chop"
+    ]
+  },
+  {
+    "TEDDIURSA": [
+      "Crunch",
+      "Take Down",
+      "Seismic Toss",
+      "Counter",
+      "Metal Claw",
+      "Yawn",
+      "Sleep Talk",
+      "Cross Chop",
+      "Double-Edge",
+      "Close Combat",
+      "Night Slash",
+      "Belly Drum",
+      "Chip Away"
+    ]
+  },
+  {
+    "SLUGMA": [
+      "Acid Armor",
+      "Heat Wave",
+      "Curse",
+      "Smokescreen",
+      "Memento",
+      "Stockpile",
+      "Spit Up",
+      "Swallow",
+      "Rollout",
+      "Inferno",
+      "Guard Swap"
+    ]
+  },
+  {
+    "SWINUB": [
+      "Bite",
+      "Body Slam",
+      "Ancient Power",
+      "Mud Shot",
+      "Icicle Spear",
+      "Double-Edge",
+      "Fissure",
+      "Curse",
+      "Avalanche",
+      "Stealth Rock",
+      "Icicle Crash",
+      "Freeze-Dry"
+    ]
+  },
+  {
+    "CORSOLA": [
+      "Screech",
+      "Mist",
+      "Amnesia",
+      "Barrier",
+      "Ingrain",
+      "Confuse Ray",
+      "Icicle Spear",
+      "Nature Power",
+      "Curse",
+      "Bide",
+      "Water Pulse",
+      "Head Smash",
+      "Camouflage",
+      "Liquidation",
+      "Mud Sport"
+    ]
+  },
+  {
+    "REMORAID": [
+      "Octazooka",
+      "Supersonic",
+      "Haze",
+      "Screech",
+      "Rock Blast",
+      "Snore",
+      "Flail",
+      "Water Spout",
+      "Mud Shot",
+      "Swift",
+      "Acid Spray",
+      "Entrainment"
+    ]
+  },
+  {
+    "DELIBIRD": [
+      "Quick Attack",
+      "Future Sight",
+      "Splash",
+      "Rapid Spin",
+      "Ice Ball",
+      "Ice Shard",
+      "Counter",
+      "Aurora Veil",
+      "Memento"
+    ]
+  },
+  {
+    "MANTINE": [
+      "Twister",
+      "Haze",
+      "Slam",
+      "Mud Sport",
+      "Mirror Coat",
+      "Water Sport",
+      "Splash",
+      "Amnesia",
+      "Tailwind",
+      "Power Shift"
+    ]
+  },
+  {
+    "SKARMORY": [
+      "Pursuit",
+      "Whirlwind",
+      "Sky Attack",
+      "Curse",
+      "Assurance",
+      "Guard Swap",
+      "Stealth Rock",
+      "Endure",
+      "Air Cutter",
+      "Air Slash",
+      "Feint",
+      "Roost",
+      "Swift",
+      "Counter"
+    ]
+  },
+  {
+    "HOUNDOUR": [
+      "Fire Spin",
+      "Rage",
+      "Counter",
+      "Spite",
+      "Reversal",
+      "Thunder Fang",
+      "Beat Up",
+      "Feint Attack",
+      "Feint",
+      "Sucker Punch",
+      "Destiny Bond",
+      "Odor Sleuth"
+    ]
+  },
+  {
+    "PHANPY": [
+      "Focus Energy",
+      "Body Slam",
+      "Ancient Power",
+      "Snore",
+      "Counter",
+      "Fissure",
+      "Endeavor",
+      "Ice Shard",
+      "Head Smash",
+      "Mud-Slap",
+      "Heavy Slam",
+      "Play Rough",
+      "High Horsepower"
+    ]
+  },
+  {
+    "STANTLER": [
+      "Spite",
+      "Disable",
+      "Bite",
+      "Extrasensory",
+      "Me First",
+      "Mud Sport",
+      "Rage",
+      "Captivate",
+      "Thrash",
+      "Imprison",
+      "Entrainment",
+      "Psyshield Bash"
+    ]
+  },
+  {
+    "TYROGUE": [
+      "Rapid Spin",
+      "High Jump Kick",
+      "Mach Punch",
+      "Mind Reader",
+      "Counter",
+      "Vacuum Wave",
+      "Bullet Punch",
+      "Endure",
+      "Pursuit",
+      "Feint"
+    ]
+  },
+  {
+    "SMOOCHUM": [
+      "Meditate",
+      "Fake Out",
+      "Wish",
+      "Miracle Eye",
+      "Nasty Plot",
+      "Wake-Up Slap",
+      "Captivate"
+    ]
+  },
+  {
+    "ELEKID": [
+      "Karate Chop",
+      "Barrier",
+      "Rolling Kick",
+      "Meditate",
+      "Cross Chop",
+      "Fire Punch",
+      "Ice Punch",
+      "Dynamic Punch",
+      "Feint",
+      "Hammer Arm",
+      "Focus Punch",
+      "Follow Me"
+    ]
+  },
+  {
+    "MAGBY": [
+      "Karate Chop",
+      "Mega Punch",
+      "Barrier",
+      "Screech",
+      "Cross Chop",
+      "Thunder Punch",
+      "Mach Punch",
+      "Dynamic Punch",
+      "Flare Blitz",
+      "Belly Drum",
+      "Iron Tail",
+      "Focus Energy",
+      "Power Swap",
+      "Belch",
+      "Fire Spin",
+      "Follow Me"
+    ]
+  },
+  {
+    "MILTANK": [
+      "Present",
+      "Reversal",
+      "Seismic Toss",
+      "Endure",
+      "Curse",
+      "Helping Hand",
+      "Sleep Talk",
+      "Dizzy Punch",
+      "Hammer Arm",
+      "Punishment",
+      "Natural Gift",
+      "Heart Stamp",
+      "Belch",
+      "Focus Punch"
+    ]
+  },
+  {
+    "LARVITAR": [
+      "Pursuit",
+      "Stomp",
+      "Outrage",
+      "Focus Energy",
+      "Ancient Power",
+      "Dragon Dance",
+      "Curse",
+      "Iron Defense",
+      "Assurance",
+      "Iron Head",
+      "Stealth Rock",
+      "Iron Tail"
+    ]
+  },
+  {
+    "TREECKO": [
+      "Crunch",
+      "Mud Sport",
+      "Leech Seed",
+      "Dragon Breath",
+      "Crush Claw",
+      "Worry Seed",
+      "Double Kick",
+      "Grass Whistle",
+      "Synthesis",
+      "Magical Leaf",
+      "Razor Wind",
+      "Bullet Seed",
+      "Natural Gift",
+      "Grassy Terrain",
+      "Absorb",
+      "Pursuit",
+      "Agility"
+    ]
+  },
+  {
+    "TORCHIC": [
+      "Counter",
+      "Smelling Salts",
+      "Crush Claw",
+      "Baton Pass",
+      "Agility",
+      "Night Slash",
+      "Feint",
+      "Curse",
+      "Flame Burst",
+      "Low Kick",
+      "Fire Spin",
+      "Sand Attack"
+    ]
+  },
+  {
+    "MUDKIP": [
+      "Refresh",
+      "Uproar",
+      "Curse",
+      "Stomp",
+      "Ice Ball",
+      "Mirror Coat",
+      "Counter",
+      "Ancient Power",
+      "Whirlpool",
+      "Bite",
+      "Double-Edge",
+      "Mud Bomb",
+      "Yawn",
+      "Sludge",
+      "Avalanche",
+      "Wide Guard",
+      "Barrier",
+      "Mud-Slap",
+      "Foresight",
+      "Bide",
+      "Mud Sport"
+    ]
+  },
+  {
+    "POOCHYENA": [
+      "Astonish",
+      "Poison Fang",
+      "Covet",
+      "Leer",
+      "Ice Fang",
+      "Fire Fang",
+      "Thunder Fang",
+      "Me First",
+      "Snatch",
+      "Sleep Talk"
+    ]
+  },
+  {
+    "ZIGZAGOON": [
+      "Charm",
+      "Pursuit",
+      "Tickle",
+      "Trick",
+      "Helping Hand",
+      "Mud-Slap",
+      "Sleep Talk",
+      "Rock Climb",
+      "Simple Beam",
+      "Bestow"
+    ]
+  },
+  {
+    "LOTAD": [
+      "Synthesis",
+      "Razor Leaf",
+      "Sweet Scent",
+      "Leech Seed",
+      "Water Gun",
+      "Tickle",
+      "Counter",
+      "Teeter Dance",
+      "Natural Gift"
+    ]
+  },
+  {
+    "SEEDOT": [
+      "Leech Seed",
+      "Amnesia",
+      "Quick Attack",
+      "Razor Wind",
+      "Take Down",
+      "Worry Seed",
+      "Nasty Plot",
+      "Power Swap",
+      "Defog",
+      "Foul Play",
+      "Beat Up",
+      "Bullet Seed",
+      "Grassy Terrain",
+      "Night Slash"
+    ]
+  },
+  {
+    "NINCADA": [
+      "Endure",
+      "Feint Attack",
+      "Gust",
+      "Silver Wind",
+      "Bug Buzz",
+      "Night Slash",
+      "Bug Bite",
+      "Final Gambit",
+      "Flail"
+    ]
+  },
+  {
+    "TAILLOW": [
+      "Pursuit",
+      "Supersonic",
+      "Refresh",
+      "Mirror Move",
+      "Rage",
+      "Sky Attack",
+      "Whirlwind",
+      "Roost",
+      "Defog",
+      "Boomburst",
+      "Hurricane",
+      "Feather Dance"
+    ]
+  },
+  {
+    "SHROOMISH": [
+      "Fake Tears",
+      "Charm",
+      "Helping Hand",
+      "Wake-Up Slap",
+      "Bullet Seed",
+      "Focus Punch",
+      "Natural Gift",
+      "Drain Punch"
+    ]
+  },
+  {
+    "SPINDA": [
+      "Encore",
+      "Assist",
+      "Disable",
+      "Baton Pass",
+      "Wish",
+      "Trick",
+      "Smelling Salts",
+      "Fake Out",
+      "Role Play",
+      "Psycho Cut",
+      "Fake Tears",
+      "Rapid Spin",
+      "Icy Wind",
+      "Water Pulse",
+      "Psycho Shift",
+      "Guard Split",
+      "Spotlight"
+    ]
+  },
+  {
+    "WINGULL": [
+      "Twister",
+      "Gust",
+      "Water Sport",
+      "Aqua Ring",
+      "Fling",
+      "Brine",
+      "Soak",
+      "Wide Guard"
+    ]
+  },
+  {
+    "SURSKIT": [
+      "Foresight",
+      "Mud Shot",
+      "Psybeam",
+      "Hydro Pump",
+      "Mind Reader",
+      "Signal Beam",
+      "Bug Bite",
+      "Endure",
+      "Fell Stinger",
+      "Power Split",
+      "Lunge",
+      "Mud Sport",
+      "Soak"
+    ]
+  },
+  {
+    "WAILMER": [
+      "Double-Edge",
+      "Thrash",
+      "Snore",
+      "Sleep Talk",
+      "Curse",
+      "Fissure",
+      "Tickle",
+      "Defense Curl",
+      "Aqua Ring",
+      "Soak",
+      "Zen Headbutt",
+      "Clear Smog"
+    ]
+  },
+  {
+    "SKITTY": [
+      "Helping Hand",
+      "Uproar",
+      "Fake Tears",
+      "Wish",
+      "Baton Pass",
+      "Tickle",
+      "Zen Headbutt",
+      "Sucker Punch",
+      "Mud Bomb",
+      "Simple Beam",
+      "Cosmic Power",
+      "Pay Day",
+      "Sweet Kiss"
+    ]
+  },
+  {
+    "KECLEON": [
+      "Disable",
+      "Magic Coat",
+      "Trick",
+      "Fake Out",
+      "Nasty Plot",
+      "Dizzy Punch",
+      "Recover",
+      "Skill Swap",
+      "Snatch",
+      "Foul Play",
+      "Power-up Punch"
+    ]
+  },
+  {
+    "NOSEPASS": [
+      "Magnitude",
+      "Rollout",
+      "Double-Edge",
+      "Stealth Rock",
+      "Endure",
+      "Wide Guard",
+      "Power Shift"
+    ]
+  },
+  {
+    "TORKOAL": [
+      "Endure",
+      "Sleep Talk",
+      "Yawn",
+      "Fissure",
+      "Skull Bash",
+      "Flame Burst",
+      "Superpower",
+      "Ancient Power"
+    ]
+  },
+  {
+    "SABLEYE": [
+      "Recover",
+      "Moonlight",
+      "Nasty Plot",
+      "Flatter",
+      "Feint",
+      "Sucker Punch",
+      "Trick",
+      "Captivate",
+      "Metal Burst",
+      "Imprison",
+      "Torment",
+      "Nightmare"
+    ]
+  },
+  {
+    "BARBOACH": [
+      "Thrash",
+      "Whirlpool",
+      "Spark",
+      "Hydro Pump",
+      "Flail",
+      "Take Down",
+      "Dragon Dance",
+      "Earth Power",
+      "Mud Shot"
+    ]
+  },
+  {
+    "LUVDISC": [
+      "Splash",
+      "Supersonic",
+      "Water Sport",
+      "Mud Sport",
+      "Aqua Jet",
+      "Heal Pulse",
+      "Brine",
+      "Entrainment"
+    ]
+  },
+  {
+    "CORPHISH": [
+      "Mud Sport",
+      "Body Slam",
+      "Ancient Power",
+      "Superpower",
+      "Metal Claw",
+      "Dragon Dance",
+      "Trump Card",
+      "Chip Away",
+      "Double-Edge",
+      "Aqua Jet",
+      "Switcheroo",
+      "Slash"
+    ]
+  },
+  {
+    "FEEBAS": [
+      "Mirror Coat",
+      "Dragon Breath",
+      "Mud Sport",
+      "Hypnosis",
+      "Confuse Ray",
+      "Mist",
+      "Haze",
+      "Tickle",
+      "Brine",
+      "Iron Tail",
+      "Dragon Pulse",
+      "Captivate"
+    ]
+  },
+  {
+    "CARVANHA": [
+      "Hydro Pump",
+      "Double-Edge",
+      "Thrash",
+      "Ancient Power",
+      "Swift",
+      "Brine",
+      "Destiny Bond",
+      "Psychic Fangs",
+      "Water Pulse"
+    ]
+  },
+  {
+    "TRAPINCH": [
+      "Focus Energy",
+      "Quick Attack",
+      "Gust",
+      "Flail",
+      "Fury Cutter",
+      "Mud Shot",
+      "Endure",
+      "Bug Bite",
+      "Signal Beam",
+      "First Impression"
+    ]
+  },
+  {
+    "MAKUHITA": [
+      "Feint Attack",
+      "Detect",
+      "Foresight",
+      "Helping Hand",
+      "Cross Chop",
+      "Dynamic Punch",
+      "Counter",
+      "Bullet Punch",
+      "Feint",
+      "Focus Punch",
+      "Chip Away",
+      "Wake-Up Slap",
+      "Storm Throw"
+    ]
+  },
+  {
+    "ELECTRIKE": [
+      "Crunch",
+      "Headbutt",
+      "Uproar",
+      "Curse",
+      "Swift",
+      "Ice Fang",
+      "Fire Fang",
+      "Switcheroo",
+      "Electro Ball",
+      "Flame Burst",
+      "Eerie Impulse"
+    ]
+  },
+  {
+    "NUMEL": [
+      "Howl",
+      "Scary Face",
+      "Body Slam",
+      "Rollout",
+      "Defense Curl",
+      "Stomp",
+      "Ancient Power",
+      "Mud Bomb",
+      "Heat Wave",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Endure",
+      "Iron Head",
+      "Growth",
+      "Heavy Slam",
+      "Flame Wheel"
+    ]
+  },
+  {
+    "SPHEAL": [
+      "Water Sport",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Yawn",
+      "Curse",
+      "Fissure",
+      "Signal Beam",
+      "Aqua Ring",
+      "Sleep Talk",
+      "Water Pulse",
+      "Belly Drum"
+    ]
+  },
+  {
+    "CACNEA": [
+      "Grass Whistle",
+      "Acid",
+      "Teeter Dance",
+      "Dynamic Punch",
+      "Counter",
+      "Low Kick",
+      "Smelling Salts",
+      "Magical Leaf",
+      "Seed Bomb",
+      "Nasty Plot",
+      "Disable",
+      "Block",
+      "Worry Seed",
+      "Switcheroo",
+      "Fell Stinger",
+      "Belch",
+      "Rototiller",
+      "Power-up Punch"
+    ]
+  },
+  {
+    "SNORUNT": [
+      "Powder Snow",
+      "Block",
+      "Spikes",
+      "Rollout",
+      "Disable",
+      "Bide",
+      "Weather Ball",
+      "Avalanche",
+      "Hex",
+      "Switcheroo",
+      "Double-Edge"
+    ]
+  },
+  {
+    "AZURILL": [
+      "Encore",
+      "Sing",
+      "Refresh",
+      "Tickle",
+      "Fake Tears",
+      "Body Slam",
+      "Soak",
+      "Muddy Water",
+      "Copycat",
+      "Camouflage",
+      "Aqua Jet",
+      "Belly Drum",
+      "Perish Song",
+      "Present",
+      "Supersonic"
+    ]
+  },
+  {
+    "SPOINK": [
+      "Future Sight",
+      "Extrasensory",
+      "Trick",
+      "Amnesia",
+      "Mirror Coat",
+      "Skill Swap",
+      "Whirlwind",
+      "Lucky Chant",
+      "Endure",
+      "Simple Beam",
+      "Recover",
+      "Payback"
+    ]
+  },
+  {
+    "PLUSLE": [
+      "Wish",
+      "Sing",
+      "Sweet Kiss",
+      "Lucky Chant",
+      "Fake Tears",
+      "Tearful Look"
+    ]
+  },
+  {
+    "MINUN": [
+      "Wish",
+      "Sing",
+      "Sweet Kiss",
+      "Lucky Chant",
+      "Charm",
+      "Tearful Look"
+    ]
+  },
+  {
+    "MAWILE": [
+      "Poison Fang",
+      "Ancient Power",
+      "Tickle",
+      "Ice Fang",
+      "Fire Fang",
+      "Thunder Fang",
+      "Punishment",
+      "Guard Swap",
+      "Captivate",
+      "Slam",
+      "Metal Burst",
+      "Misty Terrain",
+      "Seismic Toss",
+      "Power-up Punch",
+      "Feint Attack",
+      "Sing"
+    ]
+  },
+  {
+    "MEDITITE": [
+      "Fire Punch",
+      "Thunder Punch",
+      "Ice Punch",
+      "Foresight",
+      "Fake Out",
+      "Baton Pass",
+      "Dynamic Punch",
+      "Power Swap",
+      "Guard Swap",
+      "Psycho Cut",
+      "Bullet Punch",
+      "Secret Power",
+      "Quick Guard"
+    ]
+  },
+  {
+    "SWABLU": [
+      "Agility",
+      "Haze",
+      "Pursuit",
+      "Rage",
+      "Feather Dance",
+      "Dragon Rush",
+      "Power Swap",
+      "Roost",
+      "Steel Wing",
+      "Play Rough"
+    ]
+  },
+  {
+    "DUSKULL": [
+      "Imprison",
+      "Destiny Bond",
+      "Pain Split",
+      "Grudge",
+      "Memento",
+      "Feint Attack",
+      "Ominous Wind",
+      "Dark Pulse",
+      "Skill Swap",
+      "Haze"
+    ]
+  },
+  {
+    "ROSELIA": [
+      "Spikes",
+      "Pin Missile",
+      "Cotton Spore",
+      "Sleep Powder",
+      "Razor Leaf",
+      "Mind Reader",
+      "Leaf Storm",
+      "Seed Bomb",
+      "Natural Gift",
+      "Bullet Seed",
+      "Power Whip",
+      "Extrasensory",
+      "Life Dew",
+      "Sweet Kiss"
+    ]
+  },
+  {
+    "SLAKOTH": [
+      "Pursuit",
+      "Slash",
+      "Body Slam",
+      "Snore",
+      "Crush Claw",
+      "Curse",
+      "Sleep Talk",
+      "Hammer Arm",
+      "Night Slash",
+      "After You",
+      "Tickle",
+      "Sucker Punch",
+      "Retaliate"
+    ]
+  },
+  {
+    "GULPIN": [
+      "Acid Armor",
+      "Smog",
+      "Pain Split",
+      "Curse",
+      "Destiny Bond",
+      "Mud-Slap",
+      "Venom Drench"
+    ]
+  },
+  {
+    "TROPIUS": [
+      "Headbutt",
+      "Slam",
+      "Razor Wind",
+      "Leech Seed",
+      "Nature Power",
+      "Curse",
+      "Leaf Blade",
+      "Dragon Dance",
+      "Bullet Seed",
+      "Dragon Hammer"
+    ]
+  },
+  {
+    "WHISMUR": [
+      "Take Down",
+      "Snore",
+      "Extrasensory",
+      "Smelling Salts",
+      "Smokescreen",
+      "Endeavor",
+      "Hammer Arm",
+      "Fake Tears",
+      "Circle Throw",
+      "Disarming Voice",
+      "Whirlwind",
+      "Teeter Dance"
+    ]
+  },
+  {
+    "CLAMPERL": [
+      "Refresh",
+      "Mud Sport",
+      "Body Slam",
+      "Supersonic",
+      "Barrier",
+      "Confuse Ray",
+      "Aqua Ring",
+      "Muddy Water",
+      "Water Pulse",
+      "Brine",
+      "Endure"
+    ]
+  },
+  {
+    "ABSOL": [
+      "Baton Pass",
+      "Feint Attack",
+      "Double-Edge",
+      "Magic Coat",
+      "Curse",
+      "Mean Look",
+      "Zen Headbutt",
+      "Punishment",
+      "Bite",
+      "Razor Wind",
+      "Megahorn",
+      "Hex",
+      "Play Rough",
+      "Wish"
+    ]
+  },
+  {
+    "SHUPPET": [
+      "Disable",
+      "Destiny Bond",
+      "Foresight",
+      "Astonish",
+      "Imprison",
+      "Pursuit",
+      "Confuse Ray",
+      "Ominous Wind",
+      "Gunk Shot",
+      "Cotton Guard"
+    ]
+  },
+  {
+    "SEVIPER": [
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Body Slam",
+      "Scary Face",
+      "Switcheroo",
+      "Iron Tail",
+      "Punishment",
+      "Final Gambit",
+      "Sucker Punch"
+    ]
+  },
+  {
+    "ZANGOOSE": [
+      "Flail",
+      "Double Kick",
+      "Razor Wind",
+      "Counter",
+      "Curse",
+      "Feint",
+      "Metal Claw",
+      "Double Hit",
+      "Disable",
+      "Iron Tail",
+      "Final Gambit",
+      "Quick Guard",
+      "Belly Drum"
+    ]
+  },
+  {
+    "RELICANTH": [
+      "Magnitude",
+      "Skull Bash",
+      "Water Sport",
+      "Amnesia",
+      "Sleep Talk",
+      "Snore",
+      "Mud-Slap",
+      "Muddy Water",
+      "Mud Shot",
+      "Brine",
+      "Zen Headbutt"
+    ]
+  },
+  {
+    "ARON": [
+      "Endeavor",
+      "Body Slam",
+      "Stomp",
+      "Smelling Salts",
+      "Curse",
+      "Screech",
+      "Dragon Rush",
+      "Head Smash",
+      "Superpower",
+      "Stealth Rock",
+      "Reversal"
+    ]
+  },
+  {
+    "CASTFORM": [
+      "Future Sight",
+      "Lucky Chant",
+      "Disable",
+      "Amnesia",
+      "Ominous Wind",
+      "Hex",
+      "Clear Smog",
+      "Reflect Type",
+      "Guard Swap",
+      "Cosmic Power"
+    ]
+  },
+  {
+    "VOLBEAT": [
+      "Baton Pass",
+      "Silver Wind",
+      "Trick",
+      "Encore",
+      "Bug Buzz",
+      "Dizzy Punch",
+      "Seismic Toss"
+    ]
+  },
+  {
+    "ILLUMISE": [
+      "Baton Pass",
+      "Silver Wind",
+      "Growth",
+      "Play Rough",
+      "Captivate",
+      "Fake Tears",
+      "Confuse Ray",
+      "Aromatherapy",
+      "Tail Glow"
+    ]
+  },
+  {
+    "LILEEP": [
+      "Barrier",
+      "Recover",
+      "Mirror Coat",
+      "Wring Out",
+      "Tickle",
+      "Curse",
+      "Endure",
+      "Stealth Rock"
+    ]
+  },
+  {
+    "ANORITH": [
+      "Rapid Spin",
+      "Knock Off",
+      "Screech",
+      "Sand Attack",
+      "Cross Poison",
+      "Curse",
+      "Iron Defense",
+      "Water Pulse",
+      "Aqua Jet",
+      "Accelerock"
+    ]
+  },
+  {
+    "RALTS": [
+      "Disable",
+      "Mean Look",
+      "Memento",
+      "Destiny Bond",
+      "Grudge",
+      "Shadow Sneak",
+      "Confuse Ray",
+      "Encore",
+      "Synchronoise",
+      "Skill Swap",
+      "Misty Terrain",
+      "Knock Off",
+      "Future Sight"
+    ]
+  },
+  {
+    "BAGON": [
+      "Hydro Pump",
+      "Thrash",
+      "Dragon Rage",
+      "Twister",
+      "Dragon Dance",
+      "Fire Fang",
+      "Dragon Rush",
+      "Dragon Pulse",
+      "Defense Curl",
+      "Wish",
+      "Heal Bell"
+    ]
+  },
+  {
+    "CHIMECHO": [
+      "Disable",
+      "Curse",
+      "Hypnosis",
+      "Wish",
+      "Future Sight",
+      "Recover",
+      "Stored Power",
+      "Skill Swap",
+      "Cosmic Power",
+      "Crafty Shield",
+      "Perish Song"
+    ]
+  },
+  {
+    "TURTWIG": [
+      "Worry Seed",
+      "Growth",
+      "Tickle",
+      "Body Slam",
+      "Double-Edge",
+      "Sand Tomb",
+      "Seed Bomb",
+      "Thrash",
+      "Amnesia",
+      "Superpower",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Earth Power",
+      "Wide Guard",
+      "Grassy Terrain",
+      "Heavy Slam",
+      "Leaf Blade",
+      "Sleep Powder"
+    ]
+  },
+  {
+    "CHIMCHAR": [
+      "Fire Punch",
+      "Thunder Punch",
+      "Double Kick",
+      "Encore",
+      "Heat Wave",
+      "Focus Energy",
+      "Helping Hand",
+      "Fake Out",
+      "Blaze Kick",
+      "Counter",
+      "Assist",
+      "Quick Guard",
+      "Focus Punch",
+      "Submission"
+    ]
+  },
+  {
+    "PIPLUP": [
+      "Double Hit",
+      "Supersonic",
+      "Yawn",
+      "Mud Sport",
+      "Mud-Slap",
+      "Snore",
+      "Flail",
+      "Agility",
+      "Aqua Ring",
+      "Feather Dance",
+      "Icy Wind",
+      "Power Trip"
+    ]
+  },
+  {
+    "STARLY": [
+      "Feather Dance",
+      "Fury Attack",
+      "Pursuit",
+      "Astonish",
+      "Sand Attack",
+      "Foresight",
+      "Double-Edge",
+      "Steel Wing",
+      "Uproar",
+      "Roost",
+      "Detect",
+      "Revenge",
+      "Mirror Move"
+    ]
+  },
+  {
+    "BIDOOF": [
+      "Quick Attack",
+      "Water Sport",
+      "Double-Edge",
+      "Fury Swipes",
+      "Odor Sleuth",
+      "Aqua Tail",
+      "Rock Climb",
+      "Sleep Talk",
+      "Endure",
+      "Skull Bash",
+      "Mud Sport",
+      "Bite",
+      "No Retreat"
+    ]
+  },
+  {
+    "SHINX": [
+      "Ice Fang",
+      "Fire Fang",
+      "Quick Attack",
+      "Howl",
+      "Take Down",
+      "Night Slash",
+      "Shock Wave",
+      "Swift",
+      "Double Kick",
+      "Signal Beam",
+      "Helping Hand",
+      "Eerie Impulse",
+      "Fake Tears",
+      "Discharge"
+    ]
+  },
+  {
+    "BUDEW": [
+      "Spikes",
+      "Synthesis",
+      "Pin Missile",
+      "Cotton Spore",
+      "Sleep Powder",
+      "Razor Leaf",
+      "Mind Reader",
+      "Leaf Storm",
+      "Extrasensory",
+      "Seed Bomb",
+      "Giga Drain",
+      "Natural Gift",
+      "Grass Whistle",
+      "Life Dew"
+    ]
+  },
+  {
+    "CRANIDOS": [
+      "Bite",
+      "Crunch",
+      "Thrash",
+      "Double-Edge",
+      "Slam",
+      "Stomp",
+      "Whirlwind",
+      "Hammer Arm",
+      "Curse",
+      "Iron Tail",
+      "Iron Head"
+    ]
+  },
+  {
+    "SHIELDON": [
+      "Headbutt",
+      "Scary Face",
+      "Focus Energy",
+      "Double-Edge",
+      "Rock Blast",
+      "Body Slam",
+      "Screech",
+      "Curse",
+      "Fissure",
+      "Counter",
+      "Stealth Rock",
+      "Wide Guard",
+      "Guard Split"
+    ]
+  },
+  {
+    "PACHIRISU": [
+      "Covet",
+      "Bite",
+      "Fake Tears",
+      "Defense Curl",
+      "Rollout",
+      "Flatter",
+      "Flail",
+      "Iron Tail",
+      "Tail Whip",
+      "Follow Me",
+      "Charge",
+      "Bestow",
+      "Ion Deluge",
+      "Baby-Doll Eyes"
+    ]
+  },
+  {
+    "BUIZEL": [
+      "Pursuit",
+      "Mud-Slap",
+      "Mud Shot",
+      "Headbutt",
+      "Fury Swipes",
+      "Slash",
+      "Odor Sleuth",
+      "Double Slap",
+      "Fury Cutter",
+      "Baton Pass",
+      "Aqua Ring",
+      "Me First",
+      "Switcheroo",
+      "Soak",
+      "Whirlpool",
+      "Helping Hand"
+    ]
+  },
+  {
+    "CHERUBI": [
+      "Razor Leaf",
+      "Sweet Scent",
+      "Tickle",
+      "Nature Power",
+      "Grass Whistle",
+      "Aromatherapy",
+      "Weather Ball",
+      "Heal Pulse",
+      "Healing Wish",
+      "Seed Bomb",
+      "Natural Gift",
+      "Defense Curl",
+      "Rollout",
+      "Flower Shield",
+      "Grassy Terrain",
+      "Sleep Powder",
+      "Stun Spore"
+    ]
+  },
+  {
+    "SHELLOS": [
+      "Counter",
+      "Mirror Coat",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Yawn",
+      "Curse",
+      "Amnesia",
+      "Fissure",
+      "Trump Card",
+      "Sludge",
+      "Clear Smog",
+      "Mist",
+      "Acid Armor"
+    ]
+  },
+  {
+    "DRIFLOON": [
+      "Memento",
+      "Body Slam",
+      "Disable",
+      "Haze",
+      "Hypnosis",
+      "Weather Ball",
+      "Clear Smog",
+      "Defog"
+    ]
+  },
+  {
+    "BUNEARY": [
+      "Fake Tears",
+      "Fake Out",
+      "Encore",
+      "Sweet Kiss",
+      "Double Hit",
+      "Low Kick",
+      "Sky Uppercut",
+      "Switcheroo",
+      "Thunder Punch",
+      "Ice Punch",
+      "Fire Punch",
+      "Flail",
+      "Focus Punch",
+      "Circle Throw",
+      "Copycat",
+      "Teeter Dance",
+      "Cosmic Power",
+      "Mud Sport",
+      "Power-up Punch",
+      "Triple Axel"
+    ]
+  },
+  {
+    "GLAMEOW": [
+      "Bite",
+      "Tail Whip",
+      "Quick Attack",
+      "Sand Attack",
+      "Fake Tears",
+      "Assurance",
+      "Flail",
+      "Snatch",
+      "Metal Claw",
+      "Night Slash"
+    ]
+  },
+  {
+    "CHINGLING": [
+      "Disable",
+      "Curse",
+      "Hypnosis",
+      "Wish",
+      "Future Sight",
+      "Recover",
+      "Stored Power",
+      "Skill Swap",
+      "Cosmic Power"
+    ]
+  },
+  {
+    "STUNKY": [
+      "Pursuit",
+      "Leer",
+      "Smog",
+      "Double-Edge",
+      "Crunch",
+      "Scary Face",
+      "Astonish",
+      "Punishment",
+      "Haze",
+      "Iron Tail",
+      "Foul Play",
+      "Flame Burst",
+      "Play Rough",
+      "Memento"
+    ]
+  },
+  {
+    "BONSLY": [
+      "Self-Destruct",
+      "Headbutt",
+      "Harden",
+      "Defense Curl",
+      "Rollout",
+      "Sand Tomb",
+      "Stealth Rock",
+      "Curse",
+      "Endure",
+      "Rock Polish"
+    ]
+  },
+  {
+    "MIME_JR": [
+      "Future Sight",
+      "Hypnosis",
+      "Fake Out",
+      "Confuse Ray",
+      "Wake-Up Slap",
+      "Healing Wish",
+      "Charm",
+      "Nasty Plot",
+      "Power Split",
+      "Magic Room",
+      "Icy Wind",
+      "Psychic Terrain"
+    ]
+  },
+  {
+    "MIME_JR_G": [
+      "Future Sight",
+      "Hypnosis",
+      "Fake Out",
+      "Confuse Ray",
+      "Wake-Up Slap",
+      "Healing Wish",
+      "Charm",
+      "Nasty Plot",
+      "Power Split",
+      "Magic Room",
+      "Icy Wind",
+      "Psychic Terrain"
+    ]
+  },
+  {
+    "HAPPINY": [
+      "Present",
+      "Metronome",
+      "Heal Bell",
+      "Aromatherapy",
+      "Counter",
+      "Helping Hand",
+      "Gravity",
+      "Mud Bomb",
+      "Natural Gift",
+      "Endure",
+      "Seismic Toss",
+      "Bestow"
+    ]
+  },
+  {
+    "CHATOT": [
+      "Encore",
+      "Night Shade",
+      "Agility",
+      "Nasty Plot",
+      "Supersonic",
+      "Steel Wing",
+      "Sleep Talk",
+      "Defog",
+      "Air Cutter",
+      "Parting Shot"
+    ]
+  },
+  {
+    "SPIRITOMB": [
+      "Destiny Bond",
+      "Pain Split",
+      "Smokescreen",
+      "Imprison",
+      "Grudge",
+      "Captivate",
+      "Nightmare",
+      "Foul Play",
+      "Disable"
+    ]
+  },
+  {
+    "GIBLE": [
+      "Dragon Breath",
+      "Twister",
+      "Scary Face",
+      "Double-Edge",
+      "Thrash",
+      "Body Slam",
+      "Iron Head",
+      "Rock Climb",
+      "Iron Tail"
+    ]
+  },
+  {
+    "MUNCHLAX": [
+      "Charm",
+      "Double-Edge",
+      "Curse",
+      "Whirlwind",
+      "Pursuit",
+      "Zen Headbutt",
+      "Counter",
+      "Natural Gift",
+      "After You",
+      "Self-Destruct",
+      "Belch",
+      "Fissure"
+    ]
+  },
+  {
+    "RIOLU": [
+      "Cross Chop",
+      "Detect",
+      "Bite",
+      "Mind Reader",
+      "Sky Uppercut",
+      "High Jump Kick",
+      "Agility",
+      "Vacuum Wave",
+      "Crunch",
+      "Low Kick",
+      "Iron Defense",
+      "Blaze Kick",
+      "Bullet Punch",
+      "Mach Punch",
+      "Follow Me",
+      "Circle Throw",
+      "Meteor Mash",
+      "Howl"
+    ]
+  },
+  {
+    "HIPPOPOTAS": [
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Curse",
+      "Body Slam",
+      "Revenge",
+      "Sleep Talk",
+      "Whirlwind"
+    ]
+  },
+  {
+    "SKORUPI": [
+      "Feint Attack",
+      "Screech",
+      "Sand Attack",
+      "Slash",
+      "Confuse Ray",
+      "Whirlwind",
+      "Agility",
+      "Iron Tail",
+      "Twineedle",
+      "Poison Tail"
+    ]
+  },
+  {
+    "CROAGUNK": [
+      "Me First",
+      "Feint",
+      "Dynamic Punch",
+      "Headbutt",
+      "Vacuum Wave",
+      "Meditate",
+      "Fake Out",
+      "Wake-Up Slap",
+      "Smelling Salts",
+      "Bullet Punch",
+      "Counter",
+      "Drain Punch",
+      "Acupressure",
+      "Quick Guard",
+      "Flatter"
+    ]
+  },
+  {
+    "CARNIVINE": [
+      "Sleep Powder",
+      "Stun Spore",
+      "Razor Leaf",
+      "Slam",
+      "Synthesis",
+      "Magical Leaf",
+      "Leech Seed",
+      "Worry Seed",
+      "Giga Drain",
+      "Rage Powder",
+      "Grass Whistle",
+      "Acid Spray",
+      "Bind"
+    ]
+  },
+  {
+    "FINNEON": [
+      "Sweet Kiss",
+      "Charm",
+      "Flail",
+      "Aqua Tail",
+      "Splash",
+      "Psybeam",
+      "Tickle",
+      "Agility",
+      "Brine",
+      "Aurora Beam",
+      "Signal Beam",
+      "Confuse Ray"
+    ]
+  },
+  {
+    "MANTYKE": [
+      "Twister",
+      "Haze",
+      "Slam",
+      "Mud Sport",
+      "Mirror Coat",
+      "Water Sport",
+      "Splash",
+      "Signal Beam",
+      "Amnesia",
+      "Tailwind"
+    ]
+  },
+  {
+    "SNOVER": [
+      "Leech Seed",
+      "Magical Leaf",
+      "Seed Bomb",
+      "Growth",
+      "Double-Edge",
+      "Stomp",
+      "Skull Bash",
+      "Avalanche",
+      "Natural Gift",
+      "Bullet Seed"
+    ]
+  },
+  {
+    "SNIVY": [
+      "Captivate",
+      "Natural Gift",
+      "Glare",
+      "Iron Tail",
+      "Magical Leaf",
+      "Sweet Scent",
+      "Mirror Coat",
+      "Pursuit",
+      "Mean Look",
+      "Twister",
+      "Grassy Terrain"
+    ]
+  },
+  {
+    "TEPIG": [
+      "Covet",
+      "Body Slam",
+      "Thrash",
+      "Magnitude",
+      "Superpower",
+      "Curse",
+      "Endeavor",
+      "Yawn",
+      "Sleep Talk",
+      "Heavy Slam",
+      "Sucker Punch",
+      "Burn Up"
+    ]
+  },
+  {
+    "OSHAWOTT": [
+      "Copycat",
+      "Detect",
+      "Air Slash",
+      "Assurance",
+      "Brine",
+      "Night Slash",
+      "Trump Card",
+      "Screech",
+      "Sacred Sword",
+      "Secret Sword"
+    ]
+  },
+  {
+    "PATRAT": [
+      "Foresight",
+      "Iron Tail",
+      "Screech",
+      "Assurance",
+      "Pursuit",
+      "Revenge",
+      "Flail",
+      "Tearful Look",
+      "Bullet Seed",
+      "Bide"
+    ]
+  },
+  {
+    "LILLIPUP": [
+      "Howl",
+      "Sand Attack",
+      "Mud-Slap",
+      "Lick",
+      "Charm",
+      "Endure",
+      "Yawn",
+      "Pursuit",
+      "Fire Fang",
+      "Thunder Fang",
+      "Ice Fang",
+      "After You",
+      "Psychic Fangs",
+      "Covet"
+    ]
+  },
+  {
+    "PURRLOIN": [
+      "Pay Day",
+      "Foul Play",
+      "Feint Attack",
+      "Fake Tears",
+      "Charm",
+      "Encore",
+      "Yawn",
+      "Covet",
+      "Copycat",
+      "Double Team",
+      "Quick Attack",
+      "Night Daze"
+    ]
+  },
+  {
+    "PANSAGE": [
+      "Covet",
+      "Low Kick",
+      "Tickle",
+      "Nasty Plot",
+      "Role Play",
+      "Astonish",
+      "Grass Whistle",
+      "Magical Leaf",
+      "Bullet Seed",
+      "Leaf Storm",
+      "Disarming Voice",
+      "Spiky Shield"
+    ]
+  },
+  {
+    "PANSEAR": [
+      "Covet",
+      "Low Kick",
+      "Tickle",
+      "Nasty Plot",
+      "Role Play",
+      "Astonish",
+      "Sleep Talk",
+      "Fire Spin",
+      "Fire Punch",
+      "Heat Wave",
+      "Disarming Voice",
+      "Belch",
+      "Flare Blitz"
+    ]
+  },
+  {
+    "PANPOUR": [
+      "Covet",
+      "Low Kick",
+      "Tickle",
+      "Nasty Plot",
+      "Role Play",
+      "Astonish",
+      "Aqua Ring",
+      "Aqua Tail",
+      "Mud Sport",
+      "Hydro Pump",
+      "Disarming Voice"
+    ]
+  },
+  {
+    "MUNNA": [
+      "Sleep Talk",
+      "Secret Power",
+      "Barrier",
+      "Helping Hand",
+      "Baton Pass",
+      "Swift",
+      "Curse",
+      "Sonic Boom",
+      "Healing Wish",
+      "Psywave",
+      "Synchronoise"
+    ]
+  },
+  {
+    "PIDOVE": [
+      "Steel Wing",
+      "Hypnosis",
+      "Uproar",
+      "Bestow",
+      "Wish",
+      "Morning Sun",
+      "Lucky Chant",
+      "Night Slash",
+      "Defog"
+    ]
+  },
+  {
+    "BLITZLE": [
+      "Me First",
+      "Take Down",
+      "Sand Attack",
+      "Double Kick",
+      "Screech",
+      "Rage",
+      "Endure",
+      "Double-Edge",
+      "Snatch",
+      "Feint"
+    ]
+  },
+  {
+    "ROGGENROLA": [
+      "Magnitude",
+      "Curse",
+      "Autotomize",
+      "Rock Tomb",
+      "Lock-On",
+      "Heavy Slam",
+      "Take Down",
+      "Gravity",
+      "Wide Guard"
+    ]
+  },
+  {
+    "WOOBAT": [
+      "Charm",
+      "Knock Off",
+      "Fake Tears",
+      "Supersonic",
+      "Synchronoise",
+      "Stored Power",
+      "Roost",
+      "Flatter",
+      "Helping Hand",
+      "Captivate",
+      "Venom Drench",
+      "Psycho Shift"
+    ]
+  },
+  {
+    "DRILBUR": [
+      "Iron Defense",
+      "Earth Power",
+      "Metal Sound",
+      "Submission",
+      "Skull Bash",
+      "Rock Climb"
+    ]
+  },
+  {
+    "AUDINO": [
+      "Wish",
+      "Heal Bell",
+      "Lucky Chant",
+      "Encore",
+      "Bestow",
+      "Sweet Kiss",
+      "Yawn",
+      "Sleep Talk",
+      "Healing Wish",
+      "Amnesia",
+      "Draining Kiss"
+    ]
+  },
+  {
+    "TIMBURR": [
+      "Drain Punch",
+      "Endure",
+      "Counter",
+      "Comet Punch",
+      "Foresight",
+      "Smelling Salts",
+      "Detect",
+      "Wide Guard",
+      "Force Palm",
+      "Reversal",
+      "Mach Punch",
+      "Power-up Punch",
+      "Defog",
+      "Slam"
+    ]
+  },
+  {
+    "TYMPOLE": [
+      "Water Pulse",
+      "Refresh",
+      "Mud Sport",
+      "Mud Bomb",
+      "Sleep Talk",
+      "Snore",
+      "Mist",
+      "After You",
+      "Venom Drench",
+      "Toxic",
+      "Mud-Slap"
+    ]
+  },
+  {
+    "SEWADDLE": [
+      "Silver Wind",
+      "Screech",
+      "Razor Wind",
+      "Mind Reader",
+      "Agility",
+      "Me First",
+      "Baton Pass",
+      "Camouflage",
+      "Air Slash",
+      "Grassy Terrain"
+    ]
+  },
+  {
+    "VENIPEDE": [
+      "Twineedle",
+      "Pin Missile",
+      "Toxic Spikes",
+      "Spikes",
+      "Bite",
+      "Fury Cutter"
+    ]
+  },
+  {
+    "COTTONEE": [
+      "Natural Gift",
+      "Encore",
+      "Tickle",
+      "Fake Tears",
+      "Grass Whistle",
+      "Memento",
+      "Beat Up",
+      "Switcheroo",
+      "Worry Seed",
+      "Captivate",
+      "Misty Terrain",
+      "Nature Power"
+    ]
+  },
+  {
+    "PETILIL": [
+      "Natural Gift",
+      "Charm",
+      "Endure",
+      "Ingrain",
+      "Worry Seed",
+      "Grass Whistle",
+      "Sweet Scent",
+      "Bide",
+      "Healing Wish",
+      "Encore",
+      "Recover"
+    ]
+  },
+  {
+    "BASCULIN_RED": [
+      "Swift",
+      "Bubble Beam",
+      "Mud Shot",
+      "Muddy Water",
+      "Agility",
+      "Whirlpool",
+      "Rage",
+      "Brine",
+      "Revenge",
+      "Endeavor",
+      "Uproar",
+      "Wave Crash"
+    ]
+  },
+  {
+    "SANDILE": [
+      "Double-Edge",
+      "Rock Climb",
+      "Pursuit",
+      "Uproar",
+      "Fire Fang",
+      "Thunder Fang",
+      "Beat Up",
+      "Focus Energy",
+      "Counter",
+      "Mean Look",
+      "Me First",
+      "Aqua Tail",
+      "Spite",
+      "Assurance",
+      "Mud-Slap"
+    ]
+  },
+  {
+    "DARUMAKA": [
+      "Sleep Talk",
+      "Focus Punch",
+      "Focus Energy",
+      "Endure",
+      "Hammer Arm",
+      "Take Down",
+      "Flame Wheel",
+      "Encore",
+      "Yawn",
+      "Snatch",
+      "Extrasensory",
+      "Rage"
+    ]
+  },
+  {
+    "MARACTUS": [
+      "Bullet Seed",
+      "Bounce",
+      "Worry Seed",
+      "Seed Bomb",
+      "Wood Hammer",
+      "Spikes",
+      "Grass Whistle",
+      "Grassy Terrain",
+      "Tail Glow"
+    ]
+  },
+  {
+    "DWEBBLE": [
+      "Endure",
+      "Iron Defense",
+      "Night Slash",
+      "Sand Tomb",
+      "Counter",
+      "Curse",
+      "Spikes",
+      "Block",
+      "Wide Guard",
+      "Rototiller",
+      "Knock Off",
+      "First Impression"
+    ]
+  },
+  {
+    "SCRAGGY": [
+      "Drain Punch",
+      "Counter",
+      "Dragon Dance",
+      "Detect",
+      "Fire Punch",
+      "Ice Punch",
+      "Thunder Punch",
+      "Amnesia",
+      "Zen Headbutt",
+      "Quick Guard",
+      "Acid Spray",
+      "Feint Attack",
+      "Chip Away",
+      "Beat Up",
+      "Focus Punch"
+    ]
+  },
+  {
+    "SIGILYPH": [
+      "Stored Power",
+      "Psycho Shift",
+      "Ancient Power",
+      "Steel Wing",
+      "Roost",
+      "Future Sight",
+      "Mirror Move"
+    ]
+  },
+  {
+    "YAMASK": [
+      "Memento",
+      "Fake Tears",
+      "Nasty Plot",
+      "Endure",
+      "Heal Block",
+      "Imprison",
+      "Nightmare",
+      "Toxic Spikes",
+      "Ominous Wind"
+    ]
+  },
+  {
+    "TIRTOUGA": [
+      "Water Pulse",
+      "Knock Off",
+      "Rock Throw",
+      "Slam",
+      "Flail",
+      "Whirlpool",
+      "Body Slam",
+      "Bide",
+      "Guard Swap",
+      "Liquidation",
+      "Rollout",
+      "Block"
+    ]
+  },
+  {
+    "ARCHEN": [
+      "Steel Wing",
+      "Defog",
+      "Dragon Pulse",
+      "Head Smash",
+      "Knock Off",
+      "Earth Power",
+      "Bite",
+      "Switcheroo"
+    ]
+  },
+  {
+    "TRUBBISH": [
+      "Spikes",
+      "Rollout",
+      "Haze",
+      "Curse",
+      "Rock Blast",
+      "Sand Attack",
+      "Mud Sport",
+      "Self-Destruct",
+      "Autotomize"
+    ]
+  },
+  {
+    "ZORUA": [
+      "Detect",
+      "Captivate",
+      "Dark Pulse",
+      "Snatch",
+      "Memento",
+      "Sucker Punch",
+      "Extrasensory",
+      "Counter",
+      "Copycat",
+      "Embargo",
+      "Feint Attack"
+    ]
+  },
+  {
+    "MINCCINO": [
+      "Iron Tail",
+      "Tail Whip",
+      "Aqua Tail",
+      "Mud-Slap",
+      "Knock Off",
+      "Fake Tears",
+      "Sleep Talk",
+      "Endure",
+      "Flail",
+      "Bone Rush"
+    ]
+  },
+  {
+    "GOTHITA": [
+      "Mirror Coat",
+      "Uproar",
+      "Miracle Eye",
+      "Captivate",
+      "Mean Look",
+      "Dark Pulse",
+      "Heal Pulse",
+      "Torment",
+      "Fake Out",
+      "Magic Powder"
+    ]
+  },
+  {
+    "SOLOSIS": [
+      "Night Shade",
+      "Astonish",
+      "Confuse Ray",
+      "Acid Armor",
+      "Trick",
+      "Imprison",
+      "Secret Power",
+      "Helping Hand"
+    ]
+  },
+  {
+    "DUCKLETT": [
+      "Steel Wing",
+      "Bubble Beam",
+      "Gust",
+      "Wing Attack",
+      "Mirror Move",
+      "Me First",
+      "Lucky Chant",
+      "Mud Sport",
+      "Aqua Jet"
+    ]
+  },
+  {
+    "VANILLITE": [
+      "Water Pulse",
+      "Natural Gift",
+      "Imprison",
+      "Autotomize",
+      "Iron Defense",
+      "Magnet Rise",
+      "Ice Shard",
+      "Powder Snow",
+      "Explosion",
+      "Aurora Veil",
+      "Icicle Crash"
+    ]
+  },
+  {
+    "DEERLING": [
+      "Fake Tears",
+      "Natural Gift",
+      "Synthesis",
+      "Worry Seed",
+      "Odor Sleuth",
+      "Agility",
+      "Sleep Talk",
+      "Baton Pass",
+      "Grass Whistle",
+      "Headbutt",
+      "Trop Kick"
+    ]
+  },
+  {
+    "DEERLING_SUMMER": [
+      "Fake Tears",
+      "Natural Gift",
+      "Synthesis",
+      "Worry Seed",
+      "Odor Sleuth",
+      "Agility",
+      "Sleep Talk",
+      "Baton Pass",
+      "Grass Whistle",
+      "Headbutt",
+      "Trop Kick"
+    ]
+  },
+  {
+    "DEERLING_AUTUMN": [
+      "Fake Tears",
+      "Natural Gift",
+      "Synthesis",
+      "Worry Seed",
+      "Odor Sleuth",
+      "Agility",
+      "Sleep Talk",
+      "Baton Pass",
+      "Grass Whistle",
+      "Headbutt",
+      "Trop Kick"
+    ]
+  },
+  {
+    "DEERLING_WINTER": [
+      "Fake Tears",
+      "Natural Gift",
+      "Synthesis",
+      "Worry Seed",
+      "Odor Sleuth",
+      "Agility",
+      "Sleep Talk",
+      "Baton Pass",
+      "Grass Whistle",
+      "Headbutt",
+      "Trop Kick"
+    ]
+  },
+  {
+    "EMOLGA": [
+      "Roost",
+      "Iron Tail",
+      "Astonish",
+      "Air Slash",
+      "Shock Wave",
+      "Charm",
+      "Covet",
+      "Tickle",
+      "Baton Pass",
+      "Ion Deluge",
+      "Speed Swap",
+      "Defog"
+    ]
+  },
+  {
+    "KARRABLAST": [
+      "Bug Buzz",
+      "Pursuit",
+      "Counter",
+      "Horn Attack",
+      "Feint Attack",
+      "Bug Bite",
+      "Screech",
+      "Knock Off",
+      "Drill Run",
+      "Acid Spray",
+      "Slash",
+      "Night Slash"
+    ]
+  },
+  {
+    "FOONGUS": [
+      "Gastro Acid",
+      "Poison Powder",
+      "Rollout",
+      "Defense Curl",
+      "Endure",
+      "Body Slam",
+      "Worry Seed"
+    ]
+  },
+  {
+    "FRILLISH": [
+      "Acid Armor",
+      "Confuse Ray",
+      "Pain Split",
+      "Mist",
+      "Constrict",
+      "Strength Sap"
+    ]
+  },
+  {
+    "ALOMOMOLA": [
+      "Pain Split",
+      "Refresh",
+      "Tickle",
+      "Mirror Coat",
+      "Mist",
+      "Endure"
+    ]
+  },
+  {
+    "JOLTIK": [
+      "Pin Missile",
+      "Poison Sting",
+      "Cross Poison",
+      "Rock Climb",
+      "Pursuit",
+      "Disable",
+      "Feint Attack",
+      "Camouflage",
+      "Lunge",
+      "Bug Bite",
+      "Double Team",
+      "Infestation",
+      "Fury Cutter"
+    ]
+  },
+  {
+    "FERROSEED": [
+      "Bullet Seed",
+      "Leech Seed",
+      "Spikes",
+      "Worry Seed",
+      "Seed Bomb",
+      "Gravity",
+      "Rock Climb",
+      "Stealth Rock",
+      "Acid Spray",
+      "Toxic",
+      "Knock Off"
+    ]
+  },
+  {
+    "ELGYEM": [
+      "Disable",
+      "Astonish",
+      "Power Swap",
+      "Guard Swap",
+      "Barrier",
+      "Nasty Plot",
+      "Skill Swap",
+      "Cosmic Power",
+      "Destiny Bond"
+    ]
+  },
+  {
+    "LITWICK": [
+      "Acid Armor",
+      "Heat Wave",
+      "Haze",
+      "Endure",
+      "Captivate",
+      "Acid",
+      "Clear Smog",
+      "Power Split"
+    ]
+  },
+  {
+    "AXEW": [
+      "Counter",
+      "Focus Energy",
+      "Reversal",
+      "Razor Wind",
+      "Night Slash",
+      "Endeavor",
+      "Iron Tail",
+      "Harden",
+      "Bite",
+      "First Impression"
+    ]
+  },
+  {
+    "CUBCHOO": [
+      "Yawn",
+      "Avalanche",
+      "Encore",
+      "Ice Punch",
+      "Night Slash",
+      "Assurance",
+      "Sleep Talk",
+      "Focus Punch",
+      "Play Rough"
+    ]
+  },
+  {
+    "SHELMET": [
+      "Endure",
+      "Baton Pass",
+      "Double-Edge",
+      "Encore",
+      "Guard Split",
+      "Mind Reader",
+      "Mud-Slap",
+      "Spikes",
+      "Feint",
+      "Pursuit",
+      "Toxic Spikes"
+    ]
+  },
+  {
+    "STUNFISK": [
+      "Yawn",
+      "Sleep Talk",
+      "Astonish",
+      "Curse",
+      "Spite",
+      "Spark",
+      "Pain Split",
+      "Eerie Impulse",
+      "Reflect Type",
+      "Me First",
+      "Shore Up"
+    ]
+  },
+  {
+    "MIENFOO": [
+      "Vital Throw",
+      "Baton Pass",
+      "Smelling Salts",
+      "Low Kick",
+      "Feint",
+      "Me First",
+      "Knock Off",
+      "Focus Punch",
+      "Fury Swipes"
+    ]
+  },
+  {
+    "DRUDDIGON": [
+      "Fire Fang",
+      "Thunder Fang",
+      "Chip Away",
+      "Feint Attack",
+      "Pursuit",
+      "Iron Tail",
+      "Poison Tail",
+      "Snatch",
+      "Glare",
+      "Sucker Punch",
+      "Night Slash"
+    ]
+  },
+  {
+    "PAWNIARD": [
+      "Sucker Punch",
+      "Headbutt",
+      "Stealth Rock",
+      "Psycho Cut",
+      "Mean Look",
+      "Quick Guard",
+      "Feint Attack",
+      "Embargo"
+    ]
+  },
+  {
+    "BOUFFALANT": [
+      "Stomp",
+      "Rock Climb",
+      "Headbutt",
+      "Skull Bash",
+      "Mud Shot",
+      "Mud-Slap",
+      "Iron Head",
+      "Amnesia",
+      "Belch",
+      "Cotton Guard",
+      "Endeavor"
+    ]
+  },
+  {
+    "VULLABY": [
+      "Steel Wing",
+      "Mean Look",
+      "Roost",
+      "Scary Face",
+      "Knock Off",
+      "Fake Tears",
+      "Toxic",
+      "Feint Attack"
+    ]
+  },
+  {
+    "HEATMOR": [
+      "Pursuit",
+      "Wrap",
+      "Night Slash",
+      "Curse",
+      "Bind",
+      "Heat Wave",
+      "Feint Attack",
+      "Sucker Punch",
+      "Tickle",
+      "Sleep Talk",
+      "Belch"
+    ]
+  },
+  {
+    "DURANT": [
+      "Screech",
+      "Endure",
+      "Rock Climb",
+      "Baton Pass",
+      "Thunder Fang",
+      "Feint Attack",
+      "Struggle Bug",
+      "First Impression",
+      "Metal Burst",
+      "Infestation",
+      "Flail"
+    ]
+  },
+  {
+    "DEINO": [
+      "Fire Fang",
+      "Thunder Fang",
+      "Ice Fang",
+      "Double Hit",
+      "Astonish",
+      "Earth Power",
+      "Screech",
+      "Head Smash",
+      "Dark Pulse",
+      "Belch",
+      "Slam"
+    ]
+  },
+  {
+    "LARVESTA": [
+      "Harden",
+      "Foresight",
+      "Endure",
+      "Zen Headbutt",
+      "Morning Sun",
+      "Magnet Rise"
+    ]
+  },
+  {
+    "SHELLOS_EAST": [
+      "Counter",
+      "Mirror Coat",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Yawn",
+      "Curse",
+      "Amnesia",
+      "Fissure",
+      "Trump Card",
+      "Sludge",
+      "Clear Smog",
+      "Mist",
+      "Acid Armor"
+    ]
+  },
+  {
+    "BASCULIN_BLUE": [
+      "Swift",
+      "Bubble Beam",
+      "Mud Shot",
+      "Muddy Water",
+      "Agility",
+      "Whirlpool",
+      "Rage",
+      "Brine",
+      "Revenge",
+      "Endeavor",
+      "Uproar",
+      "Wave Crash"
+    ]
+  },
+  {
+    "CHESPIN": [
+      "Synthesis",
+      "Belly Drum",
+      "Curse",
+      "Quick Guard",
+      "Spikes",
+      "Defense Curl",
+      "Power-up Punch"
+    ]
+  },
+  {
+    "FENNEKIN": [
+      "Wish",
+      "Hypnosis",
+      "Heat Wave",
+      "Magic Coat",
+      "Psychic Terrain"
+    ]
+  },
+  {
+    "FROAKIE": [
+      "Bestow",
+      "Mind Reader",
+      "Toxic Spikes",
+      "Mud Sport",
+      "Camouflage",
+      "Water Sport",
+      "Power-up Punch",
+      "Happy Hour"
+    ]
+  },
+  { "BUNNELBY": ["Spikes", "Defense Curl", "Rollout", "Stuff Cheeks"] },
+  {
+    "FLETCHLING": [
+      "Snatch",
+      "Quick Guard",
+      "Flame Charge",
+      "Defog",
+      "Razor Wind"
+    ]
+  },
+  {
+    "LITLEO": [
+      "Entrainment",
+      "Headbutt",
+      "Yawn",
+      "Snatch",
+      "Fire Spin",
+      "Flare Blitz",
+      "Extreme Speed"
+    ]
+  },
+  {
+    "FLABEBE": [
+      "Copycat",
+      "Captivate",
+      "Camouflage",
+      "Tearful Look",
+      "Solar Beam",
+      "Dazzling Gleam"
+    ]
+  },
+  { "SKIDDO": ["Defense Curl", "Rollout", "Grassy Terrain"] },
+  {
+    "PANCHAM": [
+      "Quash",
+      "Me First",
+      "Quick Guard",
+      "Foul Play",
+      "Storm Throw",
+      "Power Trip",
+      "Seismic Toss",
+      "Karate Chop",
+      "Vital Throw"
+    ]
+  },
+  { "FURFROU": ["Role Play", "Work Up", "Mimic", "Captivate", "Refresh"] },
+  {
+    "ESPURR": [
+      "Trick",
+      "Yawn",
+      "Assist",
+      "Barrier",
+      "Tickle",
+      "Psychic Terrain"
+    ]
+  },
+  { "HONEDGE": ["Destiny Bond", "Wide Guard", "Block"] },
+  {
+    "SPRITZEE": [
+      "Disable",
+      "Wish",
+      "Captivate",
+      "Refresh",
+      "Nasty Plot",
+      "After You",
+      "Disarming Voice"
+    ]
+  },
+  { "SWIRLIX": ["After You", "Yawn", "Belly Drum", "Copycat", "Sticky Web"] },
+  {
+    "INKAY": [
+      "Simple Beam",
+      "Power Split",
+      "Camouflage",
+      "Flatter",
+      "Destiny Bond",
+      "Guard Swap",
+      "Disable",
+      "Acupressure"
+    ]
+  },
+  { "BINACLE": ["Tickle", "Switcheroo", "Helping Hand", "Water Sport"] },
+  {
+    "SKRELP": [
+      "Toxic Spikes",
+      "Play Rough",
+      "Haze",
+      "Acid Armor",
+      "Venom Drench",
+      "Twister",
+      "Dragon Tail"
+    ]
+  },
+  { "CLAUNCHER": ["Entrainment", "Endure", "Helping Hand", "Aqua Tail"] },
+  {
+    "HELIOPTILE": [
+      "Agility",
+      "Glare",
+      "Camouflage",
+      "Electric Terrain",
+      "Dragon Rush",
+      "Dragon Tail"
+    ]
+  },
+  {
+    "TYRUNT": [
+      "Dragon Dance",
+      "Thunder Fang",
+      "Ice Fang",
+      "Poison Fang",
+      "Rock Polish",
+      "Fire Fang",
+      "Curse"
+    ]
+  },
+  {
+    "AMAURA": [
+      "Haze",
+      "Barrier",
+      "Mirror Coat",
+      "Magnet Rise",
+      "Discharge",
+      "Take Down",
+      "Reflect Type"
+    ]
+  },
+  {
+    "HAWLUCHA": [
+      "Agility",
+      "Me First",
+      "Entrainment",
+      "Mud Sport",
+      "Baton Pass",
+      "Quick Guard",
+      "Feint",
+      "Defog",
+      "Mean Look",
+      "Cross Chop"
+    ]
+  },
+  {
+    "DEDENNE": [
+      "Eerie Impulse",
+      "Covet",
+      "Helping Hand",
+      "Natural Gift",
+      "Tearful Look",
+      "Magnet Rise"
+    ]
+  },
+  {
+    "GOOMY": [
+      "Acid Armor",
+      "Iron Tail",
+      "Poison Tail",
+      "Counter",
+      "Endure",
+      "Life Dew",
+      "Curse",
+      "Flail"
+    ]
+  },
+  {
+    "KLEFKI": ["Switcheroo", "Thief", "Lock-On", "Iron Defense", "Magnet Rise"]
+  },
+  {
+    "PHANTUMP": [
+      "Grudge",
+      "Bestow",
+      "Imprison",
+      "Venom Drench",
+      "Power-up Punch",
+      "Sucker Punch",
+      "Disable"
+    ]
+  },
+  { "PUMPKABOO": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
+  {
+    "BERGMITE": ["Mist", "Barrier", "Mirror Coat", "Aurora Veil", "Ice Shard"]
+  },
+  { "NOIBAT": ["Switcheroo", "Snatch", "Outrage", "Defog", "Dragon Rush"] },
+  {
+    "FLABEBE_BLUE": [
+      "Copycat",
+      "Captivate",
+      "Camouflage",
+      "Tearful Look",
+      "Solar Beam",
+      "Dazzling Gleam"
+    ]
+  },
+  {
+    "FLABEBE_ORANGE": [
+      "Copycat",
+      "Captivate",
+      "Camouflage",
+      "Tearful Look",
+      "Solar Beam",
+      "Dazzling Gleam"
+    ]
+  },
+  {
+    "FLABEBE_YELLOW": [
+      "Copycat",
+      "Captivate",
+      "Camouflage",
+      "Tearful Look",
+      "Solar Beam",
+      "Dazzling Gleam"
+    ]
+  },
+  {
+    "FLABEBE_WHITE": [
+      "Copycat",
+      "Captivate",
+      "Camouflage",
+      "Tearful Look",
+      "Solar Beam",
+      "Dazzling Gleam"
+    ]
+  },
+  { "PUMPKABOO_XL": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
+  { "PUMPKABOO_L": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
+  { "PUMPKABOO_M": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
+  {
+    "ROWLET": [
+      "Curse",
+      "Confuse Ray",
+      "Haze",
+      "Baton Pass",
+      "Defog",
+      "Knock Off"
+    ]
+  },
+  {
+    "LITTEN": [
+      "Nasty Plot",
+      "Body Slam",
+      "Crunch",
+      "Fake Out",
+      "Revenge",
+      "Heat Wave",
+      "Power Trip",
+      "Parting Shot"
+    ]
+  },
+  {
+    "POPPLIO": [
+      "Charm",
+      "Amnesia",
+      "Aqua Ring",
+      "Aromatic Mist",
+      "Perish Song",
+      "Wonder Room",
+      "Life Dew"
+    ]
+  },
+  { "PIKIPEK": ["Boomburst", "Mirror Move", "Tailwind", "Uproar"] },
+  { "YUNGOOS": ["Revenge", "Fire Fang", "Ice Fang", "Thunder Fang"] },
+  { "GRUBBIN": ["Harden", "Electroweb", "Mud Shot", "Endure", "Discharge"] },
+  { "CRABRAWLER": ["Wide Guard", "Superpower", "Endeavor", "Amnesia"] },
+  { "ORICORIO": ["Pluck", "Tailwind", "Safeguard"] },
+  {
+    "CUTIEFLY": [
+      "Baton Pass",
+      "Skill Swap",
+      "Speed Swap",
+      "Bestow",
+      "Moonblast",
+      "Powder",
+      "Sticky Web",
+      "Aromatic Mist"
+    ]
+  },
+  {
+    "ROCKRUFF": [
+      "Crush Claw",
+      "Thunder Fang",
+      "Fire Fang",
+      "Sucker Punch",
+      "Thrash",
+      "Endeavor",
+      "Last Resort"
+    ]
+  },
+  {
+    "WISHIWASHI": [
+      "Muddy Water",
+      "Mist",
+      "Water Pulse",
+      "Water Sport",
+      "Whirlpool"
+    ]
+  },
+  { "MAREANIE": ["Stockpile", "Swallow", "Spit Up", "Haze", "Infestation"] },
+  {
+    "MUDBRAY": [
+      "Body Slam",
+      "Double-Edge",
+      "Magnitude",
+      "Close Combat",
+      "Mud Bomb",
+      "Fissure",
+      "Smack Down",
+      "Roar",
+      "Bide"
+    ]
+  },
+  {
+    "DEWPIDER": [
+      "Power Split",
+      "Aurora Beam",
+      "Stockpile",
+      "Spit Up",
+      "Sticky Web"
+    ]
+  },
+  {
+    "FOMANTIS": [
+      "Weather Ball",
+      "Giga Drain",
+      "Aromatherapy",
+      "Defog",
+      "Leaf Storm",
+      "Worry Seed"
+    ]
+  },
+  {
+    "MORELULL": [
+      "Amnesia",
+      "Poison Powder",
+      "Stun Spore",
+      "Growth",
+      "Leech Seed"
+    ]
+  },
+  {
+    "SALANDIT": [
+      "Belch",
+      "Knock Off",
+      "Sand Attack",
+      "Snatch",
+      "Fake Out",
+      "Mud-Slap"
+    ]
+  },
+  {
+    "STUFFUL": [
+      "Ice Punch",
+      "Thunder Punch",
+      "Force Palm",
+      "Wide Guard",
+      "Mega Kick",
+      "Stomping Tantrum",
+      "Rollout",
+      "Defense Curl",
+      "Stomp"
+    ]
+  },
+  {
+    "BOUNSWEET": [
+      "Grass Whistle",
+      "Synthesis",
+      "Play Rough",
+      "Feint",
+      "Charm",
+      "Acupressure",
+      "Endeavor"
+    ]
+  },
+  {
+    "COMFEY": [
+      "Endure",
+      "Amnesia",
+      "After You",
+      "Lucky Chant",
+      "Worry Seed",
+      "Leaf Tornado"
+    ]
+  },
+  {
+    "ORANGURU": [
+      "Extrasensory",
+      "Wonder Room",
+      "Psychic Terrain",
+      "Yawn",
+      "Last Resort",
+      "Dream Eater"
+    ]
+  },
+  {
+    "PASSIMIAN": [
+      "Seismic Toss",
+      "Vital Throw",
+      "Quick Guard",
+      "Iron Head",
+      "Quick Attack",
+      "Feint",
+      "Counter",
+      "Knock Off",
+      "Bestow",
+      "Court Change"
+    ]
+  },
+  {
+    "WIMPOD": [
+      "Spikes",
+      "Metal Claw",
+      "Wide Guard",
+      "Harden",
+      "Aqua Jet",
+      "Rollout"
+    ]
+  },
+  {
+    "SANDYGAST": [
+      "Amnesia",
+      "Destiny Bond",
+      "Ancient Power",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Curse",
+      "Strength Sap"
+    ]
+  },
+  {
+    "PYUKUMUKU": [
+      "Endure",
+      "Venom Drench",
+      "Bestow",
+      "Tickle",
+      "Spite",
+      "Mirror Coat",
+      "Swagger"
+    ]
+  },
+  { "KOMALA": ["Charm", "Wish", "Play Rough", "Sing"] },
+  {
+    "TURTONATOR": [
+      "Wide Guard",
+      "Revenge",
+      "Head Smash",
+      "Fire Spin",
+      "Rapid Spin",
+      "Curse"
+    ]
+  },
+  {
+    "TOGEDEMARU": [
+      "Reversal",
+      "Present",
+      "Encore",
+      "Twineedle",
+      "Wish",
+      "Fake Out",
+      "Tickle",
+      "Flail",
+      "Disarming Voice"
+    ]
+  },
+  { "MIMIKYU": ["Grudge", "Destiny Bond", "Curse", "Nightmare"] },
+  { "BRUXISH": ["Water Pulse", "Poison Fang", "Ice Fang", "Rage"] },
+  {
+    "DRAMPA": [
+      "Hurricane",
+      "Dragon Rush",
+      "Razor Wind",
+      "Mist",
+      "Play Rough",
+      "Tickle"
+    ]
+  },
+  { "JANGMO_O": ["Counter", "Reversal", "Dragon Breath", "Focus Punch"] },
+  {
+    "RATTATA_A": [
+      "Snatch",
+      "Stockpile",
+      "Fury Swipes",
+      "Switcheroo",
+      "Counter",
+      "Reversal",
+      "Uproar",
+      "Swallow",
+      "Me First",
+      "Revenge",
+      "Final Gambit"
+    ]
+  },
+  {
+    "SANDSHREW_A": [
+      "Flail",
+      "Counter",
+      "Icicle Spear",
+      "Crush Claw",
+      "Night Slash",
+      "Icicle Crash",
+      "Endure",
+      "Chip Away",
+      "Curse",
+      "Amnesia",
+      "Hone Claws"
+    ]
+  },
+  {
+    "VULPIX_A": [
+      "Freeze-Dry",
+      "Hypnosis",
+      "Flail",
+      "Howl",
+      "Agility",
+      "Encore",
+      "Moonblast",
+      "Power Swap",
+      "Secret Power",
+      "Charm",
+      "Tail Slap",
+      "Baby-Doll Eyes",
+      "Roar",
+      "Feint Attack",
+      "Quick Attack"
+    ]
+  },
+  {
+    "DIGLETT_A": [
+      "Feint Attack",
+      "Metal Sound",
+      "Ancient Power",
+      "Pursuit",
+      "Beat Up",
+      "Thrash",
+      "Reversal",
+      "Headbutt",
+      "Endure",
+      "Final Gambit",
+      "Memento",
+      "Hone Claws"
+    ]
+  },
+  {
+    "MEOWTH_A": [
+      "Hypnosis",
+      "Assist",
+      "Foul Play",
+      "Spite",
+      "Charm",
+      "Amnesia",
+      "Parting Shot",
+      "Flail",
+      "Flatter",
+      "Punishment",
+      "Snatch",
+      "Covet",
+      "Assurance",
+      "Captivate",
+      "Night Daze"
+    ]
+  },
+  {
+    "GEODUDE_A": [
+      "Block",
+      "Flail",
+      "Magnet Rise",
+      "Rock Climb",
+      "Endure",
+      "Autotomize",
+      "Wide Guard",
+      "Counter",
+      "Curse",
+      "Screech",
+      "Sucker Punch"
+    ]
+  },
+  {
+    "GRIMER_A": [
+      "Clear Smog",
+      "Mean Look",
+      "Pursuit",
+      "Imprison",
+      "Curse",
+      "Assurance",
+      "Shadow Sneak",
+      "Stockpile",
+      "Swallow",
+      "Spit Up",
+      "Scary Face",
+      "Spite",
+      "Power-up Punch"
+    ]
+  },
+  {
+    "EXEGGCUTE_A": [
+      "Moonlight",
+      "Ancient Power",
+      "Ingrain",
+      "Curse",
+      "Nature Power",
+      "Lucky Chant",
+      "Leaf Storm",
+      "Power Swap",
+      "Skill Swap",
+      "Block",
+      "Grassy Terrain",
+      "Sleep Powder",
+      "Stun Spore",
+      "Poison Powder",
+      "Bestow",
+      "Teleport",
+      "Wish"
+    ]
+  },
+  {
+    "CUBONE_A": [
+      "Ancient Power",
+      "Belly Drum",
+      "Screech",
+      "Skull Bash",
+      "Perish Song",
+      "Double Kick",
+      "Iron Head",
+      "Detect",
+      "Endure",
+      "Chip Away",
+      "Curse",
+      "Thrash"
+    ]
+  },
+  { "ORICORIO_Y": ["Pluck", "Tailwind", "Safeguard"] },
+  { "ORICORIO_P": ["Pluck", "Tailwind", "Safeguard"] },
+  { "ORICORIO_S": ["Pluck", "Tailwind", "Safeguard"] },
+  {
+    "GROOKEY": [
+      "Growth",
+      "Hammer Arm",
+      "Fake Out",
+      "Strength",
+      "Nature Power",
+      "Worry Seed",
+      "Leech Seed"
+    ]
+  },
+  {
+    "SCORBUNNY": ["High Jump Kick", "Sand Attack", "Sucker Punch", "Super Fang"]
+  },
+  {
+    "SOBBLE": [
+      "Aqua Jet",
+      "Double Team",
+      "Aqua Ring",
+      "Mist",
+      "Haze",
+      "Ice Shard",
+      "Fell Stinger"
+    ]
+  },
+  { "SKWOVET": ["Rollout", "Defense Curl", "Last Resort", "Belly Drum"] },
+  {
+    "ROOKIDEE": [
+      "Sky Attack",
+      "Sand Attack",
+      "Tailwind",
+      "Defog",
+      "Rock Smash",
+      "Spite",
+      "Roost"
+    ]
+  },
+  { "BLIPBUG": ["Infestation", "Supersonic", "Sticky Web", "Recover"] },
+  { "NICKIT": ["Quick Guard", "Knock Off", "Howl", "Torment"] },
+  {
+    "GOSSIFLEUR": [
+      "Growth",
+      "Leech Seed",
+      "Worry Seed",
+      "Poison Powder",
+      "Stun Spore",
+      "Sleep Powder"
+    ]
+  },
+  { "WOOLOO": ["Stomp", "Swagger", "Counter"] },
+  { "CHEWTLE": ["Skull Bash", "Gastro Acid", "Dragon Tail"] },
+  {
+    "YAMPER": [
+      "Double-Edge",
+      "Sand Attack",
+      "Flame Charge",
+      "Discharge",
+      "Howl"
+    ]
+  },
+  { "ROLYCOLY": ["Explosion", "Mud-Slap", "Block"] },
+  { "APPLIN": ["Sucker Punch", "Rollout", "Defense Curl", "Recycle"] },
+  {
+    "SILICOBRA": [
+      "Dragon Rush",
+      "Mud-Slap",
+      "Last Resort",
+      "Belch",
+      "Poison Tail"
+    ]
+  },
+  {
+    "CRAMORANT": ["Defog", "Aerial Ace", "Feather Dance", "Aqua Ring", "Roost"]
+  },
+  { "ARROKUDA": ["Thrash", "Acupressure", "Slash", "Night Slash"] },
+  { "TOXEL": ["Endeavor", "Metal Sound", "Power-up Punch"] },
+  {
+    "SIZZLIPEDE": [
+      "Knock Off",
+      "Struggle Bug",
+      "Rollout",
+      "Defense Curl",
+      "Burn Up"
+    ]
+  },
+  {
+    "CLOBBOPUS": [
+      "Pain Split",
+      "Soak",
+      "Sucker Punch",
+      "Circle Throw",
+      "Seismic Toss",
+      "Power-up Punch",
+      "Aqua Jet"
+    ]
+  },
+  { "HATENNA": ["Aromatic Mist", "Nuzzle", "After You", "Quash"] },
+  { "MILCERY": ["Baby-Doll Eyes", "Last Resort"] },
+  { "PINCURCHIN": ["Memento", "Sucker Punch"] },
+  { "SNOM": ["Fairy Wind", "Mirror Coat", "Bug Bite"] },
+  { "STONJOURNER": ["Curse", "Ancient Power"] },
+  {
+    "EISCUE": ["Soak", "Aqua Ring", "Belly Drum", "Double-Edge", "Head Smash"]
+  },
+  { "INDEEDEE": ["Psych Up", "Fake Out", "Extrasensory"] },
+  { "INDEEDEE_FEMALE": ["Psych Up", "Fake Out", "Psycho Shift", "Heal Pulse"] },
+  {
+    "MORPEKO": [
+      "Swagger",
+      "Super Fang",
+      "Charge",
+      "Tickle",
+      "Rapid Spin",
+      "Quash",
+      "Parting Shot",
+      "Fake Out"
+    ]
+  },
+  {
+    "CUFANT": [
+      "Double-Edge",
+      "Belch",
+      "Curse",
+      "Slam",
+      "Fissure",
+      "Swagger",
+      "Whirlwind",
+      "Defense Curl"
+    ]
+  },
+  { "DURALUDON": ["Slash", "Night Slash", "Mirror Coat"] },
+  {
+    "DREEPY": [
+      "Curse",
+      "Grudge",
+      "Confuse Ray",
+      "Double Team",
+      "Disable",
+      "Dragon Tail",
+      "Sucker Punch"
+    ]
+  },
+  {
+    "MEOWTH_G": [
+      "Spite",
+      "Double-Edge",
+      "Curse",
+      "Flail",
+      "Night Slash",
+      "Covet"
+    ]
+  },
+  {
+    "PONYTA_G": [
+      "Thrash",
+      "Double Kick",
+      "Hypnosis",
+      "Double-Edge",
+      "Horn Drill",
+      "Morning Sun",
+      "Healing Wish"
+    ]
+  },
+  {
+    "SLOWPOKE_G": [
+      "Belch",
+      "Belly Drum",
+      "Block",
+      "Stomp",
+      "Future Sight",
+      "Teleport"
+    ]
+  },
+  {
+    "FARFETCHD_G": [
+      "Counter",
+      "Quick Attack",
+      "Flail",
+      "Quick Guard",
+      "Curse",
+      "Covet",
+      "Night Slash",
+      "Simple Beam",
+      "Double-Edge",
+      "Feint",
+      "Sky Attack"
+    ]
+  },
+  { "MR_MIME_G": ["Fake Out", "Confuse Ray", "Power Split", "Tickle"] },
+  {
+    "CORSOLA_G": [
+      "Haze",
+      "Confuse Ray",
+      "Nature Power",
+      "Destiny Bond",
+      "Water Pulse",
+      "Head Smash"
+    ]
+  },
+  { "ZIGZAGOON_G": ["Parting Shot", "Quick Guard", "Knock Off"] },
+  {
+    "DARUMAKA_G": [
+      "Focus Punch",
+      "Hammer Arm",
+      "Take Down",
+      "Flame Wheel",
+      "Yawn",
+      "Freeze-Dry",
+      "Incinerate",
+      "Power-up Punch"
+    ]
+  },
+  { "YAMASK_G": ["Memento"] },
+  {
+    "STUNFISK_G": [
+      "Bind",
+      "Yawn",
+      "Astonish",
+      "Curse",
+      "Spite",
+      "Counter",
+      "Pain Split",
+      "Reflect Type"
+    ]
+  },
+  {
+    "GROWLITHE_H": [
+      "Body Slam",
+      "Thrash",
+      "Fire Spin",
+      "Double-Edge",
+      "Morning Sun",
+      "Covet",
+      "Double Kick",
+      "Close Combat",
+      "Burn Up",
+      "Flame Burst",
+      "Teleport"
+    ]
+  },
+  {
+    "SNEASEL_H": [
+      "Counter",
+      "Spite",
+      "Focus Energy",
+      "Swift",
+      "Crush Claw",
+      "Fake Out",
+      "Double Hit",
+      "Pursuit",
+      "Assist",
+      "Feint",
+      "Throat Chop"
+    ]
+  },
+  {
+    "QWILFISH_H": [
+      "Flail",
+      "Haze",
+      "Bubble Beam",
+      "Supersonic",
+      "Astonish",
+      "Signal Beam",
+      "Aqua Jet",
+      "Acid Spray",
+      "Ice Ball"
+    ]
+  },
+  {
+    "BASCULIN_H": [
+      "Swift",
+      "Bubble Beam",
+      "Mud Shot",
+      "Muddy Water",
+      "Agility",
+      "Whirlpool",
+      "Rage",
+      "Revenge",
+      "Endeavor",
+      "Uproar"
+    ]
+  },
+  {
+    "ZORUA_H": [
+      "Detect",
+      "Memento",
+      "Sucker Punch",
+      "Extrasensory",
+      "Counter",
+      "Copycat"
+    ]
+  }
+]

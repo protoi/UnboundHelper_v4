@@ -1,0 +1,12 @@
+move info -> https://github.com/Skeli789/Complete-Fire-Red-Upgrade/blob/dev/src/Tables/battle_moves.c
+level up info -> https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/Unbound-Working/src/Learnsets.c
+
+pokemon ids -> https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/Unbound-Working/include/species.h
+
+egg moves -> https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/Unbound-Working/src/Egg_Moves.c
+
+base_stats -> https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/Unbound-Working/src/Base_Stats.c
+
+abilities -> https://raw.githubusercontent.com/Skeli789/Dynamic-Pokemon-Expansion/Unbound-Working/include/abilities.h
+
+items -> https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/Unbound-Working/include/items.h
