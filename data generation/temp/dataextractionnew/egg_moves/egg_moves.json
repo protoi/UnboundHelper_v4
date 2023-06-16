@@ -1,6 +1,6 @@
 [
   {
-    "BULBASAUR": [
+    "Bulbasaur": [
       "Skull Bash",
       "Charm",
       "Petal Dance",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "CHARMANDER": [
+    "Charmander": [
       "Belly Drum",
       "Ancient Power",
       "Bite",
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "SQUIRTLE": [
+    "Squirtle": [
       "Mirror Coat",
       "Haze",
       "Mist",
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "PIDGEY": [
+    "Pidgey": [
       "Pursuit",
       "Feint Attack",
       "Foresight",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "RATTATA": [
+    "Rattata": [
       "Screech",
       "Flame Wheel",
       "Fury Swipes",
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "SPEAROW": [
+    "Spearow": [
       "Feint Attack",
       "Scary Face",
       "Quick Attack",
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "EKANS": [
+    "Ekans": [
       "Pursuit",
       "Slam",
       "Spite",
@@ -119,7 +119,7 @@
     ]
   },
   {
-    "SANDSHREW": [
+    "Sandshrew": [
       "Flail",
       "Counter",
       "Metal Claw",
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "NIDORAN_F": [
+    "Nidoran Female": [
       "Supersonic",
       "Disable",
       "Take Down",
@@ -154,7 +154,7 @@
     ]
   },
   {
-    "NIDORAN_M": [
+    "Nidoran Male": [
       "Counter",
       "Disable",
       "Supersonic",
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "VULPIX": [
+    "Vulpix": [
       "Feint Attack",
       "Hypnosis",
       "Flail",
@@ -189,7 +189,7 @@
     ]
   },
   {
-    "ZUBAT": [
+    "Zubat": [
       "Quick Attack",
       "Pursuit",
       "Feint Attack",
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "ODDISH": [
+    "Oddish": [
       "Razor Leaf",
       "Flail",
       "Synthesis",
@@ -223,7 +223,7 @@
     ]
   },
   {
-    "PARAS": [
+    "Paras": [
       "Screech",
       "Counter",
       "Psybeam",
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "VENONAT": [
+    "Venonat": [
       "Baton Pass",
       "Screech",
       "Giga Drain",
@@ -257,7 +257,7 @@
     ]
   },
   {
-    "DIGLETT": [
+    "Diglett": [
       "Feint Attack",
       "Screech",
       "Ancient Power",
@@ -273,7 +273,7 @@
     ]
   },
   {
-    "MEOWTH": [
+    "Meowth": [
       "Spite",
       "Charm",
       "Hypnosis",
@@ -292,7 +292,7 @@
     ]
   },
   {
-    "PSYDUCK": [
+    "Psyduck": [
       "Hypnosis",
       "Psybeam",
       "Foresight",
@@ -313,7 +313,7 @@
     ]
   },
   {
-    "MANKEY": [
+    "Mankey": [
       "Foresight",
       "Meditate",
       "Counter",
@@ -332,7 +332,7 @@
     ]
   },
   {
-    "GROWLITHE": [
+    "Growlithe": [
       "Body Slam",
       "Thrash",
       "Fire Spin",
@@ -348,7 +348,7 @@
     ]
   },
   {
-    "POLIWAG": [
+    "Poliwag": [
       "Mist",
       "Splash",
       "Haze",
@@ -362,7 +362,7 @@
     ]
   },
   {
-    "ABRA": [
+    "Abra": [
       "Encore",
       "Barrier",
       "Knock Off",
@@ -380,7 +380,7 @@
     ]
   },
   {
-    "MACHOP": [
+    "Machop": [
       "Meditate",
       "Rolling Kick",
       "Encore",
@@ -399,7 +399,7 @@
     ]
   },
   {
-    "BELLSPROUT": [
+    "Bellsprout": [
       "Encore",
       "Synthesis",
       "Leech Fang",
@@ -420,7 +420,7 @@
     ]
   },
   {
-    "TENTACOOL": [
+    "Tentacool": [
       "Aurora Beam",
       "Mirror Coat",
       "Rapid Spin",
@@ -436,7 +436,7 @@
     ]
   },
   {
-    "GEODUDE": [
+    "Geodude": [
       "Mega Punch",
       "Block",
       "Hammer Arm",
@@ -451,7 +451,7 @@
     ]
   },
   {
-    "PONYTA": [
+    "Ponyta": [
       "Thrash",
       "Double Kick",
       "Hypnosis",
@@ -465,7 +465,7 @@
     ]
   },
   {
-    "SLOWPOKE": [
+    "Slowpoke": [
       "Belly Drum",
       "Future Sight",
       "Stomp",
@@ -480,7 +480,7 @@
     ]
   },
   {
-    "FARFETCHD": [
+    "Farfetchd": [
       "Steel Wing",
       "Foresight",
       "Mirror Move",
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "DODUO": [
+    "Doduo": [
       "Supersonic",
       "Haze",
       "Feint Attack",
@@ -518,7 +518,7 @@
     ]
   },
   {
-    "SEEL": [
+    "Seel": [
       "Lick",
       "Perish Song",
       "Disable",
@@ -538,7 +538,7 @@
     ]
   },
   {
-    "GRIMER": [
+    "Grimer": [
       "Haze",
       "Mean Look",
       "Lick",
@@ -555,7 +555,7 @@
     ]
   },
   {
-    "SHELLDER": [
+    "Shellder": [
       "Bubble Beam",
       "Take Down",
       "Barrier",
@@ -572,7 +572,7 @@
     ]
   },
   {
-    "GASTLY": [
+    "Gastly": [
       "Psywave",
       "Perish Song",
       "Haze",
@@ -588,7 +588,7 @@
     ]
   },
   {
-    "ONIX": [
+    "Onix": [
       "Flail",
       "Block",
       "Defense Curl",
@@ -606,7 +606,7 @@
     ]
   },
   {
-    "DROWZEE": [
+    "Drowzee": [
       "Barrier",
       "Assist",
       "Role Play",
@@ -626,7 +626,7 @@
     ]
   },
   {
-    "KRABBY": [
+    "Krabby": [
       "Haze",
       "Amnesia",
       "Knock Off",
@@ -642,7 +642,7 @@
     ]
   },
   {
-    "EXEGGCUTE": [
+    "Exeggcute": [
       "Moonlight",
       "Ancient Power",
       "Ingrain",
@@ -663,7 +663,7 @@
     ]
   },
   {
-    "CUBONE": [
+    "Cubone": [
       "Ancient Power",
       "Belly Drum",
       "Screech",
@@ -679,7 +679,7 @@
     ]
   },
   {
-    "LICKITUNG": [
+    "Lickitung": [
       "Magnitude",
       "Slam",
       "Curse",
@@ -700,7 +700,7 @@
     ]
   },
   {
-    "KOFFING": [
+    "Koffing": [
       "Screech",
       "Psywave",
       "Psybeam",
@@ -716,7 +716,7 @@
     ]
   },
   {
-    "KOFFING_G": [
+    "Galarian Koffing": [
       "Screech",
       "Psywave",
       "Psybeam",
@@ -732,7 +732,7 @@
     ]
   },
   {
-    "RHYHORN": [
+    "Rhyhorn": [
       "Crunch",
       "Reversal",
       "Counter",
@@ -754,7 +754,7 @@
     ]
   },
   {
-    "CHANSEY": [
+    "Chansey": [
       "Present",
       "Metronome",
       "Heal Bell",
@@ -771,7 +771,7 @@
     ]
   },
   {
-    "TANGELA": [
+    "Tangela": [
       "Flail",
       "Confusion",
       "Amnesia",
@@ -788,7 +788,7 @@
     ]
   },
   {
-    "KANGASKHAN": [
+    "Kangaskhan": [
       "Foresight",
       "Disable",
       "Counter",
@@ -807,7 +807,7 @@
     ]
   },
   {
-    "HORSEA": [
+    "Horsea": [
       "Flail",
       "Aurora Beam",
       "Octazooka",
@@ -823,7 +823,7 @@
     ]
   },
   {
-    "GOLDEEN": [
+    "Goldeen": [
       "Psybeam",
       "Haze",
       "Hydro Pump",
@@ -839,7 +839,7 @@
     ]
   },
   {
-    "MR_MIME": [
+    "Mr Mime": [
       "Future Sight",
       "Hypnosis",
       "Fake Out",
@@ -856,7 +856,7 @@
     ]
   },
   {
-    "SCYTHER": [
+    "Scyther": [
       "Counter",
       "Baton Pass",
       "Reversal",
@@ -873,7 +873,7 @@
     ]
   },
   {
-    "PINSIR": [
+    "Pinsir": [
       "Fury Attack",
       "Flail",
       "Feint Attack",
@@ -885,7 +885,7 @@
     ]
   },
   {
-    "LAPRAS": [
+    "Lapras": [
       "Foresight",
       "Tickle",
       "Refresh",
@@ -904,7 +904,7 @@
     ]
   },
   {
-    "EEVEE": [
+    "Eevee": [
       "Flail",
       "Endure",
       "Curse",
@@ -924,7 +924,7 @@
     ]
   },
   {
-    "OMANYTE": [
+    "Omanyte": [
       "Bubble Beam",
       "Aurora Beam",
       "Slam",
@@ -944,7 +944,7 @@
     ]
   },
   {
-    "KABUTO": [
+    "Kabuto": [
       "Bubble Beam",
       "Aurora Beam",
       "Rapid Spin",
@@ -961,7 +961,7 @@
     ]
   },
   {
-    "AERODACTYL": [
+    "Aerodactyl": [
       "Whirlwind",
       "Pursuit",
       "Foresight",
@@ -976,7 +976,7 @@
     ]
   },
   {
-    "SNORLAX": [
+    "Snorlax": [
       "Charm",
       "Double-Edge",
       "Curse",
@@ -992,7 +992,7 @@
     ]
   },
   {
-    "DRATINI": [
+    "Dratini": [
       "Mist",
       "Haze",
       "Supersonic",
@@ -1005,7 +1005,7 @@
     ]
   },
   {
-    "CHIKORITA": [
+    "Chikorita": [
       "Vine Whip",
       "Leech Seed",
       "Counter",
@@ -1021,7 +1021,7 @@
     ]
   },
   {
-    "CYNDAQUIL": [
+    "Cyndaquil": [
       "Fury Swipes",
       "Reversal",
       "Thrash",
@@ -1037,7 +1037,7 @@
     ]
   },
   {
-    "TOTODILE": [
+    "Totodile": [
       "Ancient Power",
       "Mud Sport",
       "Water Sport",
@@ -1051,7 +1051,7 @@
     ]
   },
   {
-    "SENTRET": [
+    "Sentret": [
       "Double-Edge",
       "Pursuit",
       "Slash",
@@ -1067,7 +1067,7 @@
     ]
   },
   {
-    "HOOTHOOT": [
+    "Hoothoot": [
       "Mirror Move",
       "Supersonic",
       "Feint Attack",
@@ -1084,7 +1084,7 @@
     ]
   },
   {
-    "LEDYBA": [
+    "Ledyba": [
       "Psybeam",
       "Bide",
       "Screech",
@@ -1101,7 +1101,7 @@
     ]
   },
   {
-    "SPINARAK": [
+    "Spinarak": [
       "Psybeam",
       "Disable",
       "Sonic Boom",
@@ -1118,7 +1118,7 @@
     ]
   },
   {
-    "CHINCHOU": [
+    "Chinchou": [
       "Screech",
       "Amnesia",
       "Psybeam",
@@ -1132,7 +1132,7 @@
     ]
   },
   {
-    "PICHU": [
+    "Pichu": [
       "Reversal",
       "Bide",
       "Present",
@@ -1154,7 +1154,7 @@
     ]
   },
   {
-    "CLEFFA": [
+    "Cleffa": [
       "Present",
       "Metronome",
       "Amnesia",
@@ -1174,7 +1174,7 @@
     ]
   },
   {
-    "IGGLYBUFF": [
+    "Igglybuff": [
       "Perish Song",
       "Present",
       "Feint Attack",
@@ -1192,7 +1192,7 @@
     ]
   },
   {
-    "TOGEPI": [
+    "Togepi": [
       "Present",
       "Mirror Move",
       "Peck",
@@ -1210,7 +1210,7 @@
     ]
   },
   {
-    "NATU": [
+    "Natu": [
       "Haze",
       "Drill Peck",
       "Quick Attack",
@@ -1227,7 +1227,7 @@
     ]
   },
   {
-    "MAREEP": [
+    "Mareep": [
       "Body Slam",
       "Screech",
       "Odor Sleuth",
@@ -1241,7 +1241,7 @@
     ]
   },
   {
-    "MARILL": [
+    "Marill": [
       "Present",
       "Amnesia",
       "Future Sight",
@@ -1260,7 +1260,7 @@
     ]
   },
   {
-    "SUDOWOODO": [
+    "Sudowoodo": [
       "Self-Destruct",
       "Headbutt",
       "Harden",
@@ -1274,7 +1274,7 @@
     ]
   },
   {
-    "HOPPIP": [
+    "Hoppip": [
       "Confusion",
       "Encore",
       "Double-Edge",
@@ -1289,7 +1289,7 @@
     ]
   },
   {
-    "AIPOM": [
+    "Aipom": [
       "Counter",
       "Pursuit",
       "Spite",
@@ -1308,7 +1308,7 @@
     ]
   },
   {
-    "SUNKERN": [
+    "Sunkern": [
       "Encore",
       "Nature Power",
       "Curse",
@@ -1321,7 +1321,7 @@
     ]
   },
   {
-    "YANMA": [
+    "Yanma": [
       "Whirlwind",
       "Reversal",
       "Leech Fang",
@@ -1335,7 +1335,7 @@
     ]
   },
   {
-    "WOOPER": [
+    "Wooper": [
       "Body Slam",
       "Ancient Power",
       "Curse",
@@ -1355,7 +1355,7 @@
     ]
   },
   {
-    "MURKROW": [
+    "Murkrow": [
       "Whirlwind",
       "Drill Peck",
       "Mirror Move",
@@ -1374,7 +1374,7 @@
     ]
   },
   {
-    "MISDREAVUS": [
+    "Misdreavus": [
       "Screech",
       "Destiny Bond",
       "Imprison",
@@ -1391,7 +1391,7 @@
     ]
   },
   {
-    "GIRAFARIG": [
+    "Girafarig": [
       "Take Down",
       "Amnesia",
       "Foresight",
@@ -1412,7 +1412,7 @@
     ]
   },
   {
-    "PINECO": [
+    "Pineco": [
       "Pin Missile",
       "Flail",
       "Swift",
@@ -1426,7 +1426,7 @@
     ]
   },
   {
-    "DUNSPARCE": [
+    "Dunsparce": [
       "Bide",
       "Bite",
       "Headbutt",
@@ -1445,7 +1445,7 @@
     ]
   },
   {
-    "GLIGAR": [
+    "Gligar": [
       "Metal Claw",
       "Wing Attack",
       "Razor Wind",
@@ -1464,7 +1464,7 @@
     ]
   },
   {
-    "SNUBBULL": [
+    "Snubbull": [
       "Metronome",
       "Feint Attack",
       "Present",
@@ -1479,7 +1479,7 @@
     ]
   },
   {
-    "QWILFISH": [
+    "Qwilfish": [
       "Flail",
       "Haze",
       "Bubble Beam",
@@ -1494,7 +1494,7 @@
     ]
   },
   {
-    "SHUCKLE": [
+    "Shuckle": [
       "Sweet Scent",
       "Knock Off",
       "Helping Hand",
@@ -1511,7 +1511,7 @@
     ]
   },
   {
-    "HERACROSS": [
+    "Heracross": [
       "Harden",
       "Bide",
       "Flail",
@@ -1524,7 +1524,7 @@
     ]
   },
   {
-    "SNEASEL": [
+    "Sneasel": [
       "Counter",
       "Spite",
       "Foresight",
@@ -1542,7 +1542,7 @@
     ]
   },
   {
-    "TEDDIURSA": [
+    "Teddiursa": [
       "Crunch",
       "Take Down",
       "Seismic Toss",
@@ -1559,7 +1559,7 @@
     ]
   },
   {
-    "SLUGMA": [
+    "Slugma": [
       "Acid Armor",
       "Heat Wave",
       "Curse",
@@ -1574,7 +1574,7 @@
     ]
   },
   {
-    "SWINUB": [
+    "Swinub": [
       "Bite",
       "Body Slam",
       "Ancient Power",
@@ -1590,7 +1590,7 @@
     ]
   },
   {
-    "CORSOLA": [
+    "Corsola": [
       "Screech",
       "Mist",
       "Amnesia",
@@ -1609,7 +1609,7 @@
     ]
   },
   {
-    "REMORAID": [
+    "Remoraid": [
       "Octazooka",
       "Supersonic",
       "Haze",
@@ -1625,7 +1625,7 @@
     ]
   },
   {
-    "DELIBIRD": [
+    "Delibird": [
       "Quick Attack",
       "Future Sight",
       "Splash",
@@ -1638,7 +1638,7 @@
     ]
   },
   {
-    "MANTINE": [
+    "Mantine": [
       "Twister",
       "Haze",
       "Slam",
@@ -1652,7 +1652,7 @@
     ]
   },
   {
-    "SKARMORY": [
+    "Skarmory": [
       "Pursuit",
       "Whirlwind",
       "Sky Attack",
@@ -1670,7 +1670,7 @@
     ]
   },
   {
-    "HOUNDOUR": [
+    "Houndour": [
       "Fire Spin",
       "Rage",
       "Counter",
@@ -1686,7 +1686,7 @@
     ]
   },
   {
-    "PHANPY": [
+    "Phanpy": [
       "Focus Energy",
       "Body Slam",
       "Ancient Power",
@@ -1703,7 +1703,7 @@
     ]
   },
   {
-    "STANTLER": [
+    "Stantler": [
       "Spite",
       "Disable",
       "Bite",
@@ -1719,7 +1719,7 @@
     ]
   },
   {
-    "TYROGUE": [
+    "Tyrogue": [
       "Rapid Spin",
       "High Jump Kick",
       "Mach Punch",
@@ -1733,7 +1733,7 @@
     ]
   },
   {
-    "SMOOCHUM": [
+    "Smoochum": [
       "Meditate",
       "Fake Out",
       "Wish",
@@ -1744,7 +1744,7 @@
     ]
   },
   {
-    "ELEKID": [
+    "Elekid": [
       "Karate Chop",
       "Barrier",
       "Rolling Kick",
@@ -1760,7 +1760,7 @@
     ]
   },
   {
-    "MAGBY": [
+    "Magby": [
       "Karate Chop",
       "Mega Punch",
       "Barrier",
@@ -1780,7 +1780,7 @@
     ]
   },
   {
-    "MILTANK": [
+    "Miltank": [
       "Present",
       "Reversal",
       "Seismic Toss",
@@ -1798,7 +1798,7 @@
     ]
   },
   {
-    "LARVITAR": [
+    "Larvitar": [
       "Pursuit",
       "Stomp",
       "Outrage",
@@ -1814,7 +1814,7 @@
     ]
   },
   {
-    "TREECKO": [
+    "Treecko": [
       "Crunch",
       "Mud Sport",
       "Leech Seed",
@@ -1835,7 +1835,7 @@
     ]
   },
   {
-    "TORCHIC": [
+    "Torchic": [
       "Counter",
       "Smelling Salts",
       "Crush Claw",
@@ -1851,7 +1851,7 @@
     ]
   },
   {
-    "MUDKIP": [
+    "Mudkip": [
       "Refresh",
       "Uproar",
       "Curse",
@@ -1876,7 +1876,7 @@
     ]
   },
   {
-    "POOCHYENA": [
+    "Poochyena": [
       "Astonish",
       "Poison Fang",
       "Covet",
@@ -1890,7 +1890,7 @@
     ]
   },
   {
-    "ZIGZAGOON": [
+    "Zigzagoon": [
       "Charm",
       "Pursuit",
       "Tickle",
@@ -1904,7 +1904,7 @@
     ]
   },
   {
-    "LOTAD": [
+    "Lotad": [
       "Synthesis",
       "Razor Leaf",
       "Sweet Scent",
@@ -1917,7 +1917,7 @@
     ]
   },
   {
-    "SEEDOT": [
+    "Seedot": [
       "Leech Seed",
       "Amnesia",
       "Quick Attack",
@@ -1935,7 +1935,7 @@
     ]
   },
   {
-    "NINCADA": [
+    "Nincada": [
       "Endure",
       "Feint Attack",
       "Gust",
@@ -1948,7 +1948,7 @@
     ]
   },
   {
-    "TAILLOW": [
+    "Taillow": [
       "Pursuit",
       "Supersonic",
       "Refresh",
@@ -1964,7 +1964,7 @@
     ]
   },
   {
-    "SHROOMISH": [
+    "Shroomish": [
       "Fake Tears",
       "Charm",
       "Helping Hand",
@@ -1976,7 +1976,7 @@
     ]
   },
   {
-    "SPINDA": [
+    "Spinda": [
       "Encore",
       "Assist",
       "Disable",
@@ -1997,7 +1997,7 @@
     ]
   },
   {
-    "WINGULL": [
+    "Wingull": [
       "Twister",
       "Gust",
       "Water Sport",
@@ -2009,7 +2009,7 @@
     ]
   },
   {
-    "SURSKIT": [
+    "Surskit": [
       "Foresight",
       "Mud Shot",
       "Psybeam",
@@ -2026,7 +2026,7 @@
     ]
   },
   {
-    "WAILMER": [
+    "Wailmer": [
       "Double-Edge",
       "Thrash",
       "Snore",
@@ -2042,7 +2042,7 @@
     ]
   },
   {
-    "SKITTY": [
+    "Skitty": [
       "Helping Hand",
       "Uproar",
       "Fake Tears",
@@ -2059,7 +2059,7 @@
     ]
   },
   {
-    "KECLEON": [
+    "Kecleon": [
       "Disable",
       "Magic Coat",
       "Trick",
@@ -2074,7 +2074,7 @@
     ]
   },
   {
-    "NOSEPASS": [
+    "Nosepass": [
       "Magnitude",
       "Rollout",
       "Double-Edge",
@@ -2085,7 +2085,7 @@
     ]
   },
   {
-    "TORKOAL": [
+    "Torkoal": [
       "Endure",
       "Sleep Talk",
       "Yawn",
@@ -2097,7 +2097,7 @@
     ]
   },
   {
-    "SABLEYE": [
+    "Sableye": [
       "Recover",
       "Moonlight",
       "Nasty Plot",
@@ -2113,7 +2113,7 @@
     ]
   },
   {
-    "BARBOACH": [
+    "Barboach": [
       "Thrash",
       "Whirlpool",
       "Spark",
@@ -2126,7 +2126,7 @@
     ]
   },
   {
-    "LUVDISC": [
+    "Luvdisc": [
       "Splash",
       "Supersonic",
       "Water Sport",
@@ -2138,7 +2138,7 @@
     ]
   },
   {
-    "CORPHISH": [
+    "Corphish": [
       "Mud Sport",
       "Body Slam",
       "Ancient Power",
@@ -2154,7 +2154,7 @@
     ]
   },
   {
-    "FEEBAS": [
+    "Feebas": [
       "Mirror Coat",
       "Dragon Breath",
       "Mud Sport",
@@ -2170,7 +2170,7 @@
     ]
   },
   {
-    "CARVANHA": [
+    "Carvanha": [
       "Hydro Pump",
       "Double-Edge",
       "Thrash",
@@ -2183,7 +2183,7 @@
     ]
   },
   {
-    "TRAPINCH": [
+    "Trapinch": [
       "Focus Energy",
       "Quick Attack",
       "Gust",
@@ -2197,7 +2197,7 @@
     ]
   },
   {
-    "MAKUHITA": [
+    "Makuhita": [
       "Feint Attack",
       "Detect",
       "Foresight",
@@ -2214,7 +2214,7 @@
     ]
   },
   {
-    "ELECTRIKE": [
+    "Electrike": [
       "Crunch",
       "Headbutt",
       "Uproar",
@@ -2229,7 +2229,7 @@
     ]
   },
   {
-    "NUMEL": [
+    "Numel": [
       "Howl",
       "Scary Face",
       "Body Slam",
@@ -2250,7 +2250,7 @@
     ]
   },
   {
-    "SPHEAL": [
+    "Spheal": [
       "Water Sport",
       "Stockpile",
       "Swallow",
@@ -2266,7 +2266,7 @@
     ]
   },
   {
-    "CACNEA": [
+    "Cacnea": [
       "Grass Whistle",
       "Acid",
       "Teeter Dance",
@@ -2288,7 +2288,7 @@
     ]
   },
   {
-    "SNORUNT": [
+    "Snorunt": [
       "Powder Snow",
       "Block",
       "Spikes",
@@ -2303,7 +2303,7 @@
     ]
   },
   {
-    "AZURILL": [
+    "Azurill": [
       "Encore",
       "Sing",
       "Refresh",
@@ -2322,7 +2322,7 @@
     ]
   },
   {
-    "SPOINK": [
+    "Spoink": [
       "Future Sight",
       "Extrasensory",
       "Trick",
@@ -2338,7 +2338,7 @@
     ]
   },
   {
-    "PLUSLE": [
+    "Plusle": [
       "Wish",
       "Sing",
       "Sweet Kiss",
@@ -2348,7 +2348,7 @@
     ]
   },
   {
-    "MINUN": [
+    "Minun": [
       "Wish",
       "Sing",
       "Sweet Kiss",
@@ -2358,7 +2358,7 @@
     ]
   },
   {
-    "MAWILE": [
+    "Mawile": [
       "Poison Fang",
       "Ancient Power",
       "Tickle",
@@ -2378,7 +2378,7 @@
     ]
   },
   {
-    "MEDITITE": [
+    "Meditite": [
       "Fire Punch",
       "Thunder Punch",
       "Ice Punch",
@@ -2395,7 +2395,7 @@
     ]
   },
   {
-    "SWABLU": [
+    "Swablu": [
       "Agility",
       "Haze",
       "Pursuit",
@@ -2409,7 +2409,7 @@
     ]
   },
   {
-    "DUSKULL": [
+    "Duskull": [
       "Imprison",
       "Destiny Bond",
       "Pain Split",
@@ -2423,7 +2423,7 @@
     ]
   },
   {
-    "ROSELIA": [
+    "Roselia": [
       "Spikes",
       "Pin Missile",
       "Cotton Spore",
@@ -2441,7 +2441,7 @@
     ]
   },
   {
-    "SLAKOTH": [
+    "Slakoth": [
       "Pursuit",
       "Slash",
       "Body Slam",
@@ -2458,7 +2458,7 @@
     ]
   },
   {
-    "GULPIN": [
+    "Gulpin": [
       "Acid Armor",
       "Smog",
       "Pain Split",
@@ -2469,7 +2469,7 @@
     ]
   },
   {
-    "TROPIUS": [
+    "Tropius": [
       "Headbutt",
       "Slam",
       "Razor Wind",
@@ -2483,7 +2483,7 @@
     ]
   },
   {
-    "WHISMUR": [
+    "Whismur": [
       "Take Down",
       "Snore",
       "Extrasensory",
@@ -2499,7 +2499,7 @@
     ]
   },
   {
-    "CLAMPERL": [
+    "Clamperl": [
       "Refresh",
       "Mud Sport",
       "Body Slam",
@@ -2514,7 +2514,7 @@
     ]
   },
   {
-    "ABSOL": [
+    "Absol": [
       "Baton Pass",
       "Feint Attack",
       "Double-Edge",
@@ -2532,7 +2532,7 @@
     ]
   },
   {
-    "SHUPPET": [
+    "Shuppet": [
       "Disable",
       "Destiny Bond",
       "Foresight",
@@ -2546,7 +2546,7 @@
     ]
   },
   {
-    "SEVIPER": [
+    "Seviper": [
       "Stockpile",
       "Swallow",
       "Spit Up",
@@ -2560,7 +2560,7 @@
     ]
   },
   {
-    "ZANGOOSE": [
+    "Zangoose": [
       "Flail",
       "Double Kick",
       "Razor Wind",
@@ -2577,7 +2577,7 @@
     ]
   },
   {
-    "RELICANTH": [
+    "Relicanth": [
       "Magnitude",
       "Skull Bash",
       "Water Sport",
@@ -2592,7 +2592,7 @@
     ]
   },
   {
-    "ARON": [
+    "Aron": [
       "Endeavor",
       "Body Slam",
       "Stomp",
@@ -2607,7 +2607,7 @@
     ]
   },
   {
-    "CASTFORM": [
+    "Castform": [
       "Future Sight",
       "Lucky Chant",
       "Disable",
@@ -2621,7 +2621,7 @@
     ]
   },
   {
-    "VOLBEAT": [
+    "Volbeat": [
       "Baton Pass",
       "Silver Wind",
       "Trick",
@@ -2632,7 +2632,7 @@
     ]
   },
   {
-    "ILLUMISE": [
+    "Illumise": [
       "Baton Pass",
       "Silver Wind",
       "Growth",
@@ -2645,7 +2645,7 @@
     ]
   },
   {
-    "LILEEP": [
+    "Lileep": [
       "Barrier",
       "Recover",
       "Mirror Coat",
@@ -2657,7 +2657,7 @@
     ]
   },
   {
-    "ANORITH": [
+    "Anorith": [
       "Rapid Spin",
       "Knock Off",
       "Screech",
@@ -2671,7 +2671,7 @@
     ]
   },
   {
-    "RALTS": [
+    "Ralts": [
       "Disable",
       "Mean Look",
       "Memento",
@@ -2688,7 +2688,7 @@
     ]
   },
   {
-    "BAGON": [
+    "Bagon": [
       "Hydro Pump",
       "Thrash",
       "Dragon Rage",
@@ -2703,7 +2703,7 @@
     ]
   },
   {
-    "CHIMECHO": [
+    "Chimecho": [
       "Disable",
       "Curse",
       "Hypnosis",
@@ -2718,7 +2718,7 @@
     ]
   },
   {
-    "TURTWIG": [
+    "Turtwig": [
       "Worry Seed",
       "Growth",
       "Tickle",
@@ -2741,7 +2741,7 @@
     ]
   },
   {
-    "CHIMCHAR": [
+    "Chimchar": [
       "Fire Punch",
       "Thunder Punch",
       "Double Kick",
@@ -2759,7 +2759,7 @@
     ]
   },
   {
-    "PIPLUP": [
+    "Piplup": [
       "Double Hit",
       "Supersonic",
       "Yawn",
@@ -2775,7 +2775,7 @@
     ]
   },
   {
-    "STARLY": [
+    "Starly": [
       "Feather Dance",
       "Fury Attack",
       "Pursuit",
@@ -2792,7 +2792,7 @@
     ]
   },
   {
-    "BIDOOF": [
+    "Bidoof": [
       "Quick Attack",
       "Water Sport",
       "Double-Edge",
@@ -2809,7 +2809,7 @@
     ]
   },
   {
-    "SHINX": [
+    "Shinx": [
       "Ice Fang",
       "Fire Fang",
       "Quick Attack",
@@ -2827,7 +2827,7 @@
     ]
   },
   {
-    "BUDEW": [
+    "Budew": [
       "Spikes",
       "Synthesis",
       "Pin Missile",
@@ -2845,7 +2845,7 @@
     ]
   },
   {
-    "CRANIDOS": [
+    "Cranidos": [
       "Bite",
       "Crunch",
       "Thrash",
@@ -2860,7 +2860,7 @@
     ]
   },
   {
-    "SHIELDON": [
+    "Shieldon": [
       "Headbutt",
       "Scary Face",
       "Focus Energy",
@@ -2877,7 +2877,7 @@
     ]
   },
   {
-    "PACHIRISU": [
+    "Pachirisu": [
       "Covet",
       "Bite",
       "Fake Tears",
@@ -2895,7 +2895,7 @@
     ]
   },
   {
-    "BUIZEL": [
+    "Buizel": [
       "Pursuit",
       "Mud-Slap",
       "Mud Shot",
@@ -2915,7 +2915,7 @@
     ]
   },
   {
-    "CHERUBI": [
+    "Cherubi": [
       "Razor Leaf",
       "Sweet Scent",
       "Tickle",
@@ -2936,7 +2936,7 @@
     ]
   },
   {
-    "SHELLOS": [
+    "Shellos": [
       "Counter",
       "Mirror Coat",
       "Stockpile",
@@ -2954,7 +2954,7 @@
     ]
   },
   {
-    "DRIFLOON": [
+    "Drifloon": [
       "Memento",
       "Body Slam",
       "Disable",
@@ -2966,7 +2966,7 @@
     ]
   },
   {
-    "BUNEARY": [
+    "Buneary": [
       "Fake Tears",
       "Fake Out",
       "Encore",
@@ -2990,7 +2990,7 @@
     ]
   },
   {
-    "GLAMEOW": [
+    "Glameow": [
       "Bite",
       "Tail Whip",
       "Quick Attack",
@@ -3004,7 +3004,7 @@
     ]
   },
   {
-    "CHINGLING": [
+    "Chingling": [
       "Disable",
       "Curse",
       "Hypnosis",
@@ -3017,7 +3017,7 @@
     ]
   },
   {
-    "STUNKY": [
+    "Stunky": [
       "Pursuit",
       "Leer",
       "Smog",
@@ -3035,7 +3035,7 @@
     ]
   },
   {
-    "BONSLY": [
+    "Bonsly": [
       "Self-Destruct",
       "Headbutt",
       "Harden",
@@ -3049,7 +3049,7 @@
     ]
   },
   {
-    "MIME_JR": [
+    "Mime Jr": [
       "Future Sight",
       "Hypnosis",
       "Fake Out",
@@ -3065,7 +3065,7 @@
     ]
   },
   {
-    "MIME_JR_G": [
+    "Galarian Mime Jr": [
       "Future Sight",
       "Hypnosis",
       "Fake Out",
@@ -3081,7 +3081,7 @@
     ]
   },
   {
-    "HAPPINY": [
+    "Happiny": [
       "Present",
       "Metronome",
       "Heal Bell",
@@ -3097,7 +3097,7 @@
     ]
   },
   {
-    "CHATOT": [
+    "Chatot": [
       "Encore",
       "Night Shade",
       "Agility",
@@ -3111,7 +3111,7 @@
     ]
   },
   {
-    "SPIRITOMB": [
+    "Spiritomb": [
       "Destiny Bond",
       "Pain Split",
       "Smokescreen",
@@ -3124,7 +3124,7 @@
     ]
   },
   {
-    "GIBLE": [
+    "Gible": [
       "Dragon Breath",
       "Twister",
       "Scary Face",
@@ -3137,7 +3137,7 @@
     ]
   },
   {
-    "MUNCHLAX": [
+    "Munchlax": [
       "Charm",
       "Double-Edge",
       "Curse",
@@ -3153,7 +3153,7 @@
     ]
   },
   {
-    "RIOLU": [
+    "Riolu": [
       "Cross Chop",
       "Detect",
       "Bite",
@@ -3175,7 +3175,7 @@
     ]
   },
   {
-    "HIPPOPOTAS": [
+    "Hippopotas": [
       "Stockpile",
       "Swallow",
       "Spit Up",
@@ -3187,7 +3187,7 @@
     ]
   },
   {
-    "SKORUPI": [
+    "Skorupi": [
       "Feint Attack",
       "Screech",
       "Sand Attack",
@@ -3201,7 +3201,7 @@
     ]
   },
   {
-    "CROAGUNK": [
+    "Croagunk": [
       "Me First",
       "Feint",
       "Dynamic Punch",
@@ -3220,7 +3220,7 @@
     ]
   },
   {
-    "CARNIVINE": [
+    "Carnivine": [
       "Sleep Powder",
       "Stun Spore",
       "Razor Leaf",
@@ -3237,7 +3237,7 @@
     ]
   },
   {
-    "FINNEON": [
+    "Finneon": [
       "Sweet Kiss",
       "Charm",
       "Flail",
@@ -3253,7 +3253,7 @@
     ]
   },
   {
-    "MANTYKE": [
+    "Mantyke": [
       "Twister",
       "Haze",
       "Slam",
@@ -3267,7 +3267,7 @@
     ]
   },
   {
-    "SNOVER": [
+    "Snover": [
       "Leech Seed",
       "Magical Leaf",
       "Seed Bomb",
@@ -3281,7 +3281,7 @@
     ]
   },
   {
-    "SNIVY": [
+    "Snivy": [
       "Captivate",
       "Natural Gift",
       "Glare",
@@ -3296,7 +3296,7 @@
     ]
   },
   {
-    "TEPIG": [
+    "Tepig": [
       "Covet",
       "Body Slam",
       "Thrash",
@@ -3312,7 +3312,7 @@
     ]
   },
   {
-    "OSHAWOTT": [
+    "Oshawott": [
       "Copycat",
       "Detect",
       "Air Slash",
@@ -3326,7 +3326,7 @@
     ]
   },
   {
-    "PATRAT": [
+    "Patrat": [
       "Foresight",
       "Iron Tail",
       "Screech",
@@ -3340,7 +3340,7 @@
     ]
   },
   {
-    "LILLIPUP": [
+    "Lillipup": [
       "Howl",
       "Sand Attack",
       "Mud-Slap",
@@ -3358,7 +3358,7 @@
     ]
   },
   {
-    "PURRLOIN": [
+    "Purrloin": [
       "Pay Day",
       "Foul Play",
       "Feint Attack",
@@ -3374,7 +3374,7 @@
     ]
   },
   {
-    "PANSAGE": [
+    "Pansage": [
       "Covet",
       "Low Kick",
       "Tickle",
@@ -3390,7 +3390,7 @@
     ]
   },
   {
-    "PANSEAR": [
+    "Pansear": [
       "Covet",
       "Low Kick",
       "Tickle",
@@ -3407,7 +3407,7 @@
     ]
   },
   {
-    "PANPOUR": [
+    "Panpour": [
       "Covet",
       "Low Kick",
       "Tickle",
@@ -3422,7 +3422,7 @@
     ]
   },
   {
-    "MUNNA": [
+    "Munna": [
       "Sleep Talk",
       "Secret Power",
       "Barrier",
@@ -3437,7 +3437,7 @@
     ]
   },
   {
-    "PIDOVE": [
+    "Pidove": [
       "Steel Wing",
       "Hypnosis",
       "Uproar",
@@ -3450,7 +3450,7 @@
     ]
   },
   {
-    "BLITZLE": [
+    "Blitzle": [
       "Me First",
       "Take Down",
       "Sand Attack",
@@ -3464,7 +3464,7 @@
     ]
   },
   {
-    "ROGGENROLA": [
+    "Roggenrola": [
       "Magnitude",
       "Curse",
       "Autotomize",
@@ -3477,7 +3477,7 @@
     ]
   },
   {
-    "WOOBAT": [
+    "Woobat": [
       "Charm",
       "Knock Off",
       "Fake Tears",
@@ -3493,7 +3493,7 @@
     ]
   },
   {
-    "DRILBUR": [
+    "Drilbur": [
       "Iron Defense",
       "Earth Power",
       "Metal Sound",
@@ -3503,7 +3503,7 @@
     ]
   },
   {
-    "AUDINO": [
+    "Audino": [
       "Wish",
       "Heal Bell",
       "Lucky Chant",
@@ -3518,7 +3518,7 @@
     ]
   },
   {
-    "TIMBURR": [
+    "Timburr": [
       "Drain Punch",
       "Endure",
       "Counter",
@@ -3536,7 +3536,7 @@
     ]
   },
   {
-    "TYMPOLE": [
+    "Tympole": [
       "Water Pulse",
       "Refresh",
       "Mud Sport",
@@ -3551,7 +3551,7 @@
     ]
   },
   {
-    "SEWADDLE": [
+    "Sewaddle": [
       "Silver Wind",
       "Screech",
       "Razor Wind",
@@ -3565,7 +3565,7 @@
     ]
   },
   {
-    "VENIPEDE": [
+    "Venipede": [
       "Twineedle",
       "Pin Missile",
       "Toxic Spikes",
@@ -3575,7 +3575,7 @@
     ]
   },
   {
-    "COTTONEE": [
+    "Cottonee": [
       "Natural Gift",
       "Encore",
       "Tickle",
@@ -3591,7 +3591,7 @@
     ]
   },
   {
-    "PETILIL": [
+    "Petilil": [
       "Natural Gift",
       "Charm",
       "Endure",
@@ -3606,7 +3606,7 @@
     ]
   },
   {
-    "BASCULIN_RED": [
+    "Basculin Red": [
       "Swift",
       "Bubble Beam",
       "Mud Shot",
@@ -3622,7 +3622,7 @@
     ]
   },
   {
-    "SANDILE": [
+    "Sandile": [
       "Double-Edge",
       "Rock Climb",
       "Pursuit",
@@ -3641,7 +3641,7 @@
     ]
   },
   {
-    "DARUMAKA": [
+    "Darumaka": [
       "Sleep Talk",
       "Focus Punch",
       "Focus Energy",
@@ -3657,7 +3657,7 @@
     ]
   },
   {
-    "MARACTUS": [
+    "Maractus": [
       "Bullet Seed",
       "Bounce",
       "Worry Seed",
@@ -3670,7 +3670,7 @@
     ]
   },
   {
-    "DWEBBLE": [
+    "Dwebble": [
       "Endure",
       "Iron Defense",
       "Night Slash",
@@ -3686,7 +3686,7 @@
     ]
   },
   {
-    "SCRAGGY": [
+    "Scraggy": [
       "Drain Punch",
       "Counter",
       "Dragon Dance",
@@ -3705,7 +3705,7 @@
     ]
   },
   {
-    "SIGILYPH": [
+    "Sigilyph": [
       "Stored Power",
       "Psycho Shift",
       "Ancient Power",
@@ -3716,7 +3716,7 @@
     ]
   },
   {
-    "YAMASK": [
+    "Yamask": [
       "Memento",
       "Fake Tears",
       "Nasty Plot",
@@ -3729,7 +3729,7 @@
     ]
   },
   {
-    "TIRTOUGA": [
+    "Tirtouga": [
       "Water Pulse",
       "Knock Off",
       "Rock Throw",
@@ -3745,7 +3745,7 @@
     ]
   },
   {
-    "ARCHEN": [
+    "Archen": [
       "Steel Wing",
       "Defog",
       "Dragon Pulse",
@@ -3757,7 +3757,7 @@
     ]
   },
   {
-    "TRUBBISH": [
+    "Trubbish": [
       "Spikes",
       "Rollout",
       "Haze",
@@ -3770,7 +3770,7 @@
     ]
   },
   {
-    "ZORUA": [
+    "Zorua": [
       "Detect",
       "Captivate",
       "Dark Pulse",
@@ -3785,7 +3785,7 @@
     ]
   },
   {
-    "MINCCINO": [
+    "Minccino": [
       "Iron Tail",
       "Tail Whip",
       "Aqua Tail",
@@ -3799,7 +3799,7 @@
     ]
   },
   {
-    "GOTHITA": [
+    "Gothita": [
       "Mirror Coat",
       "Uproar",
       "Miracle Eye",
@@ -3813,7 +3813,7 @@
     ]
   },
   {
-    "SOLOSIS": [
+    "Solosis": [
       "Night Shade",
       "Astonish",
       "Confuse Ray",
@@ -3825,7 +3825,7 @@
     ]
   },
   {
-    "DUCKLETT": [
+    "Ducklett": [
       "Steel Wing",
       "Bubble Beam",
       "Gust",
@@ -3838,7 +3838,7 @@
     ]
   },
   {
-    "VANILLITE": [
+    "Vanillite": [
       "Water Pulse",
       "Natural Gift",
       "Imprison",
@@ -3853,7 +3853,7 @@
     ]
   },
   {
-    "DEERLING": [
+    "Deerling": [
       "Fake Tears",
       "Natural Gift",
       "Synthesis",
@@ -3868,7 +3868,7 @@
     ]
   },
   {
-    "DEERLING_SUMMER": [
+    "Deerling Summer": [
       "Fake Tears",
       "Natural Gift",
       "Synthesis",
@@ -3883,7 +3883,7 @@
     ]
   },
   {
-    "DEERLING_AUTUMN": [
+    "Deerling Autumn": [
       "Fake Tears",
       "Natural Gift",
       "Synthesis",
@@ -3898,7 +3898,7 @@
     ]
   },
   {
-    "DEERLING_WINTER": [
+    "Deerling Winter": [
       "Fake Tears",
       "Natural Gift",
       "Synthesis",
@@ -3913,7 +3913,7 @@
     ]
   },
   {
-    "EMOLGA": [
+    "Emolga": [
       "Roost",
       "Iron Tail",
       "Astonish",
@@ -3929,7 +3929,7 @@
     ]
   },
   {
-    "KARRABLAST": [
+    "Karrablast": [
       "Bug Buzz",
       "Pursuit",
       "Counter",
@@ -3945,7 +3945,7 @@
     ]
   },
   {
-    "FOONGUS": [
+    "Foongus": [
       "Gastro Acid",
       "Poison Powder",
       "Rollout",
@@ -3956,7 +3956,7 @@
     ]
   },
   {
-    "FRILLISH": [
+    "Frillish": [
       "Acid Armor",
       "Confuse Ray",
       "Pain Split",
@@ -3966,7 +3966,7 @@
     ]
   },
   {
-    "ALOMOMOLA": [
+    "Alomomola": [
       "Pain Split",
       "Refresh",
       "Tickle",
@@ -3976,7 +3976,7 @@
     ]
   },
   {
-    "JOLTIK": [
+    "Joltik": [
       "Pin Missile",
       "Poison Sting",
       "Cross Poison",
@@ -3993,7 +3993,7 @@
     ]
   },
   {
-    "FERROSEED": [
+    "Ferroseed": [
       "Bullet Seed",
       "Leech Seed",
       "Spikes",
@@ -4008,7 +4008,7 @@
     ]
   },
   {
-    "ELGYEM": [
+    "Elgyem": [
       "Disable",
       "Astonish",
       "Power Swap",
@@ -4021,7 +4021,7 @@
     ]
   },
   {
-    "LITWICK": [
+    "Litwick": [
       "Acid Armor",
       "Heat Wave",
       "Haze",
@@ -4033,7 +4033,7 @@
     ]
   },
   {
-    "AXEW": [
+    "Axew": [
       "Counter",
       "Focus Energy",
       "Reversal",
@@ -4047,7 +4047,7 @@
     ]
   },
   {
-    "CUBCHOO": [
+    "Cubchoo": [
       "Yawn",
       "Avalanche",
       "Encore",
@@ -4060,7 +4060,7 @@
     ]
   },
   {
-    "SHELMET": [
+    "Shelmet": [
       "Endure",
       "Baton Pass",
       "Double-Edge",
@@ -4075,7 +4075,7 @@
     ]
   },
   {
-    "STUNFISK": [
+    "Stunfisk": [
       "Yawn",
       "Sleep Talk",
       "Astonish",
@@ -4090,7 +4090,7 @@
     ]
   },
   {
-    "MIENFOO": [
+    "Mienfoo": [
       "Vital Throw",
       "Baton Pass",
       "Smelling Salts",
@@ -4103,7 +4103,7 @@
     ]
   },
   {
-    "DRUDDIGON": [
+    "Druddigon": [
       "Fire Fang",
       "Thunder Fang",
       "Chip Away",
@@ -4118,7 +4118,7 @@
     ]
   },
   {
-    "PAWNIARD": [
+    "Pawniard": [
       "Sucker Punch",
       "Headbutt",
       "Stealth Rock",
@@ -4130,7 +4130,7 @@
     ]
   },
   {
-    "BOUFFALANT": [
+    "Bouffalant": [
       "Stomp",
       "Rock Climb",
       "Headbutt",
@@ -4145,7 +4145,7 @@
     ]
   },
   {
-    "VULLABY": [
+    "Vullaby": [
       "Steel Wing",
       "Mean Look",
       "Roost",
@@ -4157,7 +4157,7 @@
     ]
   },
   {
-    "HEATMOR": [
+    "Heatmor": [
       "Pursuit",
       "Wrap",
       "Night Slash",
@@ -4172,7 +4172,7 @@
     ]
   },
   {
-    "DURANT": [
+    "Durant": [
       "Screech",
       "Endure",
       "Rock Climb",
@@ -4187,7 +4187,7 @@
     ]
   },
   {
-    "DEINO": [
+    "Deino": [
       "Fire Fang",
       "Thunder Fang",
       "Ice Fang",
@@ -4202,7 +4202,7 @@
     ]
   },
   {
-    "LARVESTA": [
+    "Larvesta": [
       "Harden",
       "Foresight",
       "Endure",
@@ -4212,7 +4212,7 @@
     ]
   },
   {
-    "SHELLOS_EAST": [
+    "Shellos East": [
       "Counter",
       "Mirror Coat",
       "Stockpile",
@@ -4230,7 +4230,7 @@
     ]
   },
   {
-    "BASCULIN_BLUE": [
+    "Basculin Blue": [
       "Swift",
       "Bubble Beam",
       "Mud Shot",
@@ -4246,7 +4246,7 @@
     ]
   },
   {
-    "CHESPIN": [
+    "Chespin": [
       "Synthesis",
       "Belly Drum",
       "Curse",
@@ -4257,7 +4257,7 @@
     ]
   },
   {
-    "FENNEKIN": [
+    "Fennekin": [
       "Wish",
       "Hypnosis",
       "Heat Wave",
@@ -4266,7 +4266,7 @@
     ]
   },
   {
-    "FROAKIE": [
+    "Froakie": [
       "Bestow",
       "Mind Reader",
       "Toxic Spikes",
@@ -4277,9 +4277,9 @@
       "Happy Hour"
     ]
   },
-  { "BUNNELBY": ["Spikes", "Defense Curl", "Rollout", "Stuff Cheeks"] },
+  { "Bunnelby": ["Spikes", "Defense Curl", "Rollout", "Stuff Cheeks"] },
   {
-    "FLETCHLING": [
+    "Fletchling": [
       "Snatch",
       "Quick Guard",
       "Flame Charge",
@@ -4288,7 +4288,7 @@
     ]
   },
   {
-    "LITLEO": [
+    "Litleo": [
       "Entrainment",
       "Headbutt",
       "Yawn",
@@ -4299,7 +4299,7 @@
     ]
   },
   {
-    "FLABEBE": [
+    "Flabebe": [
       "Copycat",
       "Captivate",
       "Camouflage",
@@ -4308,9 +4308,9 @@
       "Dazzling Gleam"
     ]
   },
-  { "SKIDDO": ["Defense Curl", "Rollout", "Grassy Terrain"] },
+  { "Skiddo": ["Defense Curl", "Rollout", "Grassy Terrain"] },
   {
-    "PANCHAM": [
+    "Pancham": [
       "Quash",
       "Me First",
       "Quick Guard",
@@ -4322,9 +4322,9 @@
       "Vital Throw"
     ]
   },
-  { "FURFROU": ["Role Play", "Work Up", "Mimic", "Captivate", "Refresh"] },
+  { "Furfrou": ["Role Play", "Work Up", "Mimic", "Captivate", "Refresh"] },
   {
-    "ESPURR": [
+    "Espurr": [
       "Trick",
       "Yawn",
       "Assist",
@@ -4333,9 +4333,9 @@
       "Psychic Terrain"
     ]
   },
-  { "HONEDGE": ["Destiny Bond", "Wide Guard", "Block"] },
+  { "Honedge": ["Destiny Bond", "Wide Guard", "Block"] },
   {
-    "SPRITZEE": [
+    "Spritzee": [
       "Disable",
       "Wish",
       "Captivate",
@@ -4345,9 +4345,9 @@
       "Disarming Voice"
     ]
   },
-  { "SWIRLIX": ["After You", "Yawn", "Belly Drum", "Copycat", "Sticky Web"] },
+  { "Swirlix": ["After You", "Yawn", "Belly Drum", "Copycat", "Sticky Web"] },
   {
-    "INKAY": [
+    "Inkay": [
       "Simple Beam",
       "Power Split",
       "Camouflage",
@@ -4358,9 +4358,9 @@
       "Acupressure"
     ]
   },
-  { "BINACLE": ["Tickle", "Switcheroo", "Helping Hand", "Water Sport"] },
+  { "Binacle": ["Tickle", "Switcheroo", "Helping Hand", "Water Sport"] },
   {
-    "SKRELP": [
+    "Skrelp": [
       "Toxic Spikes",
       "Play Rough",
       "Haze",
@@ -4370,9 +4370,9 @@
       "Dragon Tail"
     ]
   },
-  { "CLAUNCHER": ["Entrainment", "Endure", "Helping Hand", "Aqua Tail"] },
+  { "Clauncher": ["Entrainment", "Endure", "Helping Hand", "Aqua Tail"] },
   {
-    "HELIOPTILE": [
+    "Helioptile": [
       "Agility",
       "Glare",
       "Camouflage",
@@ -4382,7 +4382,7 @@
     ]
   },
   {
-    "TYRUNT": [
+    "Tyrunt": [
       "Dragon Dance",
       "Thunder Fang",
       "Ice Fang",
@@ -4393,7 +4393,7 @@
     ]
   },
   {
-    "AMAURA": [
+    "Amaura": [
       "Haze",
       "Barrier",
       "Mirror Coat",
@@ -4404,7 +4404,7 @@
     ]
   },
   {
-    "HAWLUCHA": [
+    "Hawlucha": [
       "Agility",
       "Me First",
       "Entrainment",
@@ -4418,7 +4418,7 @@
     ]
   },
   {
-    "DEDENNE": [
+    "Dedenne": [
       "Eerie Impulse",
       "Covet",
       "Helping Hand",
@@ -4428,7 +4428,7 @@
     ]
   },
   {
-    "GOOMY": [
+    "Goomy": [
       "Acid Armor",
       "Iron Tail",
       "Poison Tail",
@@ -4440,10 +4440,10 @@
     ]
   },
   {
-    "KLEFKI": ["Switcheroo", "Thief", "Lock-On", "Iron Defense", "Magnet Rise"]
+    "Klefki": ["Switcheroo", "Thief", "Lock-On", "Iron Defense", "Magnet Rise"]
   },
   {
-    "PHANTUMP": [
+    "Phantump": [
       "Grudge",
       "Bestow",
       "Imprison",
@@ -4453,13 +4453,13 @@
       "Disable"
     ]
   },
-  { "PUMPKABOO": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
+  { "Pumpkaboo": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
   {
-    "BERGMITE": ["Mist", "Barrier", "Mirror Coat", "Aurora Veil", "Ice Shard"]
+    "Bergmite": ["Mist", "Barrier", "Mirror Coat", "Aurora Veil", "Ice Shard"]
   },
-  { "NOIBAT": ["Switcheroo", "Snatch", "Outrage", "Defog", "Dragon Rush"] },
+  { "Noibat": ["Switcheroo", "Snatch", "Outrage", "Defog", "Dragon Rush"] },
   {
-    "FLABEBE_BLUE": [
+    "Flabebe Blue": [
       "Copycat",
       "Captivate",
       "Camouflage",
@@ -4469,7 +4469,7 @@
     ]
   },
   {
-    "FLABEBE_ORANGE": [
+    "Flabebe Orange": [
       "Copycat",
       "Captivate",
       "Camouflage",
@@ -4479,7 +4479,7 @@
     ]
   },
   {
-    "FLABEBE_YELLOW": [
+    "Flabebe Yellow": [
       "Copycat",
       "Captivate",
       "Camouflage",
@@ -4489,7 +4489,7 @@
     ]
   },
   {
-    "FLABEBE_WHITE": [
+    "Flabebe White": [
       "Copycat",
       "Captivate",
       "Camouflage",
@@ -4498,11 +4498,11 @@
       "Dazzling Gleam"
     ]
   },
-  { "PUMPKABOO_XL": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
-  { "PUMPKABOO_L": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
-  { "PUMPKABOO_M": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
+  { "Pumpkaboo Xl": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
+  { "Pumpkaboo L": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
+  { "Pumpkaboo Male": ["Disable", "Bestow", "Destiny Bond", "Curse"] },
   {
-    "ROWLET": [
+    "Rowlet": [
       "Curse",
       "Confuse Ray",
       "Haze",
@@ -4512,7 +4512,7 @@
     ]
   },
   {
-    "LITTEN": [
+    "Litten": [
       "Nasty Plot",
       "Body Slam",
       "Crunch",
@@ -4524,7 +4524,7 @@
     ]
   },
   {
-    "POPPLIO": [
+    "Popplio": [
       "Charm",
       "Amnesia",
       "Aqua Ring",
@@ -4534,13 +4534,13 @@
       "Life Dew"
     ]
   },
-  { "PIKIPEK": ["Boomburst", "Mirror Move", "Tailwind", "Uproar"] },
-  { "YUNGOOS": ["Revenge", "Fire Fang", "Ice Fang", "Thunder Fang"] },
-  { "GRUBBIN": ["Harden", "Electroweb", "Mud Shot", "Endure", "Discharge"] },
-  { "CRABRAWLER": ["Wide Guard", "Superpower", "Endeavor", "Amnesia"] },
-  { "ORICORIO": ["Pluck", "Tailwind", "Safeguard"] },
+  { "Pikipek": ["Boomburst", "Mirror Move", "Tailwind", "Uproar"] },
+  { "Yungoos": ["Revenge", "Fire Fang", "Ice Fang", "Thunder Fang"] },
+  { "Grubbin": ["Harden", "Electroweb", "Mud Shot", "Endure", "Discharge"] },
+  { "Crabrawler": ["Wide Guard", "Superpower", "Endeavor", "Amnesia"] },
+  { "Oricorio Baile": ["Pluck", "Tailwind", "Safeguard"] },
   {
-    "CUTIEFLY": [
+    "Cutiefly": [
       "Baton Pass",
       "Skill Swap",
       "Speed Swap",
@@ -4552,7 +4552,7 @@
     ]
   },
   {
-    "ROCKRUFF": [
+    "Rockruff": [
       "Crush Claw",
       "Thunder Fang",
       "Fire Fang",
@@ -4563,7 +4563,7 @@
     ]
   },
   {
-    "WISHIWASHI": [
+    "Wishiwashi": [
       "Muddy Water",
       "Mist",
       "Water Pulse",
@@ -4571,9 +4571,9 @@
       "Whirlpool"
     ]
   },
-  { "MAREANIE": ["Stockpile", "Swallow", "Spit Up", "Haze", "Infestation"] },
+  { "Mareanie": ["Stockpile", "Swallow", "Spit Up", "Haze", "Infestation"] },
   {
-    "MUDBRAY": [
+    "Mudbray": [
       "Body Slam",
       "Double-Edge",
       "Magnitude",
@@ -4586,7 +4586,7 @@
     ]
   },
   {
-    "DEWPIDER": [
+    "Dewpider": [
       "Power Split",
       "Aurora Beam",
       "Stockpile",
@@ -4595,7 +4595,7 @@
     ]
   },
   {
-    "FOMANTIS": [
+    "Fomantis": [
       "Weather Ball",
       "Giga Drain",
       "Aromatherapy",
@@ -4605,7 +4605,7 @@
     ]
   },
   {
-    "MORELULL": [
+    "Morelull": [
       "Amnesia",
       "Poison Powder",
       "Stun Spore",
@@ -4614,7 +4614,7 @@
     ]
   },
   {
-    "SALANDIT": [
+    "Salandit": [
       "Belch",
       "Knock Off",
       "Sand Attack",
@@ -4624,7 +4624,7 @@
     ]
   },
   {
-    "STUFFUL": [
+    "Stufful": [
       "Ice Punch",
       "Thunder Punch",
       "Force Palm",
@@ -4637,7 +4637,7 @@
     ]
   },
   {
-    "BOUNSWEET": [
+    "Bounsweet": [
       "Grass Whistle",
       "Synthesis",
       "Play Rough",
@@ -4648,7 +4648,7 @@
     ]
   },
   {
-    "COMFEY": [
+    "Comfey": [
       "Endure",
       "Amnesia",
       "After You",
@@ -4658,7 +4658,7 @@
     ]
   },
   {
-    "ORANGURU": [
+    "Oranguru": [
       "Extrasensory",
       "Wonder Room",
       "Psychic Terrain",
@@ -4668,7 +4668,7 @@
     ]
   },
   {
-    "PASSIMIAN": [
+    "Passimian": [
       "Seismic Toss",
       "Vital Throw",
       "Quick Guard",
@@ -4682,7 +4682,7 @@
     ]
   },
   {
-    "WIMPOD": [
+    "Wimpod": [
       "Spikes",
       "Metal Claw",
       "Wide Guard",
@@ -4692,7 +4692,7 @@
     ]
   },
   {
-    "SANDYGAST": [
+    "Sandygast": [
       "Amnesia",
       "Destiny Bond",
       "Ancient Power",
@@ -4704,7 +4704,7 @@
     ]
   },
   {
-    "PYUKUMUKU": [
+    "Pyukumuku": [
       "Endure",
       "Venom Drench",
       "Bestow",
@@ -4714,9 +4714,9 @@
       "Swagger"
     ]
   },
-  { "KOMALA": ["Charm", "Wish", "Play Rough", "Sing"] },
+  { "Komala": ["Charm", "Wish", "Play Rough", "Sing"] },
   {
-    "TURTONATOR": [
+    "Turtonator": [
       "Wide Guard",
       "Revenge",
       "Head Smash",
@@ -4726,7 +4726,7 @@
     ]
   },
   {
-    "TOGEDEMARU": [
+    "Togedemaru": [
       "Reversal",
       "Present",
       "Encore",
@@ -4738,10 +4738,10 @@
       "Disarming Voice"
     ]
   },
-  { "MIMIKYU": ["Grudge", "Destiny Bond", "Curse", "Nightmare"] },
-  { "BRUXISH": ["Water Pulse", "Poison Fang", "Ice Fang", "Rage"] },
+  { "Mimikyu": ["Grudge", "Destiny Bond", "Curse", "Nightmare"] },
+  { "Bruxish": ["Water Pulse", "Poison Fang", "Ice Fang", "Rage"] },
   {
-    "DRAMPA": [
+    "Drampa": [
       "Hurricane",
       "Dragon Rush",
       "Razor Wind",
@@ -4750,9 +4750,9 @@
       "Tickle"
     ]
   },
-  { "JANGMO_O": ["Counter", "Reversal", "Dragon Breath", "Focus Punch"] },
+  { "Jangmo-O": ["Counter", "Reversal", "Dragon Breath", "Focus Punch"] },
   {
-    "RATTATA_A": [
+    "Alolan Rattata": [
       "Snatch",
       "Stockpile",
       "Fury Swipes",
@@ -4767,7 +4767,7 @@
     ]
   },
   {
-    "SANDSHREW_A": [
+    "Alolan Sandshrew": [
       "Flail",
       "Counter",
       "Icicle Spear",
@@ -4782,7 +4782,7 @@
     ]
   },
   {
-    "VULPIX_A": [
+    "Alolan Vulpix": [
       "Freeze-Dry",
       "Hypnosis",
       "Flail",
@@ -4801,7 +4801,7 @@
     ]
   },
   {
-    "DIGLETT_A": [
+    "Alolan Diglett": [
       "Feint Attack",
       "Metal Sound",
       "Ancient Power",
@@ -4817,7 +4817,7 @@
     ]
   },
   {
-    "MEOWTH_A": [
+    "Alolan Meowth": [
       "Hypnosis",
       "Assist",
       "Foul Play",
@@ -4836,7 +4836,7 @@
     ]
   },
   {
-    "GEODUDE_A": [
+    "Alolan Geodude": [
       "Block",
       "Flail",
       "Magnet Rise",
@@ -4851,7 +4851,7 @@
     ]
   },
   {
-    "GRIMER_A": [
+    "Alolan Grimer": [
       "Clear Smog",
       "Mean Look",
       "Pursuit",
@@ -4868,7 +4868,7 @@
     ]
   },
   {
-    "EXEGGCUTE_A": [
+    "Alolan Exeggcute": [
       "Moonlight",
       "Ancient Power",
       "Ingrain",
@@ -4889,7 +4889,7 @@
     ]
   },
   {
-    "CUBONE_A": [
+    "Alolan Cubone": [
       "Ancient Power",
       "Belly Drum",
       "Screech",
@@ -4904,11 +4904,11 @@
       "Thrash"
     ]
   },
-  { "ORICORIO_Y": ["Pluck", "Tailwind", "Safeguard"] },
-  { "ORICORIO_P": ["Pluck", "Tailwind", "Safeguard"] },
-  { "ORICORIO_S": ["Pluck", "Tailwind", "Safeguard"] },
+  { "Oricorio Pom-Pom": ["Pluck", "Tailwind", "Safeguard"] },
+  { "Oricorio Pa'U": ["Pluck", "Tailwind", "Safeguard"] },
+  { "Oricorio Sensu": ["Pluck", "Tailwind", "Safeguard"] },
   {
-    "GROOKEY": [
+    "Grookey": [
       "Growth",
       "Hammer Arm",
       "Fake Out",
@@ -4919,10 +4919,10 @@
     ]
   },
   {
-    "SCORBUNNY": ["High Jump Kick", "Sand Attack", "Sucker Punch", "Super Fang"]
+    "Scorbunny": ["High Jump Kick", "Sand Attack", "Sucker Punch", "Super Fang"]
   },
   {
-    "SOBBLE": [
+    "Sobble": [
       "Aqua Jet",
       "Double Team",
       "Aqua Ring",
@@ -4932,9 +4932,9 @@
       "Fell Stinger"
     ]
   },
-  { "SKWOVET": ["Rollout", "Defense Curl", "Last Resort", "Belly Drum"] },
+  { "Skwovet": ["Rollout", "Defense Curl", "Last Resort", "Belly Drum"] },
   {
-    "ROOKIDEE": [
+    "Rookidee": [
       "Sky Attack",
       "Sand Attack",
       "Tailwind",
@@ -4944,10 +4944,10 @@
       "Roost"
     ]
   },
-  { "BLIPBUG": ["Infestation", "Supersonic", "Sticky Web", "Recover"] },
-  { "NICKIT": ["Quick Guard", "Knock Off", "Howl", "Torment"] },
+  { "Blipbug": ["Infestation", "Supersonic", "Sticky Web", "Recover"] },
+  { "Nickit": ["Quick Guard", "Knock Off", "Howl", "Torment"] },
   {
-    "GOSSIFLEUR": [
+    "Gossifleur": [
       "Growth",
       "Leech Seed",
       "Worry Seed",
@@ -4956,10 +4956,10 @@
       "Sleep Powder"
     ]
   },
-  { "WOOLOO": ["Stomp", "Swagger", "Counter"] },
-  { "CHEWTLE": ["Skull Bash", "Gastro Acid", "Dragon Tail"] },
+  { "Wooloo": ["Stomp", "Swagger", "Counter"] },
+  { "Chewtle": ["Skull Bash", "Gastro Acid", "Dragon Tail"] },
   {
-    "YAMPER": [
+    "Yamper": [
       "Double-Edge",
       "Sand Attack",
       "Flame Charge",
@@ -4967,10 +4967,10 @@
       "Howl"
     ]
   },
-  { "ROLYCOLY": ["Explosion", "Mud-Slap", "Block"] },
-  { "APPLIN": ["Sucker Punch", "Rollout", "Defense Curl", "Recycle"] },
+  { "Rolycoly": ["Explosion", "Mud-Slap", "Block"] },
+  { "Applin": ["Sucker Punch", "Rollout", "Defense Curl", "Recycle"] },
   {
-    "SILICOBRA": [
+    "Silicobra": [
       "Dragon Rush",
       "Mud-Slap",
       "Last Resort",
@@ -4979,12 +4979,12 @@
     ]
   },
   {
-    "CRAMORANT": ["Defog", "Aerial Ace", "Feather Dance", "Aqua Ring", "Roost"]
+    "Cramorant": ["Defog", "Aerial Ace", "Feather Dance", "Aqua Ring", "Roost"]
   },
-  { "ARROKUDA": ["Thrash", "Acupressure", "Slash", "Night Slash"] },
-  { "TOXEL": ["Endeavor", "Metal Sound", "Power-up Punch"] },
+  { "Arrokuda": ["Thrash", "Acupressure", "Slash", "Night Slash"] },
+  { "Toxel": ["Endeavor", "Metal Sound", "Power-up Punch"] },
   {
-    "SIZZLIPEDE": [
+    "Sizzlipede": [
       "Knock Off",
       "Struggle Bug",
       "Rollout",
@@ -4993,7 +4993,7 @@
     ]
   },
   {
-    "CLOBBOPUS": [
+    "Clobbopus": [
       "Pain Split",
       "Soak",
       "Sucker Punch",
@@ -5003,18 +5003,18 @@
       "Aqua Jet"
     ]
   },
-  { "HATENNA": ["Aromatic Mist", "Nuzzle", "After You", "Quash"] },
-  { "MILCERY": ["Baby-Doll Eyes", "Last Resort"] },
-  { "PINCURCHIN": ["Memento", "Sucker Punch"] },
-  { "SNOM": ["Fairy Wind", "Mirror Coat", "Bug Bite"] },
-  { "STONJOURNER": ["Curse", "Ancient Power"] },
+  { "Hatenna": ["Aromatic Mist", "Nuzzle", "After You", "Quash"] },
+  { "Milcery": ["Baby-Doll Eyes", "Last Resort"] },
+  { "Pincurchin": ["Memento", "Sucker Punch"] },
+  { "Snom": ["Fairy Wind", "Mirror Coat", "Bug Bite"] },
+  { "Stonjourner": ["Curse", "Ancient Power"] },
   {
-    "EISCUE": ["Soak", "Aqua Ring", "Belly Drum", "Double-Edge", "Head Smash"]
+    "Eiscue": ["Soak", "Aqua Ring", "Belly Drum", "Double-Edge", "Head Smash"]
   },
-  { "INDEEDEE": ["Psych Up", "Fake Out", "Extrasensory"] },
-  { "INDEEDEE_FEMALE": ["Psych Up", "Fake Out", "Psycho Shift", "Heal Pulse"] },
+  { "Indeedee": ["Psych Up", "Fake Out", "Extrasensory"] },
+  { "Indeedee Female": ["Psych Up", "Fake Out", "Psycho Shift", "Heal Pulse"] },
   {
-    "MORPEKO": [
+    "Morpeko": [
       "Swagger",
       "Super Fang",
       "Charge",
@@ -5026,7 +5026,7 @@
     ]
   },
   {
-    "CUFANT": [
+    "Cufant": [
       "Double-Edge",
       "Belch",
       "Curse",
@@ -5037,9 +5037,9 @@
       "Defense Curl"
     ]
   },
-  { "DURALUDON": ["Slash", "Night Slash", "Mirror Coat"] },
+  { "Duraludon": ["Slash", "Night Slash", "Mirror Coat"] },
   {
-    "DREEPY": [
+    "Dreepy": [
       "Curse",
       "Grudge",
       "Confuse Ray",
@@ -5050,7 +5050,7 @@
     ]
   },
   {
-    "MEOWTH_G": [
+    "Galarian Meowth": [
       "Spite",
       "Double-Edge",
       "Curse",
@@ -5060,7 +5060,7 @@
     ]
   },
   {
-    "PONYTA_G": [
+    "Galarian Ponyta": [
       "Thrash",
       "Double Kick",
       "Hypnosis",
@@ -5071,7 +5071,7 @@
     ]
   },
   {
-    "SLOWPOKE_G": [
+    "Galarian Slowpoke": [
       "Belch",
       "Belly Drum",
       "Block",
@@ -5081,7 +5081,7 @@
     ]
   },
   {
-    "FARFETCHD_G": [
+    "Galarian Farfetchd": [
       "Counter",
       "Quick Attack",
       "Flail",
@@ -5095,9 +5095,9 @@
       "Sky Attack"
     ]
   },
-  { "MR_MIME_G": ["Fake Out", "Confuse Ray", "Power Split", "Tickle"] },
+  { "Galarian Mr Mime": ["Fake Out", "Confuse Ray", "Power Split", "Tickle"] },
   {
-    "CORSOLA_G": [
+    "Galarian Corsola": [
       "Haze",
       "Confuse Ray",
       "Nature Power",
@@ -5106,9 +5106,9 @@
       "Head Smash"
     ]
   },
-  { "ZIGZAGOON_G": ["Parting Shot", "Quick Guard", "Knock Off"] },
+  { "Galarian Zigzagoon": ["Parting Shot", "Quick Guard", "Knock Off"] },
   {
-    "DARUMAKA_G": [
+    "Galarian Darumaka": [
       "Focus Punch",
       "Hammer Arm",
       "Take Down",
@@ -5119,9 +5119,9 @@
       "Power-up Punch"
     ]
   },
-  { "YAMASK_G": ["Memento"] },
+  { "Galarian Yamask": ["Memento"] },
   {
-    "STUNFISK_G": [
+    "Galarian Stunfisk": [
       "Bind",
       "Yawn",
       "Astonish",
@@ -5133,7 +5133,7 @@
     ]
   },
   {
-    "GROWLITHE_H": [
+    "Hisuian Growlithe": [
       "Body Slam",
       "Thrash",
       "Fire Spin",
@@ -5148,7 +5148,7 @@
     ]
   },
   {
-    "SNEASEL_H": [
+    "Hisuian Sneasel": [
       "Counter",
       "Spite",
       "Focus Energy",
@@ -5163,7 +5163,7 @@
     ]
   },
   {
-    "QWILFISH_H": [
+    "Hisuian Qwilfish": [
       "Flail",
       "Haze",
       "Bubble Beam",
@@ -5176,7 +5176,7 @@
     ]
   },
   {
-    "BASCULIN_H": [
+    "Hisuian Basculin": [
       "Swift",
       "Bubble Beam",
       "Mud Shot",
@@ -5190,7 +5190,7 @@
     ]
   },
   {
-    "ZORUA_H": [
+    "Hisuian Zorua": [
       "Detect",
       "Memento",
       "Sucker Punch",
