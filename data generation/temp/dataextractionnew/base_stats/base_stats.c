@@ -42208,7 +42208,7 @@ int main()
 				gBaseStats[pokemonID].evYield_Defense,
 				gBaseStats[pokemonID].evYield_SpAttack,
 				gBaseStats[pokemonID].evYield_SpDefense,
-				gBaseStats[pokemonID].evYield_SpAttack,
+				gBaseStats[pokemonID].evYield_Speed,
 
 				gBaseStats[pokemonID].item1,
 				gBaseStats[pokemonID].item2,
