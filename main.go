@@ -2,20 +2,19 @@ package main
 
 import (
 	"context"
-	"encoding/json"
+	"fmt"
 	"log"
-	"os"
 	"strings"
+	"unbound_helper_v4/data_loading"
 
 	"github.com/diamondburned/arikawa/v3/gateway"
 	"github.com/diamondburned/arikawa/v3/session"
 )
 
 var (
-	config     = get_config()
-	prefix     = ";"
-	poke_stats map[string]interface{}
-	s          *session.Session
+	config = get_config()
+	prefix = ";"
+	s      *session.Session
 )
 
 func main() {
@@ -47,15 +46,8 @@ func main() {
 
 	// the reason we load the jsons in the main.go file is so we can have the data loaded before people
 	// start using commands
-
-	// loading base_stats.json
-	file, err := os.ReadFile("./data/base_stats.json")
-	json.Unmarshal(file, &poke_stats)
-
-	// checking if we can get Charizard's data to verify the json is compatible
-	if _, ok := poke_stats["Charizard"]; !ok {
-		log.Println("WARNING: Could not get Pokemon Stats file.")
-	}
+	data_loading.LoadBaseStats()
+	fmt.Println(GetStats("Mew"))
 
 	log.Println("Started as", me.Username)
 
