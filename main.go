@@ -2,8 +2,9 @@ package main
 
 import (
 	"context"
-	"fmt"
+	"encoding/json"
 	"log"
+	"os"
 	"strings"
 
 	"github.com/diamondburned/arikawa/v3/gateway"
@@ -11,17 +12,19 @@ import (
 )
 
 var (
-	token  = ""
-	prefix = ";"
+	config     = get_config()
+	prefix     = ";"
+	poke_stats map[string]interface{}
+	s          *session.Session
 )
 
 func main() {
 	// Getting and checking if the token is empty
-	if strings.TrimSpace(token) == "" {
+	if strings.TrimSpace(config.token) == "" {
 		log.Fatalln("No Token Provided.")
 	}
 	// Creating a new session.
-	s := session.New("Bot " + token)
+	s = session.New("Bot " + config.token)
 	if s == nil {
 		log.Fatalln("Token Not Functional.")
 	}
@@ -42,25 +45,20 @@ func main() {
 		log.Fatalln("Failed to get myself:", err)
 	}
 
+	// the reason we load the jsons in the main.go file is so we can have the data loaded before people
+	// start using commands
+
+	// loading base_stats.json
+	file, err := os.ReadFile("./data/base_stats.json")
+	json.Unmarshal(file, &poke_stats)
+
+	// checking if we can get Charizard's data to verify the json is compatible
+	if _, ok := poke_stats["Charizard"]; !ok {
+		log.Println("WARNING: Could not get Pokemon Stats file.")
+	}
+
 	log.Println("Started as", me.Username)
 
 	// Block forever, so the program doesnt close.
 	select {}
-}
-
-// checks if a message is a command, if not it returns, if so parse the command
-func handle_message(c *gateway.MessageCreateEvent) {
-	message := strings.ToLower(c.Content)
-	// checking if the message is prefixed with the bot prefix
-	message, found := strings.CutPrefix(message, prefix)
-	if !found {
-		return
-	}
-	// Splitting all the words in the message, to determine the command and args
-	words_in_message := strings.Fields(message)
-	// Checking the command
-	command := words_in_message[0]
-	args := words_in_message[1:]
-	// TODO: check if command exists
-	fmt.Println(command, " ", args)
 }
