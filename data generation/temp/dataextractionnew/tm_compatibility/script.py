@@ -1280,8 +1280,11 @@ pokemon_names = [
 pokemon_name_mappings = dict()
 move_pokemon_mapping = dict()
 
+
 def normalize_name_wrapper(name):
     def normalize_name(name):
+        name = name.strip()
+
         regex_gigantamax = r"(.*)_GIGA$"
         subst_gigantamax = r"\g<1> Gigantamax"
         sub_gigantamax = lambda str: re.sub(regex_gigantamax, subst_gigantamax, str, 0)
@@ -1448,18 +1451,20 @@ for name in pokemon_names:
     pokemon_name_mappings[name] = fixed_name
 
 
-paths = [filepath.replace("./data\\", "./data/") for filepath in glob.iglob("./data/*.txt")]
-
+paths = [
+    filepath.replace("./data\\", "./data/") for filepath in glob.iglob("./data/*.txt")
+]
 
 
 for path in paths:
     # open the file for that path
     with open(path) as file:
         lines = [l.strip("\n") for l in file.readlines()]
-        move_info = lines[0]
+        move_info = (lines[0].strip()).split(": ")[1]
         pokemon_list = lines[1:]
+        pokemon_list = [p.strip() for p in pokemon_list]
         fixed_pokemon_names = [pokemon_name_mappings.get(n, n) for n in pokemon_list]
-        
+
         move_pokemon_mapping[move_info] = fixed_pokemon_names
     # break
 

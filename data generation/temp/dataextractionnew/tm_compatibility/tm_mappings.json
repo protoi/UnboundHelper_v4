@@ -1,5 +1,5 @@
 {
-  "TM01: Focus Punch": [
+  "Focus Punch": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -266,7 +266,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM10: Hidden Power": [
+  "Hidden Power": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -1419,7 +1419,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM100: Infestation": [
+  "Infestation": [
     "Butterfree",
     "Beedrill",
     "Ekans",
@@ -1559,7 +1559,7 @@
     "Palossand",
     "Mimikyu",
     "Mimikyu Busted",
-    "STAKATAKA ",
+    "Stakataka",
     "Blipbug",
     "Dottler",
     "Orbeetle",
@@ -1582,7 +1582,7 @@
     "Galarian Yamask",
     "Galarian Stunfisk"
   ],
-  "TM101: Power-Up Punch": [
+  "Power-Up Punch": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -1848,7 +1848,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM102: Dazzling Gleam": [
+  "Dazzling Gleam": [
     "Clefairy",
     "Clefable",
     "Alolan Vulpix",
@@ -2039,7 +2039,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM103: Sludge Wave": [
+  "Sludge Wave": [
     "Alolan Raticate",
     "Ekans",
     "Arbok",
@@ -2132,7 +2132,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM104: Psyshock": [
+  "Psyshock": [
     "Alolan Raichu",
     "Clefairy",
     "Clefable",
@@ -2288,7 +2288,7 @@
     "Calyrex Shadow Rider",
     "Wyrdeer"
   ],
-  "TM105: Brutal Swing": [
+  "Brutal Swing": [
     "Charizard",
     "Beedrill",
     "Ekans",
@@ -2462,7 +2462,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM106: Smart Strike": [
+  "Smart Strike": [
     "Nidoran Male",
     "Nidorino",
     "Nidoking",
@@ -2512,7 +2512,7 @@
     "Glastrier",
     "Calyrex Ice Rider"
   ],
-  "TM107: Acrobatics": [
+  "Acrobatics": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -2673,7 +2673,7 @@
     "Galarian Zapdos",
     "Kleavor"
   ],
-  "TM108: Snarl": [
+  "Snarl": [
     "Alolan Rattata",
     "Alolan Raticate",
     "Alolan Persian",
@@ -2832,7 +2832,7 @@
     "Galarian Moltres",
     "Sneasler"
   ],
-  "TM109: Defog": [
+  "Defog": [
     "Charizard",
     "Butterfree",
     "Beedrill",
@@ -3064,7 +3064,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM11: Sunny Day": [
+  "Sunny Day": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -3778,7 +3778,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM110: Draining Kiss": [
+  "Draining Kiss": [
     "Butterfree",
     "Pikachu",
     "Pikachu Surfing",
@@ -3901,7 +3901,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM111: Smack Down": [
+  "Smack Down": [
     "Blastoise",
     "Nidoqueen",
     "Nidoking",
@@ -4052,7 +4052,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM112: Round": [
+  "Round": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -5161,7 +5161,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM113: Echoed Voice": [
+  "Echoed Voice": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -5495,7 +5495,7 @@
     "Galarian Linoone",
     "Galarian Mime Jr"
   ],
-  "TM114: Natural Gift": [
+  "Natural Gift": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -6626,7 +6626,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM115: Quash": [
+  "Quash": [
     "Alolan Rattata",
     "Alolan Raticate",
     "Nidoqueen",
@@ -6706,7 +6706,7 @@
     "Galarian Zigzagoon",
     "Galarian Linoone"
   ],
-  "TM116: Trick Room": [
+  "Trick Room": [
     "Abra",
     "Kadabra",
     "Alakazam",
@@ -6879,7 +6879,7 @@
     "Galarian Yamask",
     "Wyrdeer"
   ],
-  "TM117: Fling": [
+  "Fling": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -7275,7 +7275,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM118: Aurora Veil": [
+  "Aurora Veil": [
     "Alolan Sandshrew",
     "Alolan Sandslash",
     "Alolan Vulpix",
@@ -7311,7 +7311,7 @@
     "Galarian Darumaka",
     "Galarian Darmanitan"
   ],
-  "TM119: Sky Drop": [
+  "Sky Drop": [
     "Charizard",
     "Aerodactyl",
     "Articuno",
@@ -7343,7 +7343,7 @@
     "Galarian Articuno",
     "Galarian Moltres"
   ],
-  "TM12: Taunt": [
+  "Taunt": [
     "Rattata",
     "Alolan Rattata",
     "Raticate",
@@ -7673,7 +7673,7 @@
     "Sneasler",
     "Overqwil"
   ],
-  "TM120: Nature Power": [
+  "Nature Power": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -7840,7 +7840,7 @@
     "Tapu Lele",
     "Tapu Bulu",
     "Tapu Fini",
-    "XURKITREE ",
+    "Xurkitree",
     "Grookey",
     "Thwackey",
     "Rillaboom",
@@ -7875,7 +7875,7 @@
     "Calyrex Shadow Rider",
     "Galarian Corsola"
   ],
-  "3HM01: Cut": [
+  "Cut": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -8279,7 +8279,7 @@
     "Basculegion Female",
     "Sneasler"
   ],
-  "HM02: Fly": [
+  "Fly": [
     "Charizard",
     "Pidgey",
     "Pidgeotto",
@@ -8418,7 +8418,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "HM03: Surf": [
+  "Surf": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -8711,7 +8711,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "HM04: Strength": [
+  "Strength": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -9223,7 +9223,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "HM05: Dive": [
+  "Dive": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -9395,7 +9395,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "HM06: Rock Smash": [
+  "Rock Smash": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -9954,7 +9954,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "HM07: Waterfall": [
+  "Waterfall": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -10109,7 +10109,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "HM08: Rock Climb": [
+  "Rock Climb": [
     "Venusaur",
     "Blastoise",
     "Sandshrew",
@@ -10349,7 +10349,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM13: Ice Beam": [
+  "Ice Beam": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -10688,7 +10688,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "TM14: Blizzard": [
+  "Blizzard": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -10976,7 +10976,7 @@
     "Calyrex Ice Rider",
     "Overqwil"
   ],
-  "TM15: Hyper Beam": [
+  "Hyper Beam": [
     "Venusaur",
     "Charizard",
     "Blastoise",
@@ -11581,7 +11581,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM16: Light Screen": [
+  "Light Screen": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -11977,7 +11977,7 @@
     "Wyrdeer",
     "Kleavor"
   ],
-  "TM17: Protect": [
+  "Protect": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -13095,7 +13095,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM18: Rain Dance": [
+  "Rain Dance": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -13822,7 +13822,7 @@
     "Sneasler",
     "Overqwil"
   ],
-  "TM19: Giga Drain": [
+  "Giga Drain": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -14108,7 +14108,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "TM02: Dragon Claw": [
+  "Dragon Claw": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -14213,7 +14213,7 @@
     "Dragapult",
     "Regidrago"
   ],
-  "TM20: Safeguard": [
+  "Safeguard": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -14591,7 +14591,7 @@
     "Calyrex Shadow Rider",
     "Kleavor"
   ],
-  "TM21: Frustration": [
+  "Frustration": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -15577,7 +15577,7 @@
     "Naganadel",
     "Stakataka",
     "Blacephalon",
-    "ZERAORA ",
+    "Zeraora",
     "Grookey",
     "Thwackey",
     "Rillaboom",
@@ -15710,7 +15710,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM22: Solarbeam": [
+  "Solarbeam": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -16099,7 +16099,7 @@
     "Calyrex Shadow Rider",
     "Wyrdeer"
   ],
-  "TM23: Iron Tail": [
+  "Iron Tail": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -16495,7 +16495,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM24: Thunderbolt": [
+  "Thunderbolt": [
     "Rattata",
     "Alolan Rattata",
     "Raticate",
@@ -16823,7 +16823,7 @@
     "Regieleki",
     "Wyrdeer"
   ],
-  "TM25: Thunder": [
+  "Thunder": [
     "Rattata",
     "Alolan Rattata",
     "Raticate",
@@ -17092,7 +17092,7 @@
     "Regieleki",
     "Wyrdeer"
   ],
-  "TM26: Earthquake": [
+  "Earthquake": [
     "Venusaur",
     "Charizard",
     "Blastoise",
@@ -17407,7 +17407,7 @@
     "Wyrdeer",
     "Ursaluna"
   ],
-  "TM27: Return": [
+  "Return": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -18528,7 +18528,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM28: Dig": [
+  "Dig": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -18919,7 +18919,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM29: Psychic": [
+  "Psychic": [
     "Butterfree",
     "Alolan Raichu",
     "Clefairy",
@@ -19256,7 +19256,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM03: Water Pulse": [
+  "Water Pulse": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -19540,7 +19540,7 @@
     "Bruxish",
     "Drampa",
     "Kommo-O",
-    "TAPU_FINI ",
+    "Tapu Fini",
     "Sobble",
     "Drizzile",
     "Inteleon",
@@ -19560,7 +19560,7 @@
     "Urshifu Rapid Strike",
     "Overqwil"
   ],
-  "TM30: Shadow Ball": [
+  "Shadow Ball": [
     "Butterfree",
     "Rattata",
     "Alolan Rattata",
@@ -19945,7 +19945,7 @@
     "Sneasler",
     "Overqwil"
   ],
-  "TM31: Brick Break": [
+  "Brick Break": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -20311,7 +20311,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM32: Double Team": [
+  "Double Team": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -21430,7 +21430,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM33: Reflect": [
+  "Reflect": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -21716,7 +21716,7 @@
     "Wyrdeer",
     "Sneasler"
   ],
-  "TM34: Shock Wave": [
+  "Shock Wave": [
     "Rattata",
     "Alolan Rattata",
     "Raticate",
@@ -22049,7 +22049,7 @@
     "Magearna",
     "Magearna P",
     "Naganadel",
-    "ZERAORA ",
+    "Zeraora",
     "Dottler",
     "Orbeetle",
     "Wooloo",
@@ -22091,7 +22091,7 @@
     "Wyrdeer",
     "Overqwil"
   ],
-  "TM35: Flamethrower": [
+  "Flamethrower": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -22345,7 +22345,7 @@
     "Dragapult",
     "Eternatus"
   ],
-  "TM36: Sludge Bomb": [
+  "Sludge Bomb": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -22549,7 +22549,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM37: Sandstorm": [
+  "Sandstorm": [
     "Sandshrew",
     "Sandslash",
     "Nidoqueen",
@@ -22806,7 +22806,7 @@
     "Kleavor",
     "Ursaluna"
   ],
-  "TM38: Fire Blast": [
+  "Fire Blast": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -23018,7 +23018,7 @@
     "Drakloak",
     "Dragapult"
   ],
-  "TM39: Rock Tomb": [
+  "Rock Tomb": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -23423,7 +23423,7 @@
     "Kleavor",
     "Ursaluna"
   ],
-  "TM04: Calm Mind": [
+  "Calm Mind": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -23746,7 +23746,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM40: Aerial Ace": [
+  "Aerial Ace": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -24129,7 +24129,7 @@
     "Necrozma Dawn Wings",
     "Necrozma Ultra",
     "Naganadel",
-    "ZERAORA ",
+    "Zeraora",
     "Scorbunny",
     "Raboot",
     "Cinderace",
@@ -24165,7 +24165,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM41: Torment": [
+  "Torment": [
     "Alolan Rattata",
     "Alolan Raticate",
     "Ekans",
@@ -24358,7 +24358,7 @@
     "Tapu Bulu",
     "Tapu Fini",
     "Pheromosa",
-    "BLACEPHALON ",
+    "Blacephalon",
     "Sobble",
     "Drizzile",
     "Inteleon",
@@ -24397,7 +24397,7 @@
     "Ursaluna",
     "Overqwil"
   ],
-  "TM42: Facade": [
+  "Facade": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -25509,7 +25509,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM43: Secret Power": [
+  "Secret Power": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -26637,7 +26637,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM44: Rest": [
+  "Rest": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -27750,7 +27750,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM45: Attract": [
+  "Attract": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -28665,7 +28665,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM46: Thief": [
+  "Thief": [
     "Butterfree",
     "Beedrill",
     "Pidgey",
@@ -29101,7 +29101,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM47: Steel Wing": [
+  "Steel Wing": [
     "Charizard",
     "Pidgey",
     "Pidgeotto",
@@ -29231,7 +29231,7 @@
     "Dragapult",
     "Kleavor"
   ],
-  "TM48: Skill Swap": [
+  "Skill Swap": [
     "Butterfree",
     "Venonat",
     "Venomoth",
@@ -29371,7 +29371,7 @@
     "Calyrex Shadow Rider",
     "Wyrdeer"
   ],
-  "TM49: Leech Fang": [
+  "Leech Fang": [
     "Sandshrew",
     "Alolan Sandshrew",
     "Sandslash",
@@ -29438,7 +29438,7 @@
     "Frosmoth",
     "Dracovish"
   ],
-  "TM05: Roar": [
+  "Roar": [
     "Venusaur",
     "Charizard",
     "Blastoise",
@@ -29728,7 +29728,7 @@
     "Wyrdeer",
     "Ursaluna"
   ],
-  "TM50: Overheat": [
+  "Overheat": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -29841,7 +29841,7 @@
     "Coalossal",
     "Centiskorch"
   ],
-  "TM51: Roost": [
+  "Roost": [
     "Charizard",
     "Butterfree",
     "Beedrill",
@@ -30000,7 +30000,7 @@
     "Galarian Farfetchd",
     "Kleavor"
   ],
-  "TM52: Focus Blast": [
+  "Focus Blast": [
     "Charizard",
     "Blastoise",
     "Raichu",
@@ -30253,7 +30253,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM53: Energy Ball": [
+  "Energy Ball": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -30559,7 +30559,7 @@
     "Calyrex Shadow Rider",
     "Wyrdeer"
   ],
-  "TM54: False Swipe": [
+  "False Swipe": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -30671,7 +30671,7 @@
     "Kleavor",
     "Sneasler"
   ],
-  "TM55: Brine": [
+  "Brine": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -30814,7 +30814,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "TM56: Hone Claws": [
+  "Hone Claws": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -31070,7 +31070,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM57: Charge Beam": [
+  "Charge Beam": [
     "Rattata",
     "Raticate",
     "Pikachu",
@@ -31361,7 +31361,7 @@
     "Galarian Mime Jr",
     "Wyrdeer"
   ],
-  "TM58: Endure": [
+  "Endure": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -32475,7 +32475,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM59: Dragon Pulse": [
+  "Dragon Pulse": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -32612,7 +32612,7 @@
     "Eternatus",
     "Regidrago"
   ],
-  "TM06: Toxic": [
+  "Toxic": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -33728,7 +33728,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM60: Drain Punch": [
+  "Drain Punch": [
     "Clefairy",
     "Clefable",
     "Jigglypuff",
@@ -33868,7 +33868,7 @@
     "Zarude Dada",
     "Sneasler"
   ],
-  "TM61: Will-o-Wisp": [
+  "Will-o-Wisp": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -34034,7 +34034,7 @@
     "Galarian Darmanitan",
     "Galarian Yamask"
   ],
-  "TM62: Silver Wind": [
+  "Silver Wind": [
     "Butterfree",
     "Beedrill",
     "Venomoth",
@@ -34158,7 +34158,7 @@
     "Frosmoth",
     "Kleavor"
   ],
-  "TM63: Venoshock": [
+  "Venoshock": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -34271,7 +34271,7 @@
     "Sneasler",
     "Overqwil"
   ],
-  "TM64: Explosion": [
+  "Explosion": [
     "Geodude",
     "Alolan Geodude",
     "Graveler",
@@ -34419,7 +34419,7 @@
     "Galarian Corsola",
     "Overqwil"
   ],
-  "TM65: Shadow Claw": [
+  "Shadow Claw": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -34646,7 +34646,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM66: Payback": [
+  "Payback": [
     "Beedrill",
     "Ekans",
     "Arbok",
@@ -35003,7 +35003,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM67: Recycle": [
+  "Recycle": [
     "Alolan Raichu",
     "Clefairy",
     "Clefable",
@@ -35167,7 +35167,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "TM68: Giga Impact": [
+  "Giga Impact": [
     "Venusaur",
     "Charizard",
     "Blastoise",
@@ -35796,7 +35796,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM69: Rock Polish": [
+  "Rock Polish": [
     "Hisuian Growlithe",
     "Hisuian Arcanine",
     "Geodude",
@@ -35917,7 +35917,7 @@
     "Necrozma Dusk Mane",
     "Necrozma Dawn Wings",
     "Necrozma Ultra",
-    "STAKATAKA ",
+    "Stakataka",
     "Drednaw",
     "Rolycoly",
     "Carkol",
@@ -35927,7 +35927,7 @@
     "Duraludon",
     "Kleavor"
   ],
-  "TM07: Hail": [
+  "Hail": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -36162,7 +36162,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "TM70: Flash": [
+  "Flash": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -36667,7 +36667,7 @@
     "Calyrex Shadow Rider",
     "Wyrdeer"
   ],
-  "TM71: Stone Edge": [
+  "Stone Edge": [
     "Sandslash",
     "Nidoqueen",
     "Nidoking",
@@ -36904,7 +36904,7 @@
     "Kleavor",
     "Ursaluna"
   ],
-  "TM72: Avalanche": [
+  "Avalanche": [
     "Blastoise",
     "Alolan Sandshrew",
     "Alolan Sandslash",
@@ -37014,7 +37014,7 @@
     "Calyrex Ice Rider",
     "Ursaluna"
   ],
-  "TM73: Thunder Wave": [
+  "Thunder Wave": [
     "Rattata",
     "Alolan Rattata",
     "Raticate",
@@ -37359,7 +37359,7 @@
     "Wyrdeer",
     "Overqwil"
   ],
-  "TM74: Gyro Ball": [
+  "Gyro Ball": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -37500,7 +37500,7 @@
     "Duraludon",
     "Overqwil"
   ],
-  "TM75: Swords Dance": [
+  "Swords Dance": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -37802,7 +37802,7 @@
     "Sneasler",
     "Overqwil"
   ],
-  "TM76: Stealth Rock": [
+  "Stealth Rock": [
     "Sandshrew",
     "Alolan Sandshrew",
     "Sandslash",
@@ -38017,7 +38017,7 @@
     "Duraludon",
     "Kleavor"
   ],
-  "TM77: Flame Charge": [
+  "Flame Charge": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -38141,7 +38141,7 @@
     "Centiskorch",
     "Galarian Zapdos"
   ],
-  "TM78: Low Sweep": [
+  "Low Sweep": [
     "Golduck",
     "Mankey",
     "Primeape",
@@ -38258,7 +38258,7 @@
     "Galarian Zapdos",
     "Sneasler"
   ],
-  "TM79: Dark Pulse": [
+  "Dark Pulse": [
     "Blastoise",
     "Alolan Rattata",
     "Alolan Raticate",
@@ -38490,7 +38490,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM08: Bulk Up": [
+  "Bulk Up": [
     "Alolan Raticate",
     "Mankey",
     "Primeape",
@@ -38617,7 +38617,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "TM80: Rock Slide": [
+  "Rock Slide": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -39045,7 +39045,7 @@
     "Kleavor",
     "Ursaluna"
   ],
-  "TM81: X-Scissor": [
+  "X-Scissor": [
     "Beedrill",
     "Sandshrew",
     "Alolan Sandshrew",
@@ -39187,7 +39187,7 @@
     "Kleavor",
     "Sneasler"
   ],
-  "TM82: Sleep Talk": [
+  "Sleep Talk": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -40299,7 +40299,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM83: Scald": [
+  "Scald": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -40463,7 +40463,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "TM84: Poison Jab": [
+  "Poison Jab": [
     "Beedrill",
     "Ekans",
     "Arbok",
@@ -40656,7 +40656,7 @@
     "Sneasler",
     "Overqwil"
   ],
-  "TM85: Dream Eater": [
+  "Dream Eater": [
     "Butterfree",
     "Clefairy",
     "Clefable",
@@ -40900,7 +40900,7 @@
     "Mimikyu",
     "Mimikyu Busted",
     "Bruxish",
-    "LUNALA ",
+    "Lunala",
     "Dottler",
     "Orbeetle",
     "Sinistea",
@@ -40934,7 +40934,7 @@
     "Galarian Yamask",
     "Wyrdeer"
   ],
-  "TM86: Grass Knot": [
+  "Grass Knot": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -41325,7 +41325,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM87: Swagger": [
+  "Swagger": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -42439,7 +42439,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM88: Pluck": [
+  "Pluck": [
     "Pidgey",
     "Pidgeotto",
     "Pidgeot",
@@ -42536,7 +42536,7 @@
     "Arctozolt",
     "Galarian Farfetchd"
   ],
-  "TM89: U-Turn": [
+  "U-Turn": [
     "Butterfree",
     "Beedrill",
     "Pidgey",
@@ -42795,7 +42795,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM09: Bullet Seed": [
+  "Bullet Seed": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -42917,7 +42917,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "TM90: Substitute": [
+  "Substitute": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -44031,7 +44031,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "TM91: Flash Cannon": [
+  "Flash Cannon": [
     "Blastoise",
     "Alolan Diglett",
     "Alolan Dugtrio",
@@ -44189,7 +44189,7 @@
     "Zamazenta Crowned",
     "Eternatus"
   ],
-  "TM92: Volt Switch": [
+  "Volt Switch": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -44281,7 +44281,7 @@
     "Morpeko",
     "Regieleki"
   ],
-  "TM93: Dragon Tail": [
+  "Dragon Tail": [
     "Charizard",
     "Blastoise",
     "Arbok",
@@ -44359,7 +44359,7 @@
     "Hakamo-O",
     "Kommo-O",
     "Guzzlord",
-    "NAGANADEL ",
+    "Naganadel",
     "Inteleon",
     "Chewtle",
     "Drednaw",
@@ -44375,7 +44375,7 @@
     "Eternatus",
     "Galarian Slowking"
   ],
-  "TM94: Incinerate": [
+  "Incinerate": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -44636,7 +44636,7 @@
     "Galarian Darumaka",
     "Galarian Darmanitan"
   ],
-  "TM95: Struggle Bug": [
+  "Struggle Bug": [
     "Butterfree",
     "Beedrill",
     "Paras",
@@ -44746,7 +44746,7 @@
     "Frosmoth",
     "Kleavor"
   ],
-  "TM96: Bulldoze": [
+  "Bulldoze": [
     "Venusaur",
     "Charizard",
     "Blastoise",
@@ -45094,7 +45094,7 @@
     "Wyrdeer",
     "Ursaluna"
   ],
-  "TM97: Frost Breath": [
+  "Frost Breath": [
     "Alolan Sandshrew",
     "Alolan Sandslash",
     "Alolan Vulpix",
@@ -45135,7 +45135,7 @@
     "Dewpider",
     "Araquanid",
     "Golisopod",
-    "BRUXISH ",
+    "Bruxish",
     "Mr Rime",
     "Frosmoth",
     "Eiscue",
@@ -45147,7 +45147,7 @@
     "Galarian Darumaka",
     "Galarian Darmanitan"
   ],
-  "TM98: Work Up": [
+  "Work Up": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -45508,7 +45508,7 @@
     "Wyrdeer",
     "Ursaluna"
   ],
-  "TM99: Wild Charge": [
+  "Wild Charge": [
     "Rattata",
     "Raticate",
     "Pikachu",

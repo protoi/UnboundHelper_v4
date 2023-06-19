@@ -22242,7 +22242,7 @@ int main()
 				break;
 			else if (flag == 1) // don't add a comma for the first entry of the moveset list
 				fprintf(file, c);
-			fprintf(file, "\t\t[%d, \"%s\"]", l, movename_mapping[m]);
+			fprintf(file, "\t\t{\"level\": %d, \"move\": \"%s\"}", l, movename_mapping[m]);
 
 			flag = 1;
 		}

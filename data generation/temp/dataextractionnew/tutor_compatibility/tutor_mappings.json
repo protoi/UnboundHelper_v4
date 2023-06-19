@@ -1,5 +1,5 @@
 {
-  "Tutor 1: Fire Punch": [
+  "Fire Punch": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -176,7 +176,7 @@
     "Urshifu Rapid Strike",
     "Ursaluna"
   ],
-  "Tutor 10: Helping Hand": [
+  "Helping Hand": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -557,7 +557,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 100: Razor Shell": [
+  "Razor Shell": [
     "Slowbro",
     "Galarian Slowbro",
     "Shellder",
@@ -581,7 +581,7 @@
     "Golisopod",
     "Drednaw"
   ],
-  "Tutor 101: Hex": [
+  "Hex": [
     "Nidoqueen",
     "Nidoking",
     "Vulpix",
@@ -689,7 +689,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutor 102: Weather Ball": [
+  "Weather Ball": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -804,7 +804,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 103: Air Slash": [
+  "Air Slash": [
     "Charizard",
     "Butterfree",
     "Pidgey",
@@ -948,7 +948,7 @@
     "Zacian Crowned",
     "Kleavor"
   ],
-  "Tutor 104: Aura Sphere": [
+  "Aura Sphere": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -988,7 +988,7 @@
     "Urshifu Single Strike",
     "Urshifu Rapid Strike"
   ],
-  "Tutor 105: Blaze Kick": [
+  "Blaze Kick": [
     "Charizard",
     "Hitmonlee",
     "Galarian Zapdos",
@@ -1015,7 +1015,7 @@
     "Raboot",
     "Cinderace"
   ],
-  "Tutor 106: Bug Buzz": [
+  "Bug Buzz": [
     "Butterfree",
     "Venomoth",
     "Scyther",
@@ -1100,7 +1100,7 @@
     "Frosmoth",
     "Kleavor"
   ],
-  "Tutor 107: Cross Poison": [
+  "Cross Poison": [
     "Beedrill",
     "Zubat",
     "Golbat",
@@ -1140,7 +1140,7 @@
     "Kleavor",
     "Sneasler"
   ],
-  "Tutor 108: Crunch": [
+  "Crunch": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -1360,7 +1360,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 109: Darkest Lariat": [
+  "Darkest Lariat": [
     "Poliwrath",
     "Machamp",
     "Snorlax",
@@ -1383,7 +1383,7 @@
     "Zarude",
     "Zarude Dada"
   ],
-  "Tutour 11: Block": [
+  "Block": [
     "Bulbasaur",
     "Venusaur",
     "Charmander",
@@ -1524,7 +1524,7 @@
     "Stonjourner",
     "Duraludon"
   ],
-  "Tutor 110: High Horsepower": [
+  "High Horsepower": [
     "Nidoqueen",
     "Nidoking",
     "Dugtrio",
@@ -1618,7 +1618,7 @@
     "Wyrdeer",
     "Ursaluna"
   ],
-  "Tutor 111: Leaf Blade": [
+  "Leaf Blade": [
     "Victreebel",
     "Farfetchd",
     "Galarian Farfetchd",
@@ -1653,7 +1653,7 @@
     "Zarude",
     "Zarude Dada"
   ],
-  "Tutor 112: Muddy Water": [
+  "Muddy Water": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -1753,7 +1753,7 @@
     "Basculegion Male",
     "Basculegion Female"
   ],
-  "Tutor 113: Mystical Fire": [
+  "Mystical Fire": [
     "Charizard",
     "Clefairy",
     "Clefable",
@@ -1836,7 +1836,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 114: Phantom Force": [
+  "Phantom Force": [
     "Gengar",
     "Mew",
     "Shedinja",
@@ -1875,7 +1875,7 @@
     "Spectrier",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 115: Play Rough": [
+  "Play Rough": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -2040,7 +2040,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 116: Pollen Puff": [
+  "Pollen Puff": [
     "Butterfree",
     "Vileplume",
     "Mew",
@@ -2067,7 +2067,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 117: Power Gem": [
+  "Power Gem": [
     "Persian",
     "Alolan Persian",
     "Golduck",
@@ -2117,7 +2117,7 @@
     "Necrozma Dawn Wings",
     "Cursola"
   ],
-  "Tutor 118: Psychic Fangs": [
+  "Psychic Fangs": [
     "Raticate",
     "Alolan Raticate",
     "Growlithe",
@@ -2193,7 +2193,7 @@
     "Basculegion Male",
     "Basculegion Female"
   ],
-  "Tutor 119: Psycho Cut": [
+  "Psycho Cut": [
     "Kadabra",
     "Alakazam",
     "Galarian Rapidash",
@@ -2257,7 +2257,7 @@
     "Calyrex Shadow Rider",
     "Kleavor"
   ],
-  "Tutour 12: Worry Seed": [
+  "Worry Seed": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -2407,7 +2407,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 120: Brave Bird": [
+  "Brave Bird": [
     "Pidgey",
     "Pidgeotto",
     "Pidgeot",
@@ -2463,7 +2463,7 @@
     "Cramorant",
     "Sirfetchd"
   ],
-  "Tutor 121: Close Combat": [
+  "Close Combat": [
     "Raticate",
     "Alolan Raticate",
     "Mankey",
@@ -2585,7 +2585,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "Tutor 122: Flare Blitz": [
+  "Flare Blitz": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -2647,7 +2647,7 @@
     "Coalossal",
     "Centiskorch"
   ],
-  "Tutor 123: Hurricane": [
+  "Hurricane": [
     "Charizard",
     "Butterfree",
     "Pidgey",
@@ -2731,7 +2731,7 @@
     "Cramorant",
     "Frosmoth"
   ],
-  "Tutor 124: Hydro Pump": [
+  "Hydro Pump": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -2904,7 +2904,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutor 125: Leaf Storm": [
+  "Leaf Storm": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -2974,7 +2974,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 126: Megahorn": [
+  "Megahorn": [
     "Nidoking",
     "Rapidash",
     "Galarian Rapidash",
@@ -3016,7 +3016,7 @@
     "Calyrex Ice Rider",
     "Wyrdeer"
   ],
-  "Tutor 127: Power Whip": [
+  "Power Whip": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -3062,7 +3062,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 128: Solar Blade": [
+  "Solar Blade": [
     "Weepinbell",
     "Victreebel",
     "Ponyta",
@@ -3107,7 +3107,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 129: Expanding Force": [
+  "Expanding Force": [
     "Alolan Raichu",
     "Wigglytuff",
     "Kadabra",
@@ -3206,7 +3206,7 @@
     "Hoopa Unbound",
     "Bruxish"
   ],
-  "Tutour 13: Covet": [
+  "Covet": [
     "Rattata",
     "Alolan Rattata",
     "Raticate",
@@ -3481,7 +3481,7 @@
     "Zarude Dada",
     "Ursaluna"
   ],
-  "Tutor 130: Steel Roller": [
+  "Steel Roller": [
     "Sandshrew",
     "Alolan Sandshrew",
     "Sandslash",
@@ -3567,7 +3567,7 @@
     "Minior Violet",
     "Overqwil"
   ],
-  "Tutor 131: Scale Shot": [
+  "Scale Shot": [
     "Charizard",
     "Horsea",
     "Seadra",
@@ -3656,7 +3656,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutor 132: Meteor Beam": [
+  "Meteor Beam": [
     "Clefairy",
     "Clefable",
     "Onix",
@@ -3746,7 +3746,7 @@
     "Minior Green",
     "Minior Violet"
   ],
-  "Tutor 133: Misty Explosion": [
+  "Misty Explosion": [
     "Clefairy",
     "Clefable",
     "Jigglypuff",
@@ -3778,7 +3778,7 @@
     "Alcremie Ribbon",
     "Alcremie Star"
   ],
-  "Tutor 134: Grassy Glide": [
+  "Grassy Glide": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -3910,7 +3910,7 @@
     "Skiddo",
     "Gogoat"
   ],
-  "Tutor 135: Rising Voltage": [
+  "Rising Voltage": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -3998,7 +3998,7 @@
     "Eelektrik",
     "Eelektross"
   ],
-  "Tutor 136: Terrain Pulse": [
+  "Terrain Pulse": [
     "Venusaur",
     "Blastoise",
     "Exeggutor",
@@ -4061,7 +4061,7 @@
     "Arceus Dark",
     "Arceus Fairy"
   ],
-  "Tutor 137: Skitter Smack": [
+  "Skitter Smack": [
     "Persian",
     "Alolan Persian",
     "Gastly",
@@ -4195,7 +4195,7 @@
     "Vivillon Tundra",
     "Vivillon Fancy"
   ],
-  "Tutor 138: Burning Jealousy": [
+  "Burning Jealousy": [
     "Vulpix",
     "Ninetales",
     "Alolan Persian",
@@ -4242,7 +4242,7 @@
     "Simisear",
     "Delphox"
   ],
-  "Tutor 139: Lash Out": [
+  "Lash Out": [
     "Meowth",
     "Alolan Meowth",
     "Galarian Meowth",
@@ -4339,7 +4339,7 @@
     "Hoopa Unbound",
     "Sneasler"
   ],
-  "Tutour 14: Bug Bite": [
+  "Bug Bite": [
     "Caterpie",
     "Metapod",
     "Butterfree",
@@ -4464,7 +4464,7 @@
     "Frosmoth",
     "Kleavor"
   ],
-  "Tutor 140: Poltergeist": [
+  "Poltergeist": [
     "Gastly",
     "Haunter",
     "Gengar",
@@ -4531,7 +4531,7 @@
     "Basculegion Male",
     "Basculegion Female"
   ],
-  "Tutor 141: Corrosive Gas": [
+  "Corrosive Gas": [
     "Vileplume",
     "Tentacruel",
     "Gastly",
@@ -4553,7 +4553,7 @@
     "Gulpin",
     "Swalot"
   ],
-  "Tutor 142: Coaching": [
+  "Coaching": [
     "Poliwrath",
     "Machop",
     "Machoke",
@@ -4625,7 +4625,7 @@
     "Crabominable",
     "Sneasler"
   ],
-  "Tutor 143: Flip Turn": [
+  "Flip Turn": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -4674,7 +4674,7 @@
     "Basculegion Male",
     "Basculegion Female"
   ],
-  "Tutor 144: Triple Axel": [
+  "Triple Axel": [
     "Alolan Sandshrew",
     "Alolan Sandslash",
     "Alolan Ninetales",
@@ -4711,7 +4711,7 @@
     "Meloetta",
     "Meloetta Pirouette"
   ],
-  "Tutor 145: Dual Wingbeat": [
+  "Dual Wingbeat": [
     "Charizard",
     "Butterfree",
     "Clefairy",
@@ -4872,7 +4872,7 @@
     "Oricorio Sensu",
     "Kleavor"
   ],
-  "Tutor 146: Scorching Sands": [
+  "Scorching Sands": [
     "Charizard",
     "Sandshrew",
     "Sandslash",
@@ -4966,7 +4966,7 @@
     "Pyroar Female",
     "Ursaluna"
   ],
-  "Tutour 15: Snatch": [
+  "Snatch": [
     "Alolan Rattata",
     "Alolan Raticate",
     "Ekans",
@@ -5159,7 +5159,7 @@
     "Galarian Linoone",
     "Sneasler"
   ],
-  "Tutour 16: Spite": [
+  "Spite": [
     "Ekans",
     "Arbok",
     "Vulpix",
@@ -5340,7 +5340,7 @@
     "Basculegion Male",
     "Basculegion Female"
   ],
-  "Tutour 17: After You": [
+  "After You": [
     "Clefairy",
     "Clefable",
     "Oddish",
@@ -5469,7 +5469,7 @@
     "Indeedee Female",
     "Galarian Moltres"
   ],
-  "Tutour 18: Synthesis": [
+  "Synthesis": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -5613,7 +5613,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutour 19: Signal Beam": [
+  "Signal Beam": [
     "Blastoise",
     "Butterfree",
     "Pikachu",
@@ -5963,7 +5963,7 @@
     "Wyrdeer",
     "Overqwil"
   ],
-  "Tutor 2: Ice Punch": [
+  "Ice Punch": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -6157,7 +6157,7 @@
     "Urshifu Rapid Strike",
     "Ursaluna"
   ],
-  "Tutour 20: Gravity": [
+  "Gravity": [
     "Clefairy",
     "Clefable",
     "Jigglypuff",
@@ -6305,7 +6305,7 @@
     "Eternatus",
     "Wyrdeer"
   ],
-  "Tutor 21: Iron Defense": [
+  "Iron Defense": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -6609,7 +6609,7 @@
     "Calyrex Ice Rider",
     "Kleavor"
   ],
-  "Tutour 22: Telekinesis": [
+  "Telekinesis": [
     "Alolan Raichu",
     "Clefairy",
     "Clefable",
@@ -6833,7 +6833,7 @@
     "Galarian Ponyta",
     "Galarian Rapidash"
   ],
-  "Tutour 23: Magnet Rise": [
+  "Magnet Rise": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -6978,7 +6978,7 @@
     "Arctozolt",
     "Regieleki"
   ],
-  "Tutor 24: Bounce": [
+  "Bounce": [
     "Clefairy",
     "Clefable",
     "Jigglypuff",
@@ -7118,7 +7118,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutour 25: Role Play": [
+  "Role Play": [
     "Clefairy",
     "Clefable",
     "Vulpix",
@@ -7292,7 +7292,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 26: Iron Head": [
+  "Iron Head": [
     "Alolan Sandshrew",
     "Alolan Sandslash",
     "Alolan Diglett",
@@ -7525,7 +7525,7 @@
     "Urshifu Rapid Strike",
     "Kleavor"
   ],
-  "Tutour 27: Aqua Tail": [
+  "Aqua Tail": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -7697,7 +7697,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutour 28: Pain Split": [
+  "Pain Split": [
     "Vulpix",
     "Alolan Vulpix",
     "Ninetales",
@@ -7851,7 +7851,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutour 29: Tailwind": [
+  "Tailwind": [
     "Charizard",
     "Butterfree",
     "Beedrill",
@@ -8042,7 +8042,7 @@
     "Frosmoth",
     "Kleavor"
   ],
-  "Tutor 3: Thunder Punch": [
+  "Thunder Punch": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -8269,7 +8269,7 @@
     "Urshifu Rapid Strike",
     "Ursaluna"
   ],
-  "Tutour 30: Endeavor": [
+  "Endeavor": [
     "Beedrill",
     "Rattata",
     "Alolan Rattata",
@@ -8537,7 +8537,7 @@
     "Basculegion Male",
     "Basculegion Female"
   ],
-  "Tutor 31: Icy Wind": [
+  "Icy Wind": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -8886,7 +8886,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutor 32: Zen Headbutt": [
+  "Zen Headbutt": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -9211,7 +9211,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 33: Seed Bomb": [
+  "Seed Bomb": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -9400,7 +9400,7 @@
     "Calyrex Shadow Rider",
     "Ursaluna"
   ],
-  "Tutour 34: Laser Focus": [
+  "Laser Focus": [
     "Beedrill",
     "Pidgeot",
     "Rattata",
@@ -9687,7 +9687,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "Tutor 35: Trick": [
+  "Trick": [
     "Clefairy",
     "Clefable",
     "Abra",
@@ -9881,7 +9881,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 36: Drill Run": [
+  "Drill Run": [
     "Beedrill",
     "Spearow",
     "Fearow",
@@ -9924,7 +9924,7 @@
     "Arrokuda",
     "Barraskewda"
   ],
-  "Tutour 37: Magic Coat": [
+  "Magic Coat": [
     "Alolan Raichu",
     "Clefairy",
     "Clefable",
@@ -10165,7 +10165,7 @@
     "Cursola",
     "Runerigus"
   ],
-  "Tutor 38: Magic Room": [
+  "Magic Room": [
     "Alolan Raichu",
     "Wigglytuff",
     "Abra",
@@ -10247,7 +10247,7 @@
     "Calyrex Shadow Rider",
     "Wyrdeer"
   ],
-  "Tutor 39: Wonder Room": [
+  "Wonder Room": [
     "Clefairy",
     "Clefable",
     "Alolan Ninetales",
@@ -10371,7 +10371,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 4: Snore": [
+  "Snore": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -11485,7 +11485,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 40: Liquidation": [
+  "Liquidation": [
     "Blastoise",
     "Golduck",
     "Poliwrath",
@@ -11612,7 +11612,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutour 41: Gastro Acid": [
+  "Gastro Acid": [
     "Ekans",
     "Arbok",
     "Oddish",
@@ -11674,7 +11674,7 @@
     "Galarian Slowbro",
     "Galarian Slowking"
   ],
-  "Tutor 42: Foul Play": [
+  "Foul Play": [
     "Vulpix",
     "Alolan Vulpix",
     "Ninetales",
@@ -11831,7 +11831,7 @@
     "Sneasler",
     "Overqwil"
   ],
-  "Tutour 43: Super Fang": [
+  "Super Fang": [
     "Rattata",
     "Alolan Rattata",
     "Raticate",
@@ -11906,7 +11906,7 @@
     "Dracovish",
     "Arctovish"
   ],
-  "Tutor 44: Outrage": [
+  "Outrage": [
     "Venusaur",
     "Charmander",
     "Charmeleon",
@@ -12082,7 +12082,7 @@
     "Glastrier",
     "Calyrex Ice Rider"
   ],
-  "Tutour 45: Sky Attack": [
+  "Sky Attack": [
     "Pidgey",
     "Pidgeotto",
     "Pidgeot",
@@ -12156,7 +12156,7 @@
     "Cramorant",
     "Sirfetchd"
   ],
-  "Tutor 46: Throat Chop": [
+  "Throat Chop": [
     "Beedrill",
     "Raticate",
     "Alolan Raticate",
@@ -12296,7 +12296,7 @@
     "Sneasler",
     "Overqwil"
   ],
-  "Tutor 47: Stomping Tantrum": [
+  "Stomping Tantrum": [
     "Venusaur",
     "Raticate",
     "Alolan Raticate",
@@ -12509,7 +12509,7 @@
     "Calyrex Shadow Rider",
     "Ursaluna"
   ],
-  "Tutor 48: Earth Power": [
+  "Earth Power": [
     "Venusaur",
     "Sandshrew",
     "Sandslash",
@@ -12718,7 +12718,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 49: Gunk Shot": [
+  "Gunk Shot": [
     "Ekans",
     "Arbok",
     "Meowth",
@@ -12815,7 +12815,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "Tutour 5: Heal Bell": [
+  "Heal Bell": [
     "Clefairy",
     "Clefable",
     "Alolan Vulpix",
@@ -12915,7 +12915,7 @@
     "Poochyena",
     "Mightyena"
   ],
-  "Tutour 50: Dual Chop": [
+  "Dual Chop": [
     "Mankey",
     "Primeape",
     "Poliwrath",
@@ -12992,7 +12992,7 @@
     "Urshifu Rapid Strike",
     "Kleavor"
   ],
-  "Tutor 51: Heat Wave": [
+  "Heat Wave": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -13175,7 +13175,7 @@
     "Sizzlipede",
     "Centiskorch"
   ],
-  "Tutor 52: Hyper Voice": [
+  "Hyper Voice": [
     "Clefairy",
     "Clefable",
     "Jigglypuff",
@@ -13411,7 +13411,7 @@
     "Zarude Dada",
     "Ursaluna"
   ],
-  "Tutor 53: Superpower": [
+  "Superpower": [
     "Nidoqueen",
     "Nidoking",
     "Poliwrath",
@@ -13622,7 +13622,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutour 54: Knock Off": [
+  "Knock Off": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -13912,7 +13912,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutour 55: Psych Up": [
+  "Psych Up": [
     "Butterfree",
     "Clefairy",
     "Clefable",
@@ -14250,7 +14250,7 @@
     "Wyrdeer",
     "Sneasler"
   ],
-  "Tutour 56: Vacuum Wave": [
+  "Vacuum Wave": [
     "Mankey",
     "Primeape",
     "Poliwrath",
@@ -14285,7 +14285,7 @@
     "Kleavor",
     "Sneasler"
   ],
-  "Tutour 57: Last Resort": [
+  "Last Resort": [
     "Rattata",
     "Alolan Rattata",
     "Raticate",
@@ -14481,7 +14481,7 @@
     "Wyrdeer",
     "Ursaluna"
   ],
-  "Tutour 58: Confide": [
+  "Confide": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -15486,101 +15486,101 @@
     "Naganadel",
     "Blacephalon",
     "Zeraora",
-    "GROOKEY ",
-    "THWACKEY ",
-    "RILLABOOM ",
-    "SCORBUNNY ",
-    "RABOOT ",
-    "CINDERACE ",
-    "SOBBLE ",
-    "DRIZZILE ",
-    "INTELEON ",
-    "SKWOVET ",
-    "GREEDENT ",
-    "ROOKIDEE ",
-    "CORVISQUIRE ",
-    "CORVIKNIGHT ",
-    "BLIPBUG ",
-    "DOTTLER ",
-    "ORBEETLE ",
-    "NICKIT ",
-    "THIEVUL ",
+    "Grookey",
+    "Thwackey",
+    "Rillaboom",
+    "Scorbunny",
+    "Raboot",
+    "Cinderace",
+    "Sobble",
+    "Drizzile",
+    "Inteleon",
+    "Skwovet",
+    "Greedent",
+    "Rookidee",
+    "Corvisquire",
+    "Corviknight",
+    "Blipbug",
+    "Dottler",
+    "Orbeetle",
+    "Nickit",
+    "Thievul",
     "Gossifleur",
-    "ELDEGOSS ",
-    "WOOLOO ",
-    "DUBWOOL ",
-    "CHEWTLE ",
-    "DREDNAW ",
-    "YAMPER ",
+    "Eldegoss",
+    "Wooloo",
+    "Dubwool",
+    "Chewtle",
+    "Drednaw",
+    "Yamper",
     "Boltund",
-    "ROLYCOLY ",
-    "CARKOL ",
-    "COALOSSAL ",
-    "APPLIN ",
-    "FLAPPLE ",
-    "APPLETUN ",
+    "Rolycoly",
+    "Carkol",
+    "Coalossal",
+    "Applin",
+    "Flapple",
+    "Appletun",
     "Silicobra",
-    "SANDACONDA ",
-    "CRAMORANT ",
-    "ARROKUDA ",
-    "BARRASKEWDA ",
-    "TOXEL ",
-    "TOXTRICITY ",
-    "TOXTRICITY_LOW_KEY ",
-    "SIZZLIPEDE ",
-    "CENTISKORCH ",
-    "CLOBBOPUS ",
+    "Sandaconda",
+    "Cramorant",
+    "Arrokuda",
+    "Barraskewda",
+    "Toxel",
+    "Toxtricity",
+    "Toxtricity Low Key",
+    "Sizzlipede",
+    "Centiskorch",
+    "Clobbopus",
     "Grapploct",
-    "SINISTEA ",
-    "SINISTEA_CHIPPED ",
-    "POLTEAGEIST ",
-    "POLTEAGEIST_CHIPPED ",
-    "HATENNA ",
+    "Sinistea",
+    "Sinistea Chipped",
+    "Polteageist",
+    "Polteageist Chipped",
+    "Hatenna",
     "Hattrem",
-    "HATTERENE ",
-    "IMPIDIMP ",
-    "MORGREM ",
-    "GRIMMSNARL ",
-    "OBSTAGOON ",
-    "PERRSERKER ",
-    "CURSOLA ",
-    "SIRFETCHD ",
-    "MR_RIME ",
-    "RUNERIGUS ",
-    "MILCERY ",
+    "Hatterene",
+    "Impidimp",
+    "Morgrem",
+    "Grimmsnarl",
+    "Obstagoon",
+    "Perrserker",
+    "Cursola",
+    "Sirfetchd",
+    "Mr Rime",
+    "Runerigus",
+    "Milcery",
     "Alcremie Strawberry",
     "Alcremie Berry",
     "Alcremie Clover",
     "Alcremie Flower",
     "Alcremie Love",
-    "ALCREMIE_RIBBON ",
+    "Alcremie Ribbon",
     "Alcremie Star",
     "Falinks",
-    "PINCURCHIN ",
-    "SNOM ",
+    "Pincurchin",
+    "Snom",
     "Frosmoth",
-    "STONJOURNER ",
-    "EISCUE ",
-    "INDEEDEE ",
-    "INDEEDEE_FEMALE ",
-    "MORPEKO ",
-    "CUFANT ",
-    "COPPERAJAH ",
-    "DRACOZOLT ",
-    "ARCTOZOLT ",
+    "Stonjourner",
+    "Eiscue",
+    "Indeedee",
+    "Indeedee Female",
+    "Morpeko",
+    "Cufant",
+    "Copperajah",
+    "Dracozolt",
+    "Arctozolt",
     "Dracovish",
-    "ARCTOVISH ",
-    "DURALUDON ",
-    "DREEPY ",
-    "DRAKLOAK ",
-    "DRAGAPULT ",
-    "ZACIAN ",
-    "ZACIAN_CROWNED ",
+    "Arctovish",
+    "Duraludon",
+    "Dreepy",
+    "Drakloak",
+    "Dragapult",
+    "Zacian",
+    "Zacian Crowned",
     "Zamazenta",
-    "ZAMAZENTA_CROWNED ",
+    "Zamazenta Crowned",
     "Eternatus",
-    "KUBFU ",
-    "URSHIFU_SINGLE ",
+    "Kubfu",
+    "Urshifu Single Strike",
     "Urshifu Rapid Strike",
     "Zarude",
     "Zarude Dada",
@@ -15601,7 +15601,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutour 59: Grass Pledge": [
+  "Grass Pledge": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -15646,9 +15646,9 @@
     "Silvally Fairy",
     "Grookey",
     "Thwackey",
-    "RILLABOOM "
+    "Rillaboom"
   ],
-  "Tutor 6: Electroweb": [
+  "Electroweb": [
     "Caterpie",
     "Metapod",
     "Butterfree",
@@ -15766,7 +15766,7 @@
     "Morpeko",
     "Regieleki"
   ],
-  "Tutour 60: Fire Pledge": [
+  "Fire Pledge": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -15808,12 +15808,12 @@
     "Silvally Ice",
     "Silvally Dragon",
     "Silvally Dark",
-    "SILVALLY_FAIRY ",
+    "Silvally Fairy",
     "Scorbunny",
     "Raboot",
     "Cinderace"
   ],
-  "Tutour 61: Water Pledge": [
+  "Water Pledge": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -15861,7 +15861,7 @@
     "Drizzile",
     "Inteleon"
   ],
-  "Tutour 62: Frenzy Plant": [
+  "Frenzy Plant": [
     "Venusaur",
     "Meganium",
     "Sceptile",
@@ -15872,9 +15872,9 @@
     "Hisuian Decidueye",
     "Grookey",
     "Thwackey",
-    "RILLABOOM "
+    "Rillaboom"
   ],
-  "Tutour 63: Blast Burn": [
+  "Blast Burn": [
     "Charizard",
     "Typhlosion",
     "Hisuian Typhlosion",
@@ -15905,7 +15905,7 @@
     "Arceus Dark",
     "Arceus Fairy"
   ],
-  "Tutour 64: Hydro Cannon": [
+  "Hydro Cannon": [
     "Blastoise",
     "Feraligatr",
     "Swampert",
@@ -15937,7 +15937,7 @@
     "Arceus Dark",
     "Arceus Fairy"
   ],
-  "Tutor 65: Focus Energy": [
+  "Focus Energy": [
     "Beedrill",
     "Rattata",
     "Alolan Rattata",
@@ -16103,7 +16103,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "Tutor 66: Cosmic Power": [
+  "Cosmic Power": [
     "Clefairy",
     "Clefable",
     "Staryu",
@@ -16170,7 +16170,7 @@
     "Necrozma Dawn Wings",
     "Eternatus"
   ],
-  "Tutor 67: Baton Pass": [
+  "Baton Pass": [
     "Butterfree",
     "Beedrill",
     "Spearow",
@@ -16332,7 +16332,7 @@
     "Calyrex Shadow Rider",
     "Kleavor"
   ],
-  "Tutor 68: Encore": [
+  "Encore": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -16511,7 +16511,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 69: Screech": [
+  "Screech": [
     "Beedrill",
     "Rattata",
     "Alolan Rattata",
@@ -16745,7 +16745,7 @@
     "Regieleki",
     "Sneasler"
   ],
-  "Tutor 7: Low Kick": [
+  "Low Kick": [
     "Golduck",
     "Mankey",
     "Primeape",
@@ -16924,7 +16924,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "Tutor 70: Fake Tears": [
+  "Fake Tears": [
     "Clefairy",
     "Clefable",
     "Ninetales",
@@ -17055,7 +17055,7 @@
     "Ursaluna",
     "Sneasler"
   ],
-  "Tutor 71: Scary Face": [
+  "Scary Face": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -17296,7 +17296,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 72: Venom Drench": [
+  "Venom Drench": [
     "Arbok",
     "Nidoran Female",
     "Nidorina",
@@ -17359,7 +17359,7 @@
     "Eternatus",
     "Overqwil"
   ],
-  "Tutor 73: Spikes": [
+  "Spikes": [
     "Sandslash",
     "Alolan Sandslash",
     "Cloyster",
@@ -17415,7 +17415,7 @@
     "Pincurchin",
     "Overqwil"
   ],
-  "Tutor 74: Toxic Spikes": [
+  "Toxic Spikes": [
     "Beedrill",
     "Ekans",
     "Arbok",
@@ -17477,7 +17477,7 @@
     "Eternatus",
     "Overqwil"
   ],
-  "Tutor 75: Dragon Dance": [
+  "Dragon Dance": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -17545,7 +17545,7 @@
     "Eternatus",
     "Regidrago"
   ],
-  "Tutor 76: Agility": [
+  "Agility": [
     "Beedrill",
     "Pidgey",
     "Pidgeotto",
@@ -17819,7 +17819,7 @@
     "Basculegion Female",
     "Sneasler"
   ],
-  "Tutor 77: Nasty Plot": [
+  "Nasty Plot": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -18012,7 +18012,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 78: Grassy Terrain": [
+  "Grassy Terrain": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -18096,7 +18096,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 79: Misty Terrain": [
+  "Misty Terrain": [
     "Clefairy",
     "Clefable",
     "Alolan Ninetales",
@@ -18158,7 +18158,7 @@
     "Alcremie Ribbon",
     "Alcremie Star"
   ],
-  "Tutor 8: Uproar": [
+  "Uproar": [
     "Pidgey",
     "Pidgeotto",
     "Pidgeot",
@@ -18497,7 +18497,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 80: Electric Terrain": [
+  "Electric Terrain": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -18551,7 +18551,7 @@
     "Morpeko",
     "Regieleki"
   ],
-  "Tutor 81: Psychic Terrain": [
+  "Psychic Terrain": [
     "Abra",
     "Kadabra",
     "Alakazam",
@@ -18599,7 +18599,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 82: Whirlpool": [
+  "Whirlpool": [
     "Squirtle",
     "Wartortle",
     "Blastoise",
@@ -18786,7 +18786,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutor 83: Fire Spin": [
+  "Fire Spin": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -18861,7 +18861,7 @@
     "Centiskorch",
     "Dracozolt"
   ],
-  "Tutor 84: Sand Tomb": [
+  "Sand Tomb": [
     "Sandshrew",
     "Sandslash",
     "Nidoqueen",
@@ -18949,7 +18949,7 @@
     "Kleavor",
     "Ursaluna"
   ],
-  "Tutor 85: Pin Missile": [
+  "Pin Missile": [
     "Beedrill",
     "Sandslash",
     "Alolan Sandslash",
@@ -19000,7 +19000,7 @@
     "Pincurchin",
     "Overqwil"
   ],
-  "Tutor 86: Icicle Spear": [
+  "Icicle Spear": [
     "Alolan Sandslash",
     "Seel",
     "Dewgong",
@@ -19047,7 +19047,7 @@
     "Glastrier",
     "Calyrex Ice Rider"
   ],
-  "Tutor 87: Tail Slap": [
+  "Tail Slap": [
     "Vulpix",
     "Alolan Vulpix",
     "Ninetales",
@@ -19081,7 +19081,7 @@
     "Zamazenta",
     "Zamazenta Crowned"
   ],
-  "Tutor 88: Rock Blast": [
+  "Rock Blast": [
     "Nidoqueen",
     "Nidoking",
     "Hisuian Growlithe",
@@ -19180,7 +19180,7 @@
     "Arctovish",
     "Kleavor"
   ],
-  "Tutor 89: Thunder Fang": [
+  "Thunder Fang": [
     "Rattata",
     "Raticate",
     "Arbok",
@@ -19267,7 +19267,7 @@
     "Zamazenta Crowned",
     "Regidrago"
   ],
-  "Tutour 9: Bind": [
+  "Bind": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -19356,7 +19356,7 @@
     "Zarude",
     "Zarude Dada"
   ],
-  "Tutor 90: Ice Fang": [
+  "Ice Fang": [
     "Rattata",
     "Raticate",
     "Arbok",
@@ -19456,7 +19456,7 @@
     "Basculegion Male",
     "Basculegion Female"
   ],
-  "Tutor 91: Fire Fang": [
+  "Fire Fang": [
     "Charmander",
     "Charmeleon",
     "Charizard",
@@ -19563,7 +19563,7 @@
     "Zamazenta Crowned",
     "Regidrago"
   ],
-  "Tutor 92: Body Slam": [
+  "Body Slam": [
     "Bulbasaur",
     "Ivysaur",
     "Venusaur",
@@ -20047,7 +20047,7 @@
     "Enamorus",
     "Enamorus Therian"
   ],
-  "Tutor 93: Body Press": [
+  "Body Press": [
     "Blastoise",
     "Nidoqueen",
     "Nidoking",
@@ -20154,7 +20154,7 @@
     "Glastrier",
     "Calyrex Ice Rider"
   ],
-  "Tutor 94: Heat Crash": [
+  "Heat Crash": [
     "Charizard",
     "Rhydon",
     "Snorlax",
@@ -20188,7 +20188,7 @@
     "Stonjourner",
     "Copperajah"
   ],
-  "Tutor 95: Heavy Slam": [
+  "Heavy Slam": [
     "Machop",
     "Machoke",
     "Machamp",
@@ -20276,7 +20276,7 @@
     "Glastrier",
     "Calyrex Ice Rider"
   ],
-  "Tutor 96: Reversal": [
+  "Reversal": [
     "Rattata",
     "Alolan Rattata",
     "Raticate",
@@ -20458,7 +20458,7 @@
     "Basculegion Female",
     "Overqwil"
   ],
-  "Tutor 97: Electro Ball": [
+  "Electro Ball": [
     "Pikachu",
     "Pikachu Surfing",
     "Pikachu Flying",
@@ -20540,7 +20540,7 @@
     "Arctozolt",
     "Regieleki"
   ],
-  "Tutor 98: Stored Power": [
+  "Stored Power": [
     "Alolan Raichu",
     "Clefairy",
     "Clefable",
@@ -20667,7 +20667,7 @@
     "Calyrex Ice Rider",
     "Calyrex Shadow Rider"
   ],
-  "Tutor 99: Breaking Swipe": [
+  "Breaking Swipe": [
     "Charizard",
     "Onix",
     "Alolan Exeggutor",

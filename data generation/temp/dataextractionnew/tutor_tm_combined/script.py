@@ -1278,111 +1278,154 @@ pokemon_names = [
 ]
 
 pokemon_name_mappings = dict()
-move_pokemon_mapping = dict()
 
 
 def normalize_name_wrapper(name):
-    def normalize_name(name: str):
-        name = name.strip()
-
+    def normalize_name(name):
         regex_gigantamax = r"(.*)_GIGA$"
         subst_gigantamax = r"\g<1> Gigantamax"
-        sub_gigantamax = lambda str: re.sub(regex_gigantamax, subst_gigantamax, str, 0)
+
+        def sub_gigantamax(str):
+            return re.sub(regex_gigantamax, subst_gigantamax, str, 0)
 
         regex_hisuian = r"^(?!UNOWN)(.*)_H$"
         subst_hisuian = r"Hisuian \g<1>"
-        sub_hisuian = lambda str: re.sub(regex_hisuian, subst_hisuian, str, 0)
+
+        def sub_hisuian(str):
+            return re.sub(regex_hisuian, subst_hisuian, str, 0)
 
         regex_galarian = r"^(?!UNOWN)(.*)_G$"
         subst_galarian = r"Galarian \g<1>"
-        sub_galarian = lambda str: re.sub(regex_galarian, subst_galarian, str, 0)
+
+        def sub_galarian(str):
+            return re.sub(regex_galarian, subst_galarian, str, 0)
 
         regex_galarian_zen = r"(.*)_G_ZEN$"
         subst_galarian_zen = r"Galarian \g<1> Zen"
-        sub_galarian_zen = lambda str: re.sub(
-            regex_galarian_zen, subst_galarian_zen, str, 0
-        )
+
+        def sub_galarian_zen(str):
+            return re.sub(regex_galarian_zen, subst_galarian_zen, str, 0)
 
         regex_alolan = r"^(?!UNOWN)(.*)_A$"
         subst_alolan = r"Alolan \g<1>"
-        sub_alolan = lambda str: re.sub(regex_alolan, subst_alolan, str, 0)
+
+        def sub_alolan(str):
+            return re.sub(regex_alolan, subst_alolan, str, 0)
 
         regex_male = r"^(?!UNOWN)(.*)_M$"
         subst_male = r"\g<1> Male"
-        sub_male = lambda str: re.sub(regex_male, subst_male, str, 0)
+
+        def sub_male(str):
+            return re.sub(regex_male, subst_male, str, 0)
 
         regex_female = r"^(?!UNOWN)(.*)_(F|FEMALE)$"
         subst_female = r"\g<1> Female"
-        sub_female = lambda str: re.sub(regex_female, subst_female, str, 0)
+
+        def sub_female(str):
+            return re.sub(regex_female, subst_female, str, 0)
 
         regex_rapid = r"(.*)_RAPID$"
         subst_rapid = r"\g<1> Rapid Strike"
-        sub_rapid = lambda str: re.sub(regex_rapid, subst_rapid, str, 0)
+
+        def sub_rapid(str):
+            return re.sub(regex_rapid, subst_rapid, str, 0)
 
         regex_single = r"(.*)_SINGLE$"
         subst_single = r"\g<1> Single Strike"
-        sub_single = lambda str: re.sub(regex_single, subst_single, str, 0)
+
+        def sub_single(str):
+            return re.sub(regex_single, subst_single, str, 0)
 
         regex_school = r"(WISHIWASHI)_S$"
         subst_school = r"\g<1> School"
-        sub_school = lambda str: re.sub(regex_school, subst_school, str, 0)
+
+        def sub_school(str):
+            return re.sub(regex_school, subst_school, str, 0)
 
         regex_oricorio_y = r"^(ORICORIO)_Y$"
         subst_oricorio_y = r"\g<1> Pom-Pom"
-        sub_oricorio_y = lambda str: re.sub(regex_oricorio_y, subst_oricorio_y, str, 0)
+
+        def sub_oricorio_y(str):
+            return re.sub(regex_oricorio_y, subst_oricorio_y, str, 0)
 
         regex_oricorio_p = r"^(ORICORIO)_P$"
         subst_oricorio_p = r"\g<1> Pa'u"
-        sub_oricorio_p = lambda str: re.sub(regex_oricorio_p, subst_oricorio_p, str, 0)
+
+        def sub_oricorio_p(str):
+            return re.sub(regex_oricorio_p, subst_oricorio_p, str, 0)
 
         regex_oricorio_s = r"^(ORICORIO)_S$"
         subst_oricorio_s = r"\g<1> Sensu"
-        sub_oricorio_s = lambda str: re.sub(regex_oricorio_s, subst_oricorio_s, str, 0)
+
+        def sub_oricorio_s(str):
+            return re.sub(regex_oricorio_s, subst_oricorio_s, str, 0)
 
         regex_oricorio = r"^(ORICORIO)$"
         subst_oricorio = r"\g<1> Baile"
-        sub_oricorio = lambda str: re.sub(regex_oricorio, subst_oricorio, str, 0)
+
+        def sub_oricorio(str):
+            return re.sub(regex_oricorio, subst_oricorio, str, 0)
 
         # kommo-o line
         regex_kommoo = r"(.*)O_O$"
         subst_kommoo = r"\g<1>O-O"
-        sub_kommoo = lambda str: re.sub(regex_kommoo, subst_kommoo, str, 0)
+
+        def sub_kommoo(str):
+            return re.sub(regex_kommoo, subst_kommoo, str, 0)
 
         # Mega evolutions
         regex_mega = r"(.*)_MEGA$"
         subst_mega = r"Mega \g<1>"
-        sub_mega = lambda str: re.sub(regex_mega, subst_mega, str, 0)
+
+        def sub_mega(str):
+            return re.sub(regex_mega, subst_mega, str, 0)
+
         regex_mega_x = r"(.*)_MEGA_X$"
         subst_mega_x = r"Mega \g<1> X"
-        sub_mega_x = lambda str: re.sub(regex_mega_x, subst_mega_x, str, 0)
+
+        def sub_mega_x(str):
+            return re.sub(regex_mega_x, subst_mega_x, str, 0)
+
         regex_mega_y = r"(.*)_MEGA_Y$"
         subst_mega_y = r"Mega \g<1> Y"
-        sub_mega_y = lambda str: re.sub(regex_mega_y, subst_mega_y, str, 0)
+
+        def sub_mega_y(str):
+            return re.sub(regex_mega_y, subst_mega_y, str, 0)
 
         # Red (Basculin)
         regex_red = r"(.*)_RED$"
         subst_red = r"\g<1> Red"
-        sub_red = lambda str: re.sub(regex_red, subst_red, str, 0)
+
+        def sub_red(str):
+            return re.sub(regex_red, subst_red, str, 0)
 
         # Blue (Basculin)
         regex_blue = r"(.*)_BLUE$"
         subst_blue = r"\g<1> Blue"
-        sub_blue = lambda str: re.sub(regex_blue, subst_blue, str, 0)
+
+        def sub_blue(str):
+            return re.sub(regex_blue, subst_blue, str, 0)
 
         # Z (Porygon)
         regex_Z = r"^(?!UNOWN)(.*)_Z$"
         subst_Z = r"\g<1>-Z"
-        sub_Z = lambda str: re.sub(regex_Z, subst_Z, str, 0)
+
+        def sub_Z(str):
+            return re.sub(regex_Z, subst_Z, str, 0)
 
         # Z (Porygon)
         regex_2 = r"^(?!UNOWN)2$"
         subst_2 = r"\g<1>-2"
-        sub_2 = lambda str: re.sub(regex_2, subst_2, str, 0)
+
+        def sub_2(str):
+            return re.sub(regex_2, subst_2, str, 0)
 
         # NULL (Type : NULL)
         regex_null = r"(.*)_NULL$"
         subst_null = r"\g<1>:NULL"
-        sub_null = lambda str: re.sub(regex_null, subst_null, str, 0)
+
+        def sub_null(str):
+            return re.sub(regex_null, subst_null, str, 0)
 
         if re.search(regex_gigantamax, name) is not None:
             return sub_gigantamax(name)
@@ -1448,31 +1491,35 @@ def normalize_name_wrapper(name):
 
 for name in pokemon_names:
     fixed_name = normalize_name_wrapper(name)
-    pokemon_name_mappings[name] = fixed_name
+    pokemon_name_mappings[fixed_name] = {"tm": set(), "tutor": set()}
 
 
-paths = [
-    filepath.replace("./data\\", "./data/") for filepath in glob.iglob("./data/*.txt")
-]
+TM_output_path = "../tm_compatibility/tm_mappings.json"
+with open(TM_output_path, "r") as outfile:
+    tm_mapping = json.load(outfile)
+
+    for tmName, pokemonList in tm_mapping.items():
+        fixedTmName = tmName
+        for pokemon in pokemonList:
+            pokemon_name_mappings[pokemon]["tm"].add(fixedTmName)
 
 
-for path in paths:
-    # open the file for that path
-    with open(path) as file:
-        lines = [l.strip("\n") for l in file.readlines()]
-        move_info = (lines[0].strip()).split(": ")[1]
-        pokemon_list = lines[1:]
-        pokemon_list = [p.strip() for p in pokemon_list]
+Tutor_output_path = "../tutor_compatibility/tutor_mappings.json"
+with open(Tutor_output_path, "r") as outfile:
+    tutor_mapping = json.load(outfile)
 
-        fixed_pokemon_names = [pokemon_name_mappings.get(n, n) for n in pokemon_list]
+    for tutorName, pokemonList in tutor_mapping.items():
+        fixedTutorName = tutorName
+        for pokemon in pokemonList:
+            pokemon_name_mappings[pokemon]["tutor"].add(fixedTutorName)
 
-        move_pokemon_mapping[move_info] = fixed_pokemon_names
-    # break
 
-# print(move_pokemon_mapping)
+outpath = "./tm_tutor_combined.json"
 
-output_path = "./tutor_mappings.json"
-with open(output_path, "w") as outfile:
-    json.dump(move_pokemon_mapping, outfile, indent=2)
+with open(outpath, "w") as outfile:
+    pokemon_name_mappings_list = dict()
 
-print("done")
+    for pokemon, moves in pokemon_name_mappings.items():
+        pokemon_name_mappings_list[pokemon] = {"tm": list(moves["tm"]), "tutor": list(moves["tutor"])}
+
+    json.dump(pokemon_name_mappings_list, outfile, indent=2)
