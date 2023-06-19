@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"os"
 	"regexp"
 	"strings"
@@ -78,6 +77,54 @@ type PokemonStats struct {
 	filePath *string
 }
 
+// converts an actualPokemonBaseStat struct to scalemons version
+func (onepokestat actualPokemonBaseStat) convertToScalemon() actualPokemonBaseStat {
+
+	// ignore shedinja
+	if onepokestat.HP == 0 {
+		return onepokestat
+	}
+	scalingFactor := float64(600-onepokestat.HP) / float64(onepokestat.BST-onepokestat.HP)
+	scaledAttack := scalingFactor * float64(onepokestat.Attack)
+	scaledDefense := scalingFactor * float64(onepokestat.Defense)
+	scaledSpAttack := scalingFactor * float64(onepokestat.SpAttack)
+	scaledSpDef := scalingFactor * float64(onepokestat.SpDef)
+	scaledSpeed := scalingFactor * float64(onepokestat.Speed)
+
+	return actualPokemonBaseStat{
+		Name:               onepokestat.Name,
+		HP:                 onepokestat.HP,
+		Attack:             int(scaledAttack),
+		Defense:            int(scaledDefense),
+		SpAttack:           int(scaledSpAttack),
+		SpDef:              int(scaledSpDef),
+		Speed:              int(scaledSpeed),
+		BST:                int(float64(onepokestat.HP) + scaledAttack + scaledDefense + scaledSpAttack + scaledSpDef + scaledSpeed),
+		Type1:              onepokestat.Type1,
+		Type2:              onepokestat.Type2,
+		CatchRate:          onepokestat.CatchRate,
+		ExpYield:           onepokestat.ExpYield,
+		Ev_yieldHP:         onepokestat.Ev_yieldHP,
+		Ev_yieldAttack:     onepokestat.Ev_yieldAttack,
+		Ev_yieldDefense:    onepokestat.Ev_yieldDefense,
+		Ev_yieldSpAttack:   onepokestat.Ev_yieldSpAttack,
+		Ev_yieldSpDef:      onepokestat.Ev_yieldSpDef,
+		Ev_yieldSpeed:      onepokestat.Ev_yieldSpeed,
+		Item1:              onepokestat.Item1,
+		Item2:              onepokestat.Item2,
+		GenderRatio:        onepokestat.GenderRatio,
+		EggCycles:          onepokestat.EggCycles,
+		Friendship:         onepokestat.Friendship,
+		GrowthRate:         onepokestat.GrowthRate,
+		EggGroup1:          onepokestat.EggGroup1,
+		EggGroup2:          onepokestat.EggGroup2,
+		Ability1:           onepokestat.Ability1,
+		Ability2:           onepokestat.Ability2,
+		HiddenAbility:      onepokestat.HiddenAbility,
+		SafariZoneFleeRate: onepokestat.SafariZoneFleeRate,
+	}
+}
+
 func initPokemonStats() (PokemonStats, bool) {
 	statMap := make(map[string]actualPokemonBaseStat)
 	rawMap := make(map[string]rawPokemonBaseStat)
@@ -116,9 +163,8 @@ func (pokestat PokemonStats) fixMap() {
 		// turn all names to lower case && remove characters other than alphabets and digits
 		fixedName := strings.ToLower(stringNormalizer.ReplaceAllString(key, ""))
 
-		fmt.Println(key)
 		(*pokestat.stats)[fixedName] = actualPokemonBaseStat{
-			Name:               key,
+			Name:               key, // original, unnormalized pokemon name
 			HP:                 val.HP,
 			Attack:             val.Attack,
 			Defense:            val.Defense,
@@ -151,10 +197,6 @@ func (pokestat PokemonStats) fixMap() {
 		}
 	}
 
-	for key, val := range *(pokestat.stats) {
-		// turn all names to lower case && remove characters other than alphabets and digits
-		fmt.Println("pokemon name -> ", key, "BST -> ", val.BST)
-	}
 }
 
 func (pokestat PokemonStats) getInfo(targetPokemon string) (actualPokemonBaseStat, bool) {
