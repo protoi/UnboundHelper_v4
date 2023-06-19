@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-type PokemonBaseStat struct {
+type actualPokemonBaseStat struct {
 	Name               string
 	HP                 int
 	Attack             int
@@ -16,6 +16,7 @@ type PokemonBaseStat struct {
 	SpAttack           int
 	SpDef              int
 	Speed              int
+	BST                int
 	Type1              string
 	Type2              string
 	CatchRate          int
@@ -71,17 +72,52 @@ type rawPokemonBaseStat struct {
 	SafariZoneFleeRate int    `json:"safariZoneFleeRate"`
 }
 
-var (
-	BASE_STATS_PATH = "./data generation/temp/dataextractionnew/base_stats/base_stats.json"
-)
+type PokemonStats struct {
+	stats    *map[string]actualPokemonBaseStat
+	rawStats *map[string]rawPokemonBaseStat
+	filePath *string
+}
 
-func fixMap(rawPokemonBaseStat *map[string]rawPokemonBaseStat, PokemonBaseStatMapping *map[string]PokemonBaseStat) {
+func initPokemonStats() (PokemonStats, bool) {
+	statMap := make(map[string]actualPokemonBaseStat)
+	rawMap := make(map[string]rawPokemonBaseStat)
+	path := "./data generation/temp/dataextractionnew/base_stats/base_stats.json"
+	pokestat := PokemonStats{
+		stats:    &statMap,
+		rawStats: &rawMap,
+		filePath: &path,
+	}
+
+	if status := pokestat.loadStats(); status == true {
+		pokestat.fixMap()
+		return pokestat, true
+	}
+	return PokemonStats{}, false
+}
+
+func (pokestat PokemonStats) loadStats() bool {
+
+	// reading successful
+	if file, err := os.ReadFile(*(pokestat.filePath)); err == nil {
+
+		// deserializing successful
+		if err := json.Unmarshal(file, pokestat.rawStats); err == nil {
+			return true
+		}
+	}
+	return false
+}
+
+func (pokestat PokemonStats) fixMap() {
+
 	stringNormalizer := regexp.MustCompile("[^a-zA-Z0-9]+")
 
-	for key, val := range *rawPokemonBaseStat {
+	for key, val := range *(pokestat.rawStats) {
 		// turn all names to lower case && remove characters other than alphabets and digits
 		fixedName := strings.ToLower(stringNormalizer.ReplaceAllString(key, ""))
-		(*PokemonBaseStatMapping)[fixedName] = PokemonBaseStat{
+
+		fmt.Println(key)
+		(*pokestat.stats)[fixedName] = actualPokemonBaseStat{
 			Name:               key,
 			HP:                 val.HP,
 			Attack:             val.Attack,
@@ -89,6 +125,7 @@ func fixMap(rawPokemonBaseStat *map[string]rawPokemonBaseStat, PokemonBaseStatMa
 			SpAttack:           val.SpAttack,
 			SpDef:              val.SpDef,
 			Speed:              val.Speed,
+			BST:                val.HP + val.Attack + val.Defense + val.SpAttack + val.SpDef + val.Speed,
 			Type1:              val.Type1,
 			Type2:              val.Type2,
 			CatchRate:          val.CatchRate,
@@ -113,27 +150,20 @@ func fixMap(rawPokemonBaseStat *map[string]rawPokemonBaseStat, PokemonBaseStatMa
 			SafariZoneFleeRate: val.SafariZoneFleeRate,
 		}
 	}
-}
-func parseBaseStats() bool {
 
-	rawPokemonBaseStatMapping := make(map[string]rawPokemonBaseStat)
-	PokemonBaseStatMapping := make(map[string]PokemonBaseStat)
-
-	// reading file successful
-	if file, err := os.ReadFile(BASE_STATS_PATH); err == nil {
-
-		// parsing file successful
-		if err := json.Unmarshal(file, &rawPokemonBaseStatMapping); err == nil {
-			// now fix the strings
-			fmt.Println(rawPokemonBaseStatMapping["Charmander"])
-			fixMap(&rawPokemonBaseStatMapping, &PokemonBaseStatMapping)
-
-			fmt.Println(PokemonBaseStatMapping["ribombee"])
-			fmt.Println(PokemonBaseStatMapping["mrmime"])
-			fmt.Println(PokemonBaseStatMapping["hooh"])
-			fmt.Println(PokemonBaseStatMapping["porygonz"])
-			return true
-		}
+	for key, val := range *(pokestat.stats) {
+		// turn all names to lower case && remove characters other than alphabets and digits
+		fmt.Println("pokemon name -> ", key, "BST -> ", val.BST)
 	}
-	return false
+}
+
+func (pokestat PokemonStats) getInfo(targetPokemon string) (actualPokemonBaseStat, bool) {
+	// search for the Pokemon, if it does not exist return an empty struct and a false
+	stringNormalizer := regexp.MustCompile("[^a-zA-Z0-9]+")
+	normalizedTarget := strings.ToLower(stringNormalizer.ReplaceAllString(targetPokemon, ""))
+
+	if pokemonInfo, found := (*pokestat.stats)[normalizedTarget]; found == true {
+		return pokemonInfo, true
+	}
+	return actualPokemonBaseStat{}, false
 }
