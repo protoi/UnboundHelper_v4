@@ -1,9 +1,14 @@
 package main
 
 import (
+	"log"
 	"strings"
+	"unbound_helper_v4/data_loading"
 
+	"github.com/diamondburned/arikawa/v3/api"
+	"github.com/diamondburned/arikawa/v3/discord"
 	"github.com/diamondburned/arikawa/v3/gateway"
+	"github.com/lithammer/fuzzysearch/fuzzy"
 )
 
 func contains(dict []string, index string) bool {
@@ -48,4 +53,53 @@ func handle_command(mce *gateway.MessageCreateEvent, command string, args []stri
 		}
 	}
 	s.SendTextReply(mce.ChannelID, "Could not find command.", mce.Message.ID)
+}
+
+func HandleAutoCompletions(e *gateway.InteractionCreateEvent) {
+	var resp api.InteractionResponse
+	switch d := e.Data.(type) {
+	case *discord.AutocompleteInteraction:
+		// getting the first word of the arguments the user is giving
+		query := strings.ToLower(d.Options[0].String())
+		var allChoices api.AutocompleteStringChoices
+
+		// If the argument the current user is filling out is called "pokemon"
+		// like in the arguments for /stats or /moves
+		if d.Options.Focused().Name == "pokemon" {
+			var name_list []string
+			for k := range data_loading.PokeStats {
+				name_list = append(name_list, k)
+				name_list = fuzzy.FindNormalizedFold(query, name_list)
+			}
+			for _, v := range name_list {
+				allChoices = append(allChoices, discord.StringChoice{Name: v})
+			}
+		}
+
+		// Sends the first 25 elements from the list allChoices
+		var choices api.AutocompleteStringChoices
+		i := 0
+		for _, choice := range allChoices {
+			i++
+			if i <= 25 {
+				if strings.HasPrefix(strings.ToLower(choice.Name), query) ||
+					strings.HasPrefix(strings.ToLower(choice.Value), query) {
+					choices = append(choices, choice)
+				}
+			}
+		}
+		// setting the data we're sending back to discord
+		resp = api.InteractionResponse{
+			Type: api.AutocompleteResult,
+			Data: &api.InteractionResponseData{
+				Choices: &choices,
+			},
+		}
+	default:
+		return
+	}
+	// sending back the data we set to discord
+	if err := s.RespondInteraction(e.ID, e.Token, resp); err != nil {
+		log.Println("failed to send interaction callback:", err)
+	}
 }
