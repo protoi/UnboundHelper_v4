@@ -4,6 +4,7 @@ import (
 	"log"
 	"strings"
 	"unbound_helper_v4/data_loading"
+	"unbound_helper_v4/discord_commands"
 
 	"github.com/diamondburned/arikawa/v3/api"
 	"github.com/diamondburned/arikawa/v3/discord"
@@ -22,7 +23,7 @@ func contains(dict []string, index string) bool {
 }
 
 // checks if a message is a command, if not it returns, if so parse the command
-func handle_message(c *gateway.MessageCreateEvent) {
+func HandleMessage(c *gateway.MessageCreateEvent) {
 	// if the author of the message is the bot then return, because the bot cant use its own commands, duh.
 	me, _ := s.Me()
 	if me.ID == c.Author.ID {
@@ -42,10 +43,10 @@ func handle_message(c *gateway.MessageCreateEvent) {
 	command := words_in_message[0]
 	args := words_in_message[1:]
 
-	handle_command(c, command, args)
+	HandleCommand(c, command, args)
 }
 
-func handle_command(mce *gateway.MessageCreateEvent, command string, args []string) {
+func HandleCommand(mce *gateway.MessageCreateEvent, command string, args []string) {
 	for i := 0; i < len(command_list); i++ {
 		if contains(command_list[i].names, strings.ToLower(command)) {
 			command_list[i].command_func(s, mce, args)
@@ -55,9 +56,19 @@ func handle_command(mce *gateway.MessageCreateEvent, command string, args []stri
 	s.SendTextReply(mce.ChannelID, "Could not find command.", mce.Message.ID)
 }
 
-func HandleAutoCompletions(e *gateway.InteractionCreateEvent) {
+func HandleInteractions(e *gateway.InteractionCreateEvent) {
 	var resp api.InteractionResponse
 	switch d := e.Data.(type) {
+	case *discord.CommandInteraction:
+		if d.Name == "stats" {
+			emb := discord_commands.SlashStats(d.Options[0].String())
+			resp = api.InteractionResponse{
+				Type: api.MessageInteractionWithSource,
+				Data: &api.InteractionResponseData{
+					Embeds: emb,
+				},
+			}
+		}
 	case *discord.AutocompleteInteraction:
 		// getting the first word of the arguments the user is giving
 		query := strings.ToLower(d.Options[0].String())
@@ -69,10 +80,10 @@ func HandleAutoCompletions(e *gateway.InteractionCreateEvent) {
 			var name_list []string
 			for k := range data_loading.PokeStats {
 				name_list = append(name_list, k)
-				name_list = fuzzy.FindNormalizedFold(query, name_list)
+				name_list = fuzzy.FindFold(query, name_list)
 			}
 			for _, v := range name_list {
-				allChoices = append(allChoices, discord.StringChoice{Name: v})
+				allChoices = append(allChoices, discord.StringChoice{Name: v, Value: v})
 			}
 		}
 

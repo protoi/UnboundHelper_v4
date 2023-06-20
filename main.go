@@ -4,7 +4,6 @@ import (
 	"context"
 	"log"
 	"unbound_helper_v4/data_loading"
-	"unbound_helper_v4/discord_commands"
 
 	"github.com/diamondburned/arikawa/v3/api"
 	"github.com/diamondburned/arikawa/v3/api/cmdroute"
@@ -39,19 +38,21 @@ var (
 func main() {
 	// loading the base stats json file into memory
 	data_loading.LoadBaseStats()
-	// creating a new router for handling interactions
-	r := cmdroute.NewRouter()
-	// adding functions to handle completed slash commands
-	r.AddFunc("stats", discord_commands.SlashStats)
 
 	// creating a new state for the bot
 	bs := state.New("Bot " + config.token)
+
 	// adding intents to the bot
 	bs.AddIntents(gateway.IntentGuilds)
 	bs.AddIntents(gateway.IntentGuildMessages)
-	// adding the router as a interaction (slash commands) handler
-	bs.AddInteractionHandler(r)
+	bs.AddIntents(gateway.IntentGuildMembers)
+
 	s = bs.Session
+
+	if err := bs.Open(context.Background()); err != nil {
+		log.Fatalln("failed to open:", err)
+	}
+	defer bs.Close()
 
 	// adding a handler for when the bot connects to the gateway, so we can see when the bot is actually online
 	bs.AddHandler(func(*gateway.ReadyEvent) {
@@ -59,12 +60,14 @@ func main() {
 		log.Println("Connected to the gateway as", me.Tag())
 	})
 
-	// adding the handler for auto completions (obviously)
-	bs.AddHandler(HandleAutoCompletions)
 	// overwrite the slash commands we had before the bot started this time
 	if err := cmdroute.OverwriteCommands(bs, slash_commands); err != nil {
 		log.Fatalln("cannot update commands:", err)
 	}
+
+	// adding the handler for auto completions (obviously)
+	bs.AddHandler(HandleInteractions)
+
 	// stay connected until we shut down the program
 	if err := bs.Connect(context.TODO()); err != nil {
 		log.Fatalln("cannot connect:", err)
