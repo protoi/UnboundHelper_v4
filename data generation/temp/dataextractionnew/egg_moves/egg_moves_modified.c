@@ -5717,7 +5717,7 @@ int main()
 	int thisIsName = 1;
 	int isbeginning = 1;
 
-	fprintf(file, "[\n");
+	fprintf(file, "{\n");
 
 	for (int i = 0;; i++)
 	{
@@ -5731,7 +5731,7 @@ int main()
 			int actualPokemonID = id - 20000;
 			char *pokemonName = pokemon_name_mapping[actualPokemonID];
 
-			fprintf(file, "\n]},\n{\"%s\" : [\n", pokemonName);
+			fprintf(file, "\n],\n\"%s\" : [\n", pokemonName);
 		}
 		else // this is a move
 		{
@@ -5740,7 +5740,7 @@ int main()
 
 		// check if this thing is a pokemon or not
 	}
-	fprintf(file, "\n]");
+	fprintf(file, "\n}");
 
 	fclose(file);
 

@@ -196,7 +196,6 @@ func (pokestat PokemonStats) fixMap() {
 			SafariZoneFleeRate: val.SafariZoneFleeRate,
 		}
 	}
-
 }
 
 func (pokestat PokemonStats) getInfo(targetPokemon string) (actualPokemonBaseStat, bool) {
