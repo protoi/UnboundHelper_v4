@@ -65,29 +65,28 @@ type actualBattleMoves struct {
 }
 
 type MoveInfo struct {
-	info     *map[string]actualBattleMoves
-	rawInfo  *map[string]rawFixedBattleMoves
+	info *map[string]actualBattleMoves
+	//rawInfo  *map[string]rawFixedBattleMoves
 	filePath *string
 }
 
 func initMoveInfo() (MoveInfo, bool) {
 	statMap := make(map[string]actualBattleMoves)
-	rawMap := make(map[string]rawFixedBattleMoves)
+	//rawMap := make(map[string]rawFixedBattleMoves)
 	path := "./data generation/temp/dataextractionnew/battle_moves/battle_move.json"
 	moveinfo := MoveInfo{
-		info:     &statMap,
-		rawInfo:  &rawMap,
+		info: &statMap,
+		//rawInfo:  &rawMap,
 		filePath: &path,
 	}
 
 	if status := moveinfo.loadMoves(); status == true {
-		//moveinfo.fixMap()
 		return moveinfo, true
 	}
 	return MoveInfo{}, false
 }
 
-func (moveinfo MoveInfo) fixMap() {
+/*func (moveinfo MoveInfo) fixMap() {
 	stringNormalizer := regexp.MustCompile("[^a-zA-Z0-9]+")
 
 	for key, val := range *(moveinfo.rawInfo) {
@@ -110,7 +109,7 @@ func (moveinfo MoveInfo) fixMap() {
 			ZMovePower:            val.ZMovePower,
 		}
 	}
-}
+}*/
 
 func (moveinfo MoveInfo) loadMoves() bool {
 	// reading successful

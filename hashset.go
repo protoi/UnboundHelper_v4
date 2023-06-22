@@ -4,6 +4,14 @@ type Set struct {
 	members *map[string]struct{}
 }
 
+func initSet() Set {
+	temp := map[string]struct{}{}
+
+	return Set{
+		members: &temp,
+	}
+}
+
 // add item to set
 func (set Set) add(item string) {
 	(*set.members)[item] = struct{}{}
@@ -23,4 +31,10 @@ func (set Set) toList() []string {
 		list = append(list, key)
 	}
 	return list
+}
+
+func (set Set) remove(key string) {
+	if _, status := (*set.members)[key]; status {
+		delete(*set.members, key)
+	}
 }

@@ -76,6 +76,13 @@ type PokemonStats struct {
 	filePath *string
 }
 
+type reverseAbility struct {
+	abilityName string
+	first       Set
+	second      Set
+	hidden      Set
+}
+
 // converts an actualPokemonBaseStat struct to scalemons version
 func (onepokestat actualPokemonBaseStat) convertToScalemon() actualPokemonBaseStat {
 
@@ -246,4 +253,57 @@ func (pokestat PokemonStats) getInfo(targetPokemon string) (actualPokemonBaseSta
 		return pokemonInfo, true
 	}
 	return actualPokemonBaseStat{}, false
+}
+
+// creates a mapping of ability -> pokemons, will be used in parse_ability.go file
+func (pokestat PokemonStats) getReverseAbilityMapping() map[string]reverseAbility {
+	reverseAbilityMapping := make(map[string]reverseAbility)
+
+	stringNormalizer := regexp.MustCompile("[^a-zA-Z0-9]+")
+
+	for _, pokemon_base_stats := range *(pokestat.stats) {
+
+		var (
+			ab1, ab2, ha = pokemon_base_stats.Ability1, pokemon_base_stats.Ability2, pokemon_base_stats.HiddenAbility
+			norm_ab1     = strings.ToLower(stringNormalizer.ReplaceAllString(ab1, ""))
+			norm_ab2     = strings.ToLower(stringNormalizer.ReplaceAllString(ab2, ""))
+			norm_ha      = strings.ToLower(stringNormalizer.ReplaceAllString(ha, ""))
+			pokemonName  = pokemon_base_stats.Name
+		)
+
+		// ability 1
+		if _, status := reverseAbilityMapping[norm_ab1]; status != true { // ability 1 already not present
+			reverseAbilityMapping[norm_ab1] = reverseAbility{
+				abilityName: ab1,
+				first:       initSet(),
+				second:      initSet(),
+				hidden:      initSet(),
+			}
+		}
+		reverseAbilityMapping[norm_ab1].first.add(pokemonName) // push to first set
+
+		// ability 2
+		if _, status := reverseAbilityMapping[norm_ab2]; status != true { // ability 2 already not present
+			reverseAbilityMapping[norm_ab2] = reverseAbility{
+				abilityName: ab2,
+				first:       initSet(),
+				second:      initSet(),
+				hidden:      initSet(),
+			}
+		}
+		reverseAbilityMapping[norm_ab2].second.add(pokemonName) // push to second set
+
+		// hidden ability
+		if _, status := reverseAbilityMapping[norm_ha]; status != true { // hidden ability already not present
+			reverseAbilityMapping[norm_ha] = reverseAbility{
+				abilityName: ha,
+				first:       initSet(),
+				second:      initSet(),
+				hidden:      initSet(),
+			}
+		}
+		reverseAbilityMapping[norm_ha].hidden.add(pokemonName) // push to HA set
+	}
+
+	return reverseAbilityMapping
 }
