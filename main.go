@@ -16,6 +16,28 @@ func main() {
 	fmt.Println("OLD")
 	PrintMemUsage()
 
+	/*	abd, status := initAbilityDesc()
+
+		if status == false {
+			return
+		}
+
+		if ans, found := abd.getDescription("synchronize"); found == true {
+			fmt.Println(ans)
+		}
+		if ans, found := abd.getDescription("magic g u a r d"); found == true {
+			fmt.Println(ans)
+		}
+		if ans, found := abd.getDescription("b l AZE"); found == true {
+			fmt.Println(ans)
+		}
+		if ans, found := abd.getDescription("gale wings"); found == true {
+			fmt.Println(ans)
+		}
+		if ans, found := abd.getDescription("crabby tactics"); found == true {
+			fmt.Println(ans)
+		}
+	*/
 	/*	mi, status := initMoveInfo()
 		if status == false {
 			return
@@ -96,31 +118,38 @@ func main() {
 			fmt.Println(x)
 		}*/
 
-	/*	p, status := initPokemonStats()
-		if status == false {
-			return
-		}
+	p, status := initPokemonStats()
+	if status == false {
+		return
+	}
 
-		if ans, found := p.getInfo("charmander"); found == true {
-			fmt.Println(ans)
-			fmt.Println("CHARMANDER")
-			fmt.Println(ans.convertToScalemon())
-			fmt.Println("END CHARMANDER")
+	rev := initReverseAbilityMapping(p)
 
-		}
-		if ans, found := p.getInfo("CHAR MAND;ER"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := p.getInfo("Ho oooh "); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := p.getInfo("Hooh "); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := p.getInfo("missing no"); found == true {
-			fmt.Println(ans)
-		}
-	*/
+	fmt.Println(rev.getAbilityBearer("blaze"))
+	fmt.Println(rev.getAbilityBearer("gale wings"))
+	fmt.Println(rev.getAbilityBearer("synchro nize"))
+	fmt.Println(rev.getAbilityBearer("GRIMNEIGH"))
+
+	//if ans, found := p.getInfo("charmander"); found == true {
+	//	fmt.Println(ans)
+	//	fmt.Println("CHARMANDER")
+	//	fmt.Println(ans.convertToScalemon())
+	//	fmt.Println("END CHARMANDER")
+	//
+	//}
+	//if ans, found := p.getInfo("CHAR MAND;ER"); found == true {
+	//	fmt.Println(ans)
+	//}
+	//if ans, found := p.getInfo("Ho oooh "); found == true {
+	//	fmt.Println(ans)
+	//}
+	//if ans, found := p.getInfo("Hooh "); found == true {
+	//	fmt.Println(ans)
+	//}
+	//if ans, found := p.getInfo("missing no"); found == true {
+	//	fmt.Println(ans)
+	//}
+
 	fmt.Println("NEW")
 	PrintMemUsage()
 	runtime.GC()

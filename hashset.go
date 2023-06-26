@@ -26,6 +26,9 @@ func (set Set) contains(item string) bool {
 }
 
 func (set Set) toList() []string {
+	if set.members == nil {
+		return []string{}
+	}
 	list := make([]string, 0, len(*(set.members)))
 	for key := range *(set.members) {
 		list = append(list, key)

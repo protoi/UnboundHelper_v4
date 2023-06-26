@@ -255,8 +255,9 @@ func (pokestat PokemonStats) getInfo(targetPokemon string) (actualPokemonBaseSta
 	return actualPokemonBaseStat{}, false
 }
 
-// creates a mapping of ability -> pokemons, will be used in parse_ability.go file
-func (pokestat PokemonStats) getReverseAbilityMapping() map[string]reverseAbility {
+// creates a mapping of ability -> Pokemon, will be used in parse_ability_descriptions.go file
+// to be called by the ability parse_ability file
+func (pokestat PokemonStats) generateReverseAbilityMappings() map[string]reverseAbility {
 	reverseAbilityMapping := make(map[string]reverseAbility)
 
 	stringNormalizer := regexp.MustCompile("[^a-zA-Z0-9]+")
