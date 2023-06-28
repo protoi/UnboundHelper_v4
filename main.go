@@ -18,7 +18,8 @@ func main() {
 
 	//test_fuzzy_egg_moves()
 	//test_fuzzy_base_stats()
-	test_fuzzy_lvl_up_moves()
+	//test_fuzzy_lvl_up_moves()
+	test_fuzzy_tm_tutor_moves()
 	/*	abd, status := initAbilityDesc()
 
 		if status == false {
