@@ -16,6 +16,9 @@ func main() {
 	fmt.Println("OLD")
 	PrintMemUsage()
 
+	//test_fuzzy_egg_moves()
+	//test_fuzzy_base_stats()
+	test_fuzzy_lvl_up_moves()
 	/*	abd, status := initAbilityDesc()
 
 		if status == false {
@@ -118,7 +121,7 @@ func main() {
 			fmt.Println(x)
 		}*/
 
-	p, status := initPokemonStats()
+	/*p, status := initPokemonStats()
 	if status == false {
 		return
 	}
@@ -128,7 +131,7 @@ func main() {
 	fmt.Println(rev.getAbilityBearer("blaze"))
 	fmt.Println(rev.getAbilityBearer("gale wings"))
 	fmt.Println(rev.getAbilityBearer("synchro nize"))
-	fmt.Println(rev.getAbilityBearer("GRIMNEIGH"))
+	fmt.Println(rev.getAbilityBearer("GRIMNEIGH"))*/
 
 	//if ans, found := p.getInfo("charmander"); found == true {
 	//	fmt.Println(ans)

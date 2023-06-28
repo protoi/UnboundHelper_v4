@@ -2,52 +2,50 @@ package main
 
 import (
 	"fmt"
-	"log"
+	"github.com/lithammer/fuzzysearch/fuzzy"
+	"sort"
+	"strings"
 )
 
-type PokeStats struct {
-	HP        float64
-	Attack    float64
-	Defense   float64
-	SpAttack  float64
-	SpDefense float64
-	Speed     float64
-	BST       float64
+type str_and_dist struct {
+	dist int
+	str  string
 }
 
-func ToScalemon(ps PokeStats) PokeStats {
-	var new_ps PokeStats
-	new_ps.Attack = StatToScalemon(ps.BST, ps.HP, ps.Attack)
-	new_ps.Defense = StatToScalemon(ps.BST, ps.HP, ps.Defense)
-	new_ps.SpAttack = StatToScalemon(ps.BST, ps.HP, ps.SpAttack)
-	new_ps.SpDefense = StatToScalemon(ps.BST, ps.HP, ps.SpDefense)
-	new_ps.Speed = StatToScalemon(ps.BST, ps.HP, ps.Speed)
-	return new_ps
-}
+func FindClosestMatches(target string, list []string) []string {
+	targetLower := strings.ToLower(target)
+	matches := make([]str_and_dist, 0)
 
-func StatToScalemon(BST, HP, stat float64) float64 {
-	return stat * (600 - HP) / (BST - HP)
-}
-
-func GetStats(pokemon string) PokeStats {
-	// pokemon = strings.ToLower(pokemon)
-	var ps PokeStats
-	// Getting the json version of the stats for this pokemon from the poke_stats variable in main.go
-	json_stats := poke_stats[pokemon]
-	// Converting the json stats to a map
-	stats, ok := json_stats.(map[string]interface{})
-	// If not okay return an empty struct and warn
-	if !ok {
-		log.Println(fmt.Sprintf("WARNING could not get pokemon %s", pokemon))
-		return ps
+	for _, str := range list {
+		strLower := strings.ToLower(str)
+		distance := fuzzy.LevenshteinDistance(strLower, targetLower)
+		matches = append(matches, str_and_dist{
+			distance, str,
+		})
 	}
-	// Setting all the stats
-	ps.HP = stats["HP"].(float64)
-	ps.Attack = stats["Attack"].(float64)
-	ps.Defense = stats["Defense"].(float64)
-	ps.SpAttack = stats["SpAttack"].(float64)
-	ps.SpDefense = stats["SpDef"].(float64)
-	ps.Speed = stats["Speed"].(float64)
-	ps.BST = (ps.HP + ps.Attack + ps.Defense + ps.SpAttack + ps.SpDefense + ps.Speed)
-	return ps
+
+	sort.Slice(matches, func(i, j int) bool { // TODO: https://pkg.go.dev/container/heap use a heap inplace of this
+
+		return matches[i].dist < matches[j].dist
+	})
+
+	closestMatches := make([]string, 0)
+	for i := 0; i < len(matches) && i < 5; i++ {
+		closestMatches = append(closestMatches, matches[i].str)
+	}
+
+	return closestMatches
+}
+
+func testLevenshteinDistance() {
+	list := []string{
+		"Mirror Move", "Peck", "Foresight", "Future Sight", "Nasty Plot",
+		"Psycho Shift", "Lucky Chant", "Extrasensory", "Secret Power",
+		"Stored Power", "Morning Sun", "Bestow", "Soft-Boiled",
+	}
+
+	target := "soft boil"
+
+	closestMatches := FindClosestMatches(target, list)
+	fmt.Println("Closest matches:", closestMatches)
 }

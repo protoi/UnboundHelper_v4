@@ -12,6 +12,13 @@ func initSet() Set {
 	}
 }
 
+// add a list to the set
+func (set Set) addList(items []string) {
+	for _, item := range items {
+		(*set.members)[item] = struct{}{}
+	}
+}
+
 // add item to set
 func (set Set) add(item string) {
 	(*set.members)[item] = struct{}{}

@@ -3,6 +3,7 @@ module unbound_helper_v4
 go 1.20
 
 require (
+	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/diamondburned/arikawa/v3 v3.3.0 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
