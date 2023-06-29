@@ -6,6 +6,16 @@ import (
 	"os"
 )
 
+type scalemonstats struct {
+	Hp       int `json:"Hp"`
+	Attack   int `json:"Attack"`
+	Defense  int `json:"Defense"`
+	Spattack int `json:"Spattack"`
+	Spdef    int `json:"Spdef"`
+	Speed    int `json:"Speed"`
+	Bst      int `json:"BST"`
+}
+
 type PokemonBaseStat struct {
 	HP                 int
 	Attack             int
@@ -88,7 +98,7 @@ type reverseAbility struct {
 func (ps PokemonBaseStat) convertToScalemon() PokemonBaseStat {
 
 	// ignore shedinja
-	if ps.HP == 0 {
+	if ps.HP == 1 {
 		return ps
 	}
 	scalingFactor := float64(600-ps.HP) / float64(ps.BST-ps.HP)
@@ -254,5 +264,50 @@ func test_fuzzy_base_stats() {
 		a, b, c = bs.getStats("mega rayquza")
 		fmt.Println(a, b, c)
 
+	}
+}
+
+func writeScalemonsData() {
+
+	data := make(map[string]scalemonstats)
+	if bs, status := initPokemonStats(); status == true {
+		for key, val := range *bs.stats {
+			scaleVal := val.convertToScalemon()
+			temp := scalemonstats{
+				Hp:       scaleVal.HP,
+				Attack:   scaleVal.Attack,
+				Defense:  scaleVal.Defense,
+				Spattack: scaleVal.SpAttack,
+				Spdef:    scaleVal.SpDef,
+				Speed:    scaleVal.Speed,
+				Bst:      scaleVal.BST,
+			}
+
+			data[key] = temp
+		}
+	}
+
+	jsonData, _ := json.MarshalIndent(data, "", " ")
+
+	// thank you chatGPT
+
+	// Create a file to write the JSON data
+	file, err := os.Create("./scalemons_data.json")
+	if err != nil {
+		fmt.Println("Error:", err)
+		return
+	}
+	defer func(file *os.File) {
+		err := file.Close()
+		if err != nil {
+			fmt.Println("oh no !!!!!!")
+		}
+	}(file)
+
+	// Write the JSON data to the file
+	_, err = file.Write(jsonData)
+	if err != nil {
+		fmt.Println("Error:", err)
+		return
 	}
 }
