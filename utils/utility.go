@@ -1,4 +1,4 @@
-package main
+package utils
 
 import (
 	"fmt"
@@ -75,7 +75,7 @@ func FindClosestMatches(target string, list []string) []string {
 	return closestMatches
 }
 
-func testLevenshteinDistance() {
+func TestLevenshteinDistance() {
 	list := []string{
 		"Mirror Move", "Peck", "Foresight", "Future Sight", "Nasty Plot",
 		"Psycho Shift", "Lucky Chant", "Extrasensory", "Secret Power",

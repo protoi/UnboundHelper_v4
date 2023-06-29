@@ -1,9 +1,10 @@
-package main
+package fuzzy_searching
 
 import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"unbound_helper_v4/utils"
 )
 
 var (
@@ -19,7 +20,7 @@ var (
 
 func fixFlag(n int) []string {
 	var stringFlags []string
-	flagIDs := PowersOfTwoSum(n)
+	flagIDs := utils.PowersOfTwoSum(n)
 
 	for _, flagID := range flagIDs {
 		stringFlags = append(stringFlags, flagMapping[flagID])
@@ -63,7 +64,7 @@ type MoveInfo struct {
 	filePath        *string
 }
 
-func initMoveInfo() (MoveInfo, bool) {
+func InitMoveInfo() (MoveInfo, bool) {
 	statMap := make(map[string]BattleMoves)
 	listOfMoveNames := []string{}
 	path := "./data generation/temp/dataextractionnew/battle_moves/battle_move.json"
@@ -89,11 +90,11 @@ func (moveinfo MoveInfo) loadMoves() bool {
 		if err := json.Unmarshal(file, &unfixedMapping); err == nil {
 			// restructure this map of structs here
 
-			setOfMoveNames := initSet()
+			setOfMoveNames := utils.InitSet()
 
 			for moveName, val := range unfixedMapping {
 
-				setOfMoveNames.add(moveName)
+				setOfMoveNames.Add(moveName)
 
 				(*moveinfo.info)[moveName] = BattleMoves{
 					Target:                val.Target,
@@ -111,7 +112,7 @@ func (moveinfo MoveInfo) loadMoves() bool {
 				}
 			}
 
-			*moveinfo.listOfMoveNames = setOfMoveNames.toList()
+			*moveinfo.listOfMoveNames = setOfMoveNames.ToList()
 
 			return true
 		}
@@ -119,10 +120,10 @@ func (moveinfo MoveInfo) loadMoves() bool {
 	return false
 }
 
-func (moveinfo MoveInfo) getInfo(targetMove string) (string, BattleMoves, bool) {
+func (moveinfo MoveInfo) GetInfo(targetMove string) (string, BattleMoves, bool) {
 	// search for the move, if it does not exist return an empty struct and a false
 	// fuzzy search for the pokemon name inside eggmove.listOfPokemons
-	moveNameMatches := FindClosestMatches(targetMove, *moveinfo.listOfMoveNames)
+	moveNameMatches := utils.FindClosestMatches(targetMove, *moveinfo.listOfMoveNames)
 
 	if len(moveNameMatches) == 0 {
 		return "", BattleMoves{}, false
@@ -134,18 +135,18 @@ func (moveinfo MoveInfo) getInfo(targetMove string) (string, BattleMoves, bool) 
 	return "", BattleMoves{}, false
 }
 
-func test_fuzzy_battle_moves() {
-	if mi, status := initMoveInfo(); status == true {
+func Test_fuzzy_battle_moves() {
+	if mi, status := InitMoveInfo(); status == true {
 
-		a, b, c := mi.getInfo("wickd blow")
+		a, b, c := mi.GetInfo("wickd blow")
 		fmt.Println(a, b, c)
-		a, b, c = mi.getInfo("blow job")
+		a, b, c = mi.GetInfo("blow job")
 		fmt.Println(a, b, c)
-		a, b, c = mi.getInfo("wood hammr")
+		a, b, c = mi.GetInfo("wood hammr")
 		fmt.Println(a, b, c)
-		a, b, c = mi.getInfo("thunder cage")
+		a, b, c = mi.GetInfo("thunder cage")
 		fmt.Println(a, b, c)
-		a, b, c = mi.getInfo("monster mash")
+		a, b, c = mi.GetInfo("monster mash")
 		fmt.Println(a, b, c)
 	}
 }

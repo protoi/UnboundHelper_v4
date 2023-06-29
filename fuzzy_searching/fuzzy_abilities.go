@@ -1,9 +1,10 @@
-package main
+package fuzzy_searching
 
 import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"unbound_helper_v4/utils"
 )
 
 type AbilityDescriptions struct {
@@ -12,7 +13,7 @@ type AbilityDescriptions struct {
 }
 
 type AbilityInfo struct {
-	revmap                *map[string]reverseAbility
+	revmap                *map[string]ReverseAbility
 	descriptions          *map[string]AbilityDescriptions
 	listOfAbilities       *[]string
 	listOfActualAbilities *[]string          // abilities picked from the ability description file, proper capitalization and spellings
@@ -25,7 +26,7 @@ type AbilityContainer struct {
 	hidden []string
 }
 
-func initAbilityInfo(pokestat PokemonStats) (AbilityInfo, bool) {
+func InitAbilityInfo(pokestat PokemonStats) (AbilityInfo, bool) {
 	revmap := generateReverseAbilityMappings(pokestat)
 	abDescMap := make(map[string]AbilityDescriptions)
 	abilityInterMapping := make(map[string]string)
@@ -35,7 +36,7 @@ func initAbilityInfo(pokestat PokemonStats) (AbilityInfo, bool) {
 	abInfo := AbilityInfo{
 		revmap:                &revmap,
 		descriptions:          &abDescMap,
-		listOfAbilities:       pokestat.listOfAbilities,
+		listOfAbilities:       pokestat.ListOfAbilities,
 		listOfActualAbilities: &listOfActualAbilities,
 		abilityInterMapping:   &abilityInterMapping,
 		filePath:              &path,
@@ -55,7 +56,7 @@ func (abInfo AbilityInfo) interMapAbilities() {
 
 	// first map raw abilities with the actual abilities
 	for _, rawAbilityName := range *abInfo.listOfAbilities {
-		closestMatch, status := FindClosestString(rawAbilityName, *abInfo.listOfActualAbilities, 5)
+		closestMatch, status := utils.FindClosestString(rawAbilityName, *abInfo.listOfActualAbilities, 5)
 
 		if status == false {
 			(*abInfo.abilityInterMapping)[rawAbilityName] = rawAbilityName
@@ -66,7 +67,7 @@ func (abInfo AbilityInfo) interMapAbilities() {
 
 	// second map actual abilities with the raw abilities
 	for _, actualAbilityName := range *abInfo.listOfActualAbilities {
-		closestMatch, status := FindClosestString(actualAbilityName, *abInfo.listOfAbilities, 5)
+		closestMatch, status := utils.FindClosestString(actualAbilityName, *abInfo.listOfAbilities, 5)
 
 		if status == false {
 			(*abInfo.abilityInterMapping)[actualAbilityName] = actualAbilityName
@@ -77,10 +78,10 @@ func (abInfo AbilityInfo) interMapAbilities() {
 
 }
 
-func generateReverseAbilityMappings(pokestat PokemonStats) map[string]reverseAbility {
-	reverseAbilityMapping := make(map[string]reverseAbility)
+func generateReverseAbilityMappings(pokestat PokemonStats) map[string]ReverseAbility {
+	reverseAbilityMapping := make(map[string]ReverseAbility)
 
-	for pokemonName, pokemon_base_stats := range *(pokestat.stats) {
+	for pokemonName, pokemon_base_stats := range *(pokestat.Stats) {
 
 		var (
 			ab1, ab2, ha = pokemon_base_stats.Ability1, pokemon_base_stats.Ability2, pokemon_base_stats.HiddenAbility
@@ -88,33 +89,33 @@ func generateReverseAbilityMappings(pokestat PokemonStats) map[string]reverseAbi
 
 		// ability 1
 		if _, status := reverseAbilityMapping[ab1]; status != true { // ability 1 already not present
-			reverseAbilityMapping[ab1] = reverseAbility{
-				first:  initSet(),
-				second: initSet(),
-				hidden: initSet(),
+			reverseAbilityMapping[ab1] = ReverseAbility{
+				First:  utils.InitSet(),
+				Second: utils.InitSet(),
+				Hidden: utils.InitSet(),
 			}
 		}
-		reverseAbilityMapping[ab1].first.add(pokemonName) // push to first set
+		reverseAbilityMapping[ab1].First.Add(pokemonName) // push to first set
 
 		// ability 2
 		if _, status := reverseAbilityMapping[ab2]; status != true { // ability 2 already not present
-			reverseAbilityMapping[ab2] = reverseAbility{
-				first:  initSet(),
-				second: initSet(),
-				hidden: initSet(),
+			reverseAbilityMapping[ab2] = ReverseAbility{
+				First:  utils.InitSet(),
+				Second: utils.InitSet(),
+				Hidden: utils.InitSet(),
 			}
 		}
-		reverseAbilityMapping[ab2].second.add(pokemonName) // push to second set
+		reverseAbilityMapping[ab2].Second.Add(pokemonName) // push to second set
 
 		// hidden ability
 		if _, status := reverseAbilityMapping[ha]; status != true { // hidden ability already not present
-			reverseAbilityMapping[ha] = reverseAbility{
-				first:  initSet(),
-				second: initSet(),
-				hidden: initSet(),
+			reverseAbilityMapping[ha] = ReverseAbility{
+				First:  utils.InitSet(),
+				Second: utils.InitSet(),
+				Hidden: utils.InitSet(),
 			}
 		}
-		reverseAbilityMapping[ha].hidden.add(pokemonName) // push to HA set
+		reverseAbilityMapping[ha].Hidden.Add(pokemonName) // push to HA set
 	}
 
 	return reverseAbilityMapping
@@ -126,28 +127,28 @@ func (abInfo AbilityInfo) loadAbilityDescriptions() bool {
 
 		if err := json.Unmarshal(file, &abilities); err == nil {
 
-			actualAbilitySet := initSet()
+			actualAbilitySet := utils.InitSet()
 
 			for _, ab := range abilities {
 
-				actualAbilitySet.add(ab.AbilityName)
+				actualAbilitySet.Add(ab.AbilityName)
 
 				(*abInfo.descriptions)[ab.AbilityName] = AbilityDescriptions{
 					AbilityName:        ab.AbilityName,
 					AbilityDescription: ab.AbilityDescription,
 				}
 			}
-			*abInfo.listOfActualAbilities = actualAbilitySet.toList()
+			*abInfo.listOfActualAbilities = actualAbilitySet.ToList()
 		}
 		return true
 	}
 	return false
 }
 
-func (abInfo AbilityInfo) getAbilityBearer(targetAbility string) (string, AbilityContainer, bool) {
+func (abInfo AbilityInfo) GetAbilityBearer(targetAbility string) (string, AbilityContainer, bool) {
 
 	// fuzzy search for the ability name inside abInfo.listOfAbilities
-	abilityNameMatches := FindClosestMatches(targetAbility, *abInfo.listOfAbilities)
+	abilityNameMatches := utils.FindClosestMatches(targetAbility, *abInfo.listOfAbilities)
 	actualAbilityName := (*abInfo.abilityInterMapping)[abilityNameMatches[0]]
 
 	if len(abilityNameMatches) == 0 {
@@ -156,9 +157,9 @@ func (abInfo AbilityInfo) getAbilityBearer(targetAbility string) (string, Abilit
 
 	if abilityContainer, found := (*abInfo.revmap)[abilityNameMatches[0]]; found == true {
 		return actualAbilityName, AbilityContainer{
-			first:  abilityContainer.first.toList(),
-			second: abilityContainer.second.toList(),
-			hidden: abilityContainer.hidden.toList(),
+			first:  abilityContainer.First.ToList(),
+			second: abilityContainer.Second.ToList(),
+			hidden: abilityContainer.Hidden.ToList(),
 		}, true
 	}
 
@@ -168,10 +169,10 @@ func (abInfo AbilityInfo) getAbilityBearer(targetAbility string) (string, Abilit
 // creates a mapping of ability -> Pokemon, will be used in parse_ability_descriptions.go file
 // to be called by the ability parse_ability file
 
-func (abInfo AbilityInfo) getDescription(targetAbility string) (string, string, bool) {
+func (abInfo AbilityInfo) GetDescription(targetAbility string) (string, string, bool) {
 
 	// fuzzy search for the ability name inside abInfo.listOfActualAbilities
-	abilityNameMatch, status := FindClosestString(targetAbility, *abInfo.listOfActualAbilities, 5)
+	abilityNameMatch, status := utils.FindClosestString(targetAbility, *abInfo.listOfActualAbilities, 5)
 
 	if status == false {
 		return "", "", false
@@ -183,34 +184,34 @@ func (abInfo AbilityInfo) getDescription(targetAbility string) (string, string, 
 	return "", "", false
 }
 
-func test_fuzzy_abilities() {
-	if bs, status := initPokemonStats(); status == true {
-		abInfo, _ := initAbilityInfo(bs)
+func Test_fuzzy_abilities() {
+	if bs, status := InitPokemonStats(); status == true {
+		abInfo, _ := InitAbilityInfo(bs)
 
-		a, b, c := abInfo.getAbilityBearer("soul hearts")
+		a, b, c := abInfo.GetAbilityBearer("soul hearts")
 		fmt.Println(a, b, c)
-		a, b, c = abInfo.getAbilityBearer("dauntles shield")
+		a, b, c = abInfo.GetAbilityBearer("dauntles shield")
 		fmt.Println(a, b, c)
-		a, b, c = abInfo.getAbilityBearer("poison touch")
+		a, b, c = abInfo.GetAbilityBearer("poison touch")
 		fmt.Println(a, b, c)
-		a, b, c = abInfo.getAbilityBearer("bla ze")
+		a, b, c = abInfo.GetAbilityBearer("bla ze")
 		fmt.Println(a, b, c)
-		a, b, c = abInfo.getAbilityBearer("refrigerate")
+		a, b, c = abInfo.GetAbilityBearer("refrigerate")
 		fmt.Println(a, b, c)
-		a, b, c = abInfo.getAbilityBearer("disguis")
+		a, b, c = abInfo.GetAbilityBearer("disguis")
 		fmt.Println(a, b, c)
 
-		x, y, z := abInfo.getDescription("soul hearts")
+		x, y, z := abInfo.GetDescription("soul hearts")
 		fmt.Println(x, y, z)
-		x, y, z = abInfo.getDescription("dauntles shield")
+		x, y, z = abInfo.GetDescription("dauntles shield")
 		fmt.Println(x, y, z)
-		x, y, z = abInfo.getDescription("poison touch")
+		x, y, z = abInfo.GetDescription("poison touch")
 		fmt.Println(x, y, z)
-		x, y, z = abInfo.getDescription("bla ze")
+		x, y, z = abInfo.GetDescription("bla ze")
 		fmt.Println(x, y, z)
-		x, y, z = abInfo.getDescription("refrigerate")
+		x, y, z = abInfo.GetDescription("refrigerate")
 		fmt.Println(x, y, z)
-		x, y, z = abInfo.getDescription("disguis")
+		x, y, z = abInfo.GetDescription("disguis")
 		fmt.Println(x, y, z)
 
 	}

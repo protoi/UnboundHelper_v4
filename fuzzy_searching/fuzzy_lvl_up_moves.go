@@ -1,27 +1,28 @@
-package main
+package fuzzy_searching
 
 import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"unbound_helper_v4/utils"
 )
 
 // a tuple of level and move
-type levelMoveTuple struct {
+type LevelMoveTuple struct {
 	Level int    `json:"level"`
 	Move  string `json:"move"`
 }
 
 // a list of such tuples
-type moveList []levelMoveTuple
+type MoveList []LevelMoveTuple
 
 // pokemon name + list of tuple
 type LvlUpMoves struct {
-	MoveList moveList
+	MoveList MoveList
 }
 
 type ReverseLvlUpMoves struct {
-	Pokemons Set
+	Pokemons utils.Set
 }
 
 type PokemonLvlUpMoves struct {
@@ -32,7 +33,7 @@ type PokemonLvlUpMoves struct {
 	filePath           *string
 }
 
-func initPokemonLevelUpMoves() (PokemonLvlUpMoves, bool) {
+func InitPokemonLevelUpMoves() (PokemonLvlUpMoves, bool) {
 	levelUpMap := make(map[string]LvlUpMoves)
 	revLevelUpMap := make(map[string]ReverseLvlUpMoves)
 	var (
@@ -60,28 +61,28 @@ func (levelup PokemonLvlUpMoves) loadLevelUpMoves() bool {
 
 	// reading successful
 	if file, err := os.ReadFile(*(levelup.filePath)); err == nil {
-		tempLvlUpMoves := make(map[string]moveList)
+		tempLvlUpMoves := make(map[string]MoveList)
 		// deserializing successful
 		if err := json.Unmarshal(file, &tempLvlUpMoves); err == nil {
 
-			pokemonNameSet := initSet()
-			lvlUpMoveSet := initSet()
+			pokemonNameSet := utils.InitSet()
+			lvlUpMoveSet := utils.InitSet()
 
 			for name, val := range tempLvlUpMoves {
 				// turn all names to lower case && remove characters other than alphabets and digits
-				pokemonNameSet.add(name)
+				pokemonNameSet.Add(name)
 
 				// add the name of the move to the set
 				for _, tuple := range val {
-					lvlUpMoveSet.add(tuple.Move)
+					lvlUpMoveSet.Add(tuple.Move)
 				}
 
 				(*levelup.lvlUpMoves)[name] = LvlUpMoves{
 					MoveList: val,
 				}
 			}
-			*levelup.listOfPokemonNames = pokemonNameSet.toList()
-			*levelup.listOfLvlUpMoves = lvlUpMoveSet.toList()
+			*levelup.listOfPokemonNames = pokemonNameSet.ToList()
+			*levelup.listOfLvlUpMoves = lvlUpMoveSet.ToList()
 
 			return true
 		}
@@ -105,18 +106,18 @@ func (levelup PokemonLvlUpMoves) reverseMap() {
 			// first time seeing this lvl u move
 			if _, found := (*levelup.reverseLvlUpMoves)[moveName]; found != true {
 				//pokemonNameSet := make(map[string]struct{})
-				(*levelup.reverseLvlUpMoves)[moveName] = ReverseLvlUpMoves{Pokemons: initSet()} // Set{members: &pokemonNameSet}
+				(*levelup.reverseLvlUpMoves)[moveName] = ReverseLvlUpMoves{Pokemons: utils.InitSet()} // Set{members: &pokemonNameSet}
 			}
 			// now add the pokemon name to the set
-			(*levelup.reverseLvlUpMoves)[moveName].Pokemons.add(pokemonName)
+			(*levelup.reverseLvlUpMoves)[moveName].Pokemons.Add(pokemonName)
 		}
 	}
 }
 
-func (levelup PokemonLvlUpMoves) getLvlUpMoves(targetPokemon string) (string, LvlUpMoves, bool) {
+func (levelup PokemonLvlUpMoves) GetLvlUpMoves(targetPokemon string) (string, LvlUpMoves, bool) {
 
 	// fuzzy search for the pokemon name inside eggmove.listOfPokemons
-	pokemonNameMatches := FindClosestMatches(targetPokemon, *levelup.listOfPokemonNames)
+	pokemonNameMatches := utils.FindClosestMatches(targetPokemon, *levelup.listOfPokemonNames)
 
 	if len(pokemonNameMatches) == 0 {
 		return "", LvlUpMoves{}, false
@@ -129,51 +130,51 @@ func (levelup PokemonLvlUpMoves) getLvlUpMoves(targetPokemon string) (string, Lv
 	return "", LvlUpMoves{}, false
 }
 
-func (levelup PokemonLvlUpMoves) reverseGetLvlUpMoves(targetLvlUpMove string) (string, []string, bool) {
+func (levelup PokemonLvlUpMoves) ReverseGetLvlUpMoves(targetLvlUpMove string) (string, []string, bool) {
 
 	// fuzzy search for the pokemon name inside eggmove.listOfPokemons
-	pokemonLvlUpMoveMatches := FindClosestMatches(targetLvlUpMove, *levelup.listOfLvlUpMoves)
+	pokemonLvlUpMoveMatches := utils.FindClosestMatches(targetLvlUpMove, *levelup.listOfLvlUpMoves)
 
 	if len(pokemonLvlUpMoveMatches) == 0 {
 		return "", []string{}, false
 	}
 
 	if lvlup_move_set, found := (*levelup.reverseLvlUpMoves)[pokemonLvlUpMoveMatches[0]]; found == true {
-		return pokemonLvlUpMoveMatches[0], lvlup_move_set.Pokemons.toList(), true
+		return pokemonLvlUpMoveMatches[0], lvlup_move_set.Pokemons.ToList(), true
 	}
 	return "", []string{}, false
 }
 
-func test_fuzzy_lvl_up_moves() {
-	if lvl, status := initPokemonLevelUpMoves(); status == true {
+func Test_fuzzy_lvl_up_moves() {
+	if lvl, status := InitPokemonLevelUpMoves(); status == true {
 		fmt.Println("=========MOVES=========")
-		a, b, c := lvl.getLvlUpMoves("gasly")
+		a, b, c := lvl.GetLvlUpMoves("gasly")
 		fmt.Println(a, b, c)
-		a, b, c = lvl.getLvlUpMoves("hauntr")
+		a, b, c = lvl.GetLvlUpMoves("hauntr")
 		fmt.Println(a, b, c)
-		a, b, c = lvl.getLvlUpMoves("gENGAr")
+		a, b, c = lvl.GetLvlUpMoves("gENGAr")
 		fmt.Println(a, b, c)
-		a, b, c = lvl.getLvlUpMoves("dharmander")
+		a, b, c = lvl.GetLvlUpMoves("dharmander")
 		fmt.Println(a, b, c)
-		a, b, c = lvl.getLvlUpMoves("porygon 2")
+		a, b, c = lvl.GetLvlUpMoves("porygon 2")
 		fmt.Println(a, b, c)
-		a, b, c = lvl.getLvlUpMoves("arceus wat")
+		a, b, c = lvl.GetLvlUpMoves("arceus wat")
 		fmt.Println(a, b, c)
-		a, b, c = lvl.getLvlUpMoves("mewtwo")
+		a, b, c = lvl.GetLvlUpMoves("mewtwo")
 		fmt.Println(a, b, c)
-		a, b, c = lvl.getLvlUpMoves("mew")
+		a, b, c = lvl.GetLvlUpMoves("mew")
 		fmt.Println(a, b, c)
 
 		fmt.Println("=========LEARNERS=========")
-		x, y, z := lvl.reverseGetLvlUpMoves("flame thrower")
+		x, y, z := lvl.ReverseGetLvlUpMoves("flame thrower")
 		fmt.Println(x, y, z)
-		x, y, z = lvl.reverseGetLvlUpMoves("thunder")
+		x, y, z = lvl.ReverseGetLvlUpMoves("thunder")
 		fmt.Println(x, y, z)
-		x, y, z = lvl.reverseGetLvlUpMoves("earfquake")
+		x, y, z = lvl.ReverseGetLvlUpMoves("earfquake")
 		fmt.Println(x, y, z)
-		x, y, z = lvl.reverseGetLvlUpMoves("hypnosis")
+		x, y, z = lvl.ReverseGetLvlUpMoves("hypnosis")
 		fmt.Println(x, y, z)
-		x, y, z = lvl.reverseGetLvlUpMoves("synchronoise")
+		x, y, z = lvl.ReverseGetLvlUpMoves("synchronoise")
 		fmt.Println(x, y, z)
 	}
 }

@@ -1,12 +1,13 @@
-package main
+package fuzzy_searching
 
 import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"unbound_helper_v4/utils"
 )
 
-type scalemonstats struct {
+type ScalemonStats struct {
 	Hp       int `json:"Hp"`
 	Attack   int `json:"Attack"`
 	Defense  int `json:"Defense"`
@@ -48,7 +49,7 @@ type PokemonBaseStat struct {
 	SafariZoneFleeRate int
 }
 
-type rawPokemonBaseStat struct {
+type RawPokemonBaseStat struct {
 	HP                 int    `json:"HP"`
 	Attack             int    `json:"Attack"`
 	Defense            int    `json:"Defense"`
@@ -80,22 +81,22 @@ type rawPokemonBaseStat struct {
 }
 
 type PokemonStats struct {
-	stats              *map[string]PokemonBaseStat
-	listOfAbilities    *[]string
-	listOfPokemonNames *[]string
-	listOfEggGroups    *[]string
-	listOfHeldItems    *[]string
+	Stats              *map[string]PokemonBaseStat
+	ListOfAbilities    *[]string
+	ListOfPokemonNames *[]string
+	ListOfEggGroups    *[]string
+	ListOfHeldItems    *[]string
 	filePath           *string
 }
 
-type reverseAbility struct {
-	first  Set
-	second Set
-	hidden Set
+type ReverseAbility struct {
+	First  utils.Set
+	Second utils.Set
+	Hidden utils.Set
 }
 
 // converts an actualPokemonBaseStat struct to scalemons version
-func (ps PokemonBaseStat) convertToScalemon() PokemonBaseStat {
+func (ps PokemonBaseStat) ConvertToScalemon() PokemonBaseStat {
 
 	// ignore shedinja
 	if ps.HP == 1 {
@@ -141,16 +142,16 @@ func (ps PokemonBaseStat) convertToScalemon() PokemonBaseStat {
 	}
 }
 
-func initPokemonStats() (PokemonStats, bool) {
+func InitPokemonStats() (PokemonStats, bool) {
 	statMap := make(map[string]PokemonBaseStat)
 	var listOfPokemonNames, listOfAbilities, listOfHeldItems, listOfEggGroups = []string{}, []string{}, []string{}, []string{}
 	path := "./data generation/temp/dataextractionnew/base_stats/base_stats.json"
 	pokestat := PokemonStats{
-		stats:              &statMap,
-		listOfPokemonNames: &listOfPokemonNames,
-		listOfAbilities:    &listOfAbilities,
-		listOfEggGroups:    &listOfEggGroups,
-		listOfHeldItems:    &listOfHeldItems,
+		Stats:              &statMap,
+		ListOfPokemonNames: &listOfPokemonNames,
+		ListOfAbilities:    &listOfAbilities,
+		ListOfEggGroups:    &listOfEggGroups,
+		ListOfHeldItems:    &listOfHeldItems,
 		filePath:           &path,
 	}
 
@@ -167,20 +168,20 @@ func (pokestat PokemonStats) loadStats() bool {
 
 		// deserializing successful
 
-		tempRawStats := make(map[string]rawPokemonBaseStat)
+		tempRawStats := make(map[string]RawPokemonBaseStat)
 		if err := json.Unmarshal(file, &tempRawStats); err == nil {
 
-			pokemonNameSet := initSet()
-			heldItemSet := initSet()
-			abilitySet := initSet()
-			eggGroupSet := initSet()
+			pokemonNameSet := utils.InitSet()
+			heldItemSet := utils.InitSet()
+			abilitySet := utils.InitSet()
+			eggGroupSet := utils.InitSet()
 
 			for name, val := range tempRawStats {
 
-				pokemonNameSet.add(name)
-				heldItemSet.addList([]string{val.Item1, val.Item2})
-				abilitySet.addList([]string{val.Ability1, val.Ability2, val.HiddenAbility})
-				eggGroupSet.addList([]string{val.EggGroup1, val.EggGroup2})
+				pokemonNameSet.Add(name)
+				heldItemSet.AddList([]string{val.Item1, val.Item2})
+				abilitySet.AddList([]string{val.Ability1, val.Ability2, val.HiddenAbility})
+				eggGroupSet.AddList([]string{val.EggGroup1, val.EggGroup2})
 
 				// TODO: ability -> name
 
@@ -189,7 +190,7 @@ func (pokestat PokemonStats) loadStats() bool {
 				// TODO: egg group -> name
 
 				// name -> stats
-				(*pokestat.stats)[name] = PokemonBaseStat{
+				(*pokestat.Stats)[name] = PokemonBaseStat{
 					HP:                 val.HP,
 					Attack:             val.Attack,
 					Defense:            val.Defense,
@@ -222,10 +223,10 @@ func (pokestat PokemonStats) loadStats() bool {
 				}
 			}
 
-			*pokestat.listOfPokemonNames = pokemonNameSet.toList()
-			*pokestat.listOfAbilities = abilitySet.toList()
-			*pokestat.listOfEggGroups = eggGroupSet.toList()
-			*pokestat.listOfHeldItems = heldItemSet.toList()
+			*pokestat.ListOfPokemonNames = pokemonNameSet.ToList()
+			*pokestat.ListOfAbilities = abilitySet.ToList()
+			*pokestat.ListOfEggGroups = eggGroupSet.ToList()
+			*pokestat.ListOfHeldItems = heldItemSet.ToList()
 
 			return true
 		}
@@ -233,46 +234,46 @@ func (pokestat PokemonStats) loadStats() bool {
 	return false
 }
 
-func (pokestat PokemonStats) getStats(targetPokemon string) (string, PokemonBaseStat, bool) {
+func (pokestat PokemonStats) GetStats(targetPokemon string) (string, PokemonBaseStat, bool) {
 	// search for the Pokemon, if it does not exist return an empty struct and a false
 
 	// fuzzy search for the pokemon name inside eggmove.listOfPokemons
-	pokemonNameMatches := FindClosestMatches(targetPokemon, *pokestat.listOfPokemonNames)
+	pokemonNameMatches := utils.FindClosestMatches(targetPokemon, *pokestat.ListOfPokemonNames)
 
 	if len(pokemonNameMatches) == 0 {
 		return "", PokemonBaseStat{}, false
 	}
 
-	if stats, found := (*pokestat.stats)[pokemonNameMatches[0]]; found == true {
+	if stats, found := (*pokestat.Stats)[pokemonNameMatches[0]]; found == true {
 		return pokemonNameMatches[0], stats, true
 	}
 
 	return "", PokemonBaseStat{}, false
 }
 
-func test_fuzzy_base_stats() {
-	if bs, status := initPokemonStats(); status == true {
+func Test_fuzzy_base_stats() {
+	if bs, status := InitPokemonStats(); status == true {
 
-		a, b, c := bs.getStats("gastly")
+		a, b, c := bs.GetStats("gastly")
 		fmt.Println(a, b, c)
-		a, b, c = bs.getStats("char mandr")
+		a, b, c = bs.GetStats("char mandr")
 		fmt.Println(a, b, c)
-		a, b, c = bs.getStats("sudowodo")
+		a, b, c = bs.GetStats("sudowodo")
 		fmt.Println(a, b, c)
-		a, b, c = bs.getStats("spectrier")
+		a, b, c = bs.GetStats("spectrier")
 		fmt.Println(a, b, c)
-		a, b, c = bs.getStats("mega rayquza")
+		a, b, c = bs.GetStats("mega rayquza")
 		fmt.Println(a, b, c)
 	}
 }
 
-func writeScalemonsData() {
+func WriteScalemonsData() {
 
-	data := make(map[string]scalemonstats)
-	if bs, status := initPokemonStats(); status == true {
-		for key, val := range *bs.stats {
-			scaleVal := val.convertToScalemon()
-			temp := scalemonstats{
+	data := make(map[string]ScalemonStats)
+	if bs, status := InitPokemonStats(); status == true {
+		for key, val := range *bs.Stats {
+			scaleVal := val.ConvertToScalemon()
+			temp := ScalemonStats{
 				Hp:       scaleVal.HP,
 				Attack:   scaleVal.Attack,
 				Defense:  scaleVal.Defense,

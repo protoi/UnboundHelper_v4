@@ -1,10 +1,10 @@
-package main
+package utils
 
 type Set struct {
 	members *map[string]struct{}
 }
 
-func initSet() Set {
+func InitSet() Set {
 	temp := map[string]struct{}{}
 
 	return Set{
@@ -13,26 +13,26 @@ func initSet() Set {
 }
 
 // add a list to the set
-func (set Set) addList(items []string) {
+func (set Set) AddList(items []string) {
 	for _, item := range items {
 		(*set.members)[item] = struct{}{}
 	}
 }
 
-// add item to set
-func (set Set) add(item string) {
+// Add item to set
+func (set Set) Add(item string) {
 	(*set.members)[item] = struct{}{}
 }
 
 // check if item present in set
-func (set Set) contains(item string) bool {
+func (set Set) Contains(item string) bool {
 	if _, status := (*set.members)[item]; status {
 		return true
 	}
 	return false
 }
 
-func (set Set) toList() []string {
+func (set Set) ToList() []string {
 	if set.members == nil {
 		return []string{}
 	}
@@ -43,7 +43,7 @@ func (set Set) toList() []string {
 	return list
 }
 
-func (set Set) remove(key string) {
+func (set Set) Remove(key string) {
 	if _, status := (*set.members)[key]; status {
 		delete(*set.members, key)
 	}
