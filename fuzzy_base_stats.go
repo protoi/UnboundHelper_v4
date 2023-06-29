@@ -263,7 +263,6 @@ func test_fuzzy_base_stats() {
 		fmt.Println(a, b, c)
 		a, b, c = bs.getStats("mega rayquza")
 		fmt.Println(a, b, c)
-
 	}
 }
 

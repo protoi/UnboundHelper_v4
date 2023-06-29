@@ -12,6 +12,20 @@ type str_and_dist struct {
 	str  string
 }
 
+func PowersOfTwoSum(n int) []int {
+	var result []int
+	isolator := 1
+
+	for i := 0; isolator <= n; i++ {
+		isolatedVal := n & isolator
+		isolator = isolator << 1
+		if isolatedVal != 0 {
+			result = append(result, isolatedVal)
+		}
+	}
+	return result
+}
+
 // FindClosestString returns false if minimum levenshtein distance was greater than threshold
 func FindClosestString(target string, list []string, threshold int) (string, bool) {
 	targetLower := strings.ToLower(target)
