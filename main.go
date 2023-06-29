@@ -1,178 +1,70 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
+	"context"
+	"log"
+	"unbound_helper_v4/discord_commands"
+	"unbound_helper_v4/config"
+
+	"github.com/diamondburned/arikawa/v3/api"
+	"github.com/diamondburned/arikawa/v3/api/cmdroute"
+	"github.com/diamondburned/arikawa/v3/discord"
+	"github.com/diamondburned/arikawa/v3/gateway"
+	"github.com/diamondburned/arikawa/v3/session"
+	"github.com/diamondburned/arikawa/v3/state"
 )
 
 var (
-	//config     = get_config()
-	prefix     = ";"
-	poke_stats map[string]interface{}
+	slash_commands = []api.CreateCommandData{
+		{
+			Name:        "stats",
+			Description: "search for the stats for any pokemon",
+			Options: []discord.CommandOption{
+				&discord.StringOption{
+					OptionName:   "pokemon",
+					Description:  "the name of the pokemon you want to search for",
+					Required:     true,
+					Autocomplete: true,
+				},
+			},
+		},
+	}
+	// we want our session to be global so normal commands
+	// can access it, to send messages to discord
+	s *session.Session
 )
-
 func main() {
+	// creating a new state for the bot
+	bs := state.New("Bot " + config.BotConfig.Token)
 
-	fmt.Println("OLD")
-	PrintMemUsage()
+	// adding intents to the bot
+	bs.AddIntents(gateway.IntentGuilds)
+	bs.AddIntents(gateway.IntentGuildMessages)
+	bs.AddIntents(gateway.IntentGuildMembers)
 
-	//test_fuzzy_egg_moves()
-	//test_fuzzy_base_stats()
-	//test_fuzzy_lvl_up_moves()
-	test_fuzzy_tm_tutor_moves()
-	/*	abd, status := initAbilityDesc()
+	s = bs.Session
 
-		if status == false {
-			return
-		}
+	if err := bs.Open(context.Background()); err != nil {
+		log.Fatalln("failed to open:", err)
+	}
+	defer bs.Close()
 
-		if ans, found := abd.getDescription("synchronize"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := abd.getDescription("magic g u a r d"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := abd.getDescription("b l AZE"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := abd.getDescription("gale wings"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := abd.getDescription("crabby tactics"); found == true {
-			fmt.Println(ans)
-		}
-	*/
-	/*	mi, status := initMoveInfo()
-		if status == false {
-			return
-		}
+	// adding a handler for when the bot connects to the gateway, so we can see when the bot is actually online
+	bs.AddHandler(func(*gateway.ReadyEvent) {
+		me, _ := bs.Session.Me()
+		log.Println("Connected to the gateway as", me.Tag())
+	})
 
-		if ans, found := mi.getInfo("close combat"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := mi.getInfo("flame thrower"); found == true {
-			fmt.Println(ans)
-		}
-
-		if ans, found := mi.getInfo("sdjfhsfhksdf"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := mi.getInfo("springtide storm"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := mi.getInfo("telep;ort"); found == true {
-			fmt.Println(ans)
-		}*/
-
-	/*	eggmove, status := initEggMoves()
-		if status == false {
-			return
-		}
-
-		if ans, found := eggmove.getEggMoves("mew"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := eggmove.getEggMoves("charmander"); found == true {
-			fmt.Println(ans)
-		}
-
-		if ans, found := eggmove.reverseGetEggMoves("belly drum "); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := eggmove.reverseGetEggMoves("steel beam"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := eggmove.reverseGetEggMoves("telep;ort"); found == true {
-			fmt.Println(ans)
-		}
-	*/
-	/*	lvlup, status := initPokemonLevelUpMoves()
-		if status == false {
-			return
-		}
-
-		if ans, found := lvlup.getLvlUpMoves("mew"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := lvlup.getLvlUpMoves("MACHAMP"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := lvlup.getLvlUpMoves("CHar --- mander"); found == true {
-			fmt.Println(ans)
-		}
-		if ans, found := lvlup.getLvlUpMoves("behenchod"); found == true {
-			fmt.Println(ans)
-		}*/
-
-	/*	tmtutor, status := initPokemonToTMAndTutor()
-		if status == false {
-			return
-		}
-
-		if x, success := tmtutor.getCompatibleTutor("charman der"); success {
-			fmt.Println(x)
-		}
-		if x, success := tmtutor.getCompatibleTM("stakataka"); success {
-			fmt.Println(x)
-		}
-		if x, success := tmtutor.getCompatibleTutor("DRAGONITE "); success {
-			fmt.Println(x)
-		}
-		if x, success := tmtutor.getCompatibleTM("4985894;45;'34';'"); success {
-			fmt.Println(x)
-		}*/
-
-	/*p, status := initPokemonStats()
-	if status == false {
-		return
+	// overwrite the slash commands we had before the bot started this time
+	if err := cmdroute.OverwriteCommands(bs, slash_commands); err != nil {
+		log.Fatalln("cannot update commands:", err)
 	}
 
-	rev := initReverseAbilityMapping(p)
+	// adding the handler for auto completions (obviously)
+	bs.AddHandler(discord_commands.HandleInteractions)
 
-	fmt.Println(rev.getAbilityBearer("blaze"))
-	fmt.Println(rev.getAbilityBearer("gale wings"))
-	fmt.Println(rev.getAbilityBearer("synchro nize"))
-	fmt.Println(rev.getAbilityBearer("GRIMNEIGH"))*/
-
-	//if ans, found := p.getInfo("charmander"); found == true {
-	//	fmt.Println(ans)
-	//	fmt.Println("CHARMANDER")
-	//	fmt.Println(ans.convertToScalemon())
-	//	fmt.Println("END CHARMANDER")
-	//
-	//}
-	//if ans, found := p.getInfo("CHAR MAND;ER"); found == true {
-	//	fmt.Println(ans)
-	//}
-	//if ans, found := p.getInfo("Ho oooh "); found == true {
-	//	fmt.Println(ans)
-	//}
-	//if ans, found := p.getInfo("Hooh "); found == true {
-	//	fmt.Println(ans)
-	//}
-	//if ans, found := p.getInfo("missing no"); found == true {
-	//	fmt.Println(ans)
-	//}
-
-	fmt.Println("NEW")
-	PrintMemUsage()
-	runtime.GC()
-
-	fmt.Println("NEW AFTER GC")
-	PrintMemUsage()
-
-}
-
-func PrintMemUsage() {
-	var m runtime.MemStats
-	runtime.ReadMemStats(&m)
-	// For info on each, see: https://golang.org/pkg/runtime/#MemStats
-	fmt.Printf("Alloc = %v MiB", bToMb(m.Alloc))
-	fmt.Printf("\tTotalAlloc = %v MiB", bToMb(m.TotalAlloc))
-	fmt.Printf("\tSys = %v MiB", bToMb(m.Sys))
-	fmt.Printf("\tNumGC = %v\n", m.NumGC)
-}
-
-func bToMb(b uint64) uint64 {
-	return b / 1024 / 1024
+	// stay connected until we shut down the program
+	if err := bs.Connect(context.TODO()); err != nil {
+		log.Fatalln("cannot connect:", err)
+	}	
 }
