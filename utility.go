@@ -12,6 +12,30 @@ type str_and_dist struct {
 	str  string
 }
 
+// FindClosestString returns false if minimum levenshtein distance was greater than threshold
+func FindClosestString(target string, list []string, threshold int) (string, bool) {
+	targetLower := strings.ToLower(target)
+	currentMinStr, currentMinDist := "", 100
+
+	for _, str := range list {
+		strLower := strings.ToLower(str)
+		distance := fuzzy.LevenshteinDistance(strLower, targetLower)
+		if distance > threshold {
+			continue
+		}
+
+		if distance < currentMinDist {
+			currentMinDist = distance
+			currentMinStr = str
+		}
+	}
+
+	if currentMinDist == 100 {
+		return "", false
+	}
+	return currentMinStr, true
+}
+
 func FindClosestMatches(target string, list []string) []string {
 	targetLower := strings.ToLower(target)
 	matches := make([]str_and_dist, 0)

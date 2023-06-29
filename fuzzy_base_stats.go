@@ -240,51 +240,6 @@ func (pokestat PokemonStats) getStats(targetPokemon string) (string, PokemonBase
 	return "", PokemonBaseStat{}, false
 }
 
-// creates a mapping of ability -> Pokemon, will be used in parse_ability_descriptions.go file
-// to be called by the ability parse_ability file
-func (pokestat PokemonStats) generateReverseAbilityMappings() map[string]reverseAbility {
-	reverseAbilityMapping := make(map[string]reverseAbility)
-
-	for pokemonName, pokemon_base_stats := range *(pokestat.stats) {
-
-		var (
-			ab1, ab2, ha = pokemon_base_stats.Ability1, pokemon_base_stats.Ability2, pokemon_base_stats.HiddenAbility
-		)
-
-		// ability 1
-		if _, status := reverseAbilityMapping[ab1]; status != true { // ability 1 already not present
-			reverseAbilityMapping[ab1] = reverseAbility{
-				first:  initSet(),
-				second: initSet(),
-				hidden: initSet(),
-			}
-		}
-		reverseAbilityMapping[ab1].first.add(pokemonName) // push to first set
-
-		// ability 2
-		if _, status := reverseAbilityMapping[ab2]; status != true { // ability 2 already not present
-			reverseAbilityMapping[ab2] = reverseAbility{
-				first:  initSet(),
-				second: initSet(),
-				hidden: initSet(),
-			}
-		}
-		reverseAbilityMapping[ab2].second.add(pokemonName) // push to second set
-
-		// hidden ability
-		if _, status := reverseAbilityMapping[ha]; status != true { // hidden ability already not present
-			reverseAbilityMapping[ha] = reverseAbility{
-				first:  initSet(),
-				second: initSet(),
-				hidden: initSet(),
-			}
-		}
-		reverseAbilityMapping[ha].hidden.add(pokemonName) // push to HA set
-	}
-
-	return reverseAbilityMapping
-}
-
 func test_fuzzy_base_stats() {
 	if bs, status := initPokemonStats(); status == true {
 
