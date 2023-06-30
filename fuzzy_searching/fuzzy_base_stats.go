@@ -17,6 +17,11 @@ type ScalemonStats struct {
 	Bst      int `json:"BST"`
 }
 
+type ReverseEggGroups struct {
+	Pokemons utils.Set
+}
+
+// PokemonBaseStat is an encapsulation of a single pokemons base stat information
 type PokemonBaseStat struct {
 	HP                 int
 	Attack             int
@@ -49,6 +54,7 @@ type PokemonBaseStat struct {
 	SafariZoneFleeRate int
 }
 
+// RawPokemonBaseStat is an intermediate struct used for the deserialization of the raw json data
 type RawPokemonBaseStat struct {
 	HP                 int    `json:"HP"`
 	Attack             int    `json:"Attack"`
@@ -80,8 +86,25 @@ type RawPokemonBaseStat struct {
 	SafariZoneFleeRate int    `json:"safariZoneFleeRate"`
 }
 
+// PokemonStats
+/* this is an encapsulation of multiple structs:
+
+1. Stats: mapping of pokemon name to pokemon base stat:
+
+2. ListOfAbilities: list of pokemon abilities (no repeats)
+
+3. ListOfPokemonNames: list of pokemon names (no repeats)
+
+4. ListOfEggGroups: list of egg groups (no repeats)
+
+5. ListOfHeldItems: list of held items (no repeats)
+
+6. filePath: uri for the pokemon stats json file
+
+*/
 type PokemonStats struct {
 	Stats              *map[string]PokemonBaseStat
+	ReverseEggGroups   *map[string]ReverseEggGroups
 	ListOfAbilities    *[]string
 	ListOfPokemonNames *[]string
 	ListOfEggGroups    *[]string
@@ -89,13 +112,14 @@ type PokemonStats struct {
 	filePath           *string
 }
 
+// ReverseAbility is a struct with three fields, each being a set of strings(pokemon names)
 type ReverseAbility struct {
 	First  utils.Set
 	Second utils.Set
 	Hidden utils.Set
 }
 
-// converts an actualPokemonBaseStat struct to scalemons version
+// ConvertToScalemon converts an actualPokemonBaseStat struct to scalemons version
 func (ps PokemonBaseStat) ConvertToScalemon() PokemonBaseStat {
 
 	// ignore shedinja
@@ -142,12 +166,17 @@ func (ps PokemonBaseStat) ConvertToScalemon() PokemonBaseStat {
 	}
 }
 
+// InitPokemonStats acts as a constructor for PokemonStats
+// performs preprocessing on the data and returns a struct and success status
 func InitPokemonStats() (PokemonStats, bool) {
 	statMap := make(map[string]PokemonBaseStat)
+	reverseEggGroupsMap := make(map[string]ReverseEggGroups)
 	var listOfPokemonNames, listOfAbilities, listOfHeldItems, listOfEggGroups = []string{}, []string{}, []string{}, []string{}
+
 	path := "./data generation/temp/dataextractionnew/base_stats/base_stats.json"
 	pokestat := PokemonStats{
 		Stats:              &statMap,
+		ReverseEggGroups:   &reverseEggGroupsMap,
 		ListOfPokemonNames: &listOfPokemonNames,
 		ListOfAbilities:    &listOfAbilities,
 		ListOfEggGroups:    &listOfEggGroups,
@@ -156,11 +185,13 @@ func InitPokemonStats() (PokemonStats, bool) {
 	}
 
 	if status := pokestat.loadStats(); status == true {
+		pokestat.eggGroupReverseMap()
 		return pokestat, true
 	}
 	return PokemonStats{}, false
 }
 
+// loadStats performs deserialization
 func (pokestat PokemonStats) loadStats() bool {
 
 	// reading successful
@@ -234,6 +265,7 @@ func (pokestat PokemonStats) loadStats() bool {
 	return false
 }
 
+// GetStats fuzzy search pokemon name and returns its actual name, base stat, status
 func (pokestat PokemonStats) GetStats(targetPokemon string) (string, PokemonBaseStat, bool) {
 	// search for the Pokemon, if it does not exist return an empty struct and a false
 
@@ -251,19 +283,67 @@ func (pokestat PokemonStats) GetStats(targetPokemon string) (string, PokemonBase
 	return "", PokemonBaseStat{}, false
 }
 
+func (pokestat PokemonStats) eggGroupReverseMap() {
+	//tempReverseMap := make(map[string]Set)
+
+	for pokemonName, stats := range *(pokestat.Stats) {
+		// pokemon name, group1 and group 2 available,
+		// now set hashmap [group1] to empty set if nothing present
+		// add pokemon name to group
+
+		group1, group2 := stats.EggGroup1, stats.EggGroup2
+
+		if _, found := (*pokestat.ReverseEggGroups)[group1]; found == false { // not present
+			(*pokestat.ReverseEggGroups)[group1] = ReverseEggGroups{Pokemons: utils.InitSet()}
+		}
+		(*pokestat.ReverseEggGroups)[group1].Pokemons.Add(pokemonName)
+
+		if _, found := (*pokestat.ReverseEggGroups)[group2]; found == false { // not present
+			(*pokestat.ReverseEggGroups)[group2] = ReverseEggGroups{Pokemons: utils.InitSet()}
+		}
+		(*pokestat.ReverseEggGroups)[group2].Pokemons.Add(pokemonName)
+	}
+}
+
+func (pokestat PokemonStats) ReverseGetEggGroups(targetEggGroup string) (string, []string, bool) {
+	// search for the Pokemon, if it does not exist return an empty struct and a false
+
+	// fuzzy search for the egg group name inside pokestat.ListOfEggGroups
+	eggGroupMatches := utils.FindClosestMatches(targetEggGroup, *pokestat.ListOfEggGroups)
+
+	if len(eggGroupMatches) == 0 {
+		return "", []string{}, false
+	}
+
+	if stats, found := (*pokestat.ReverseEggGroups)[eggGroupMatches[0]]; found == true {
+		return eggGroupMatches[0], stats.Pokemons.ToList(), true
+	}
+
+	return "", []string{}, false
+}
+
 func Test_fuzzy_base_stats() {
 	if bs, status := InitPokemonStats(); status == true {
 
 		a, b, c := bs.GetStats("gastly")
-		fmt.Println(a, b, c)
+		fmt.Println(a, b, c, "\n\n")
 		a, b, c = bs.GetStats("char mandr")
-		fmt.Println(a, b, c)
+		fmt.Println(a, b, c, "\n\n")
 		a, b, c = bs.GetStats("sudowodo")
-		fmt.Println(a, b, c)
+		fmt.Println(a, b, c, "\n\n")
 		a, b, c = bs.GetStats("spectrier")
-		fmt.Println(a, b, c)
+		fmt.Println(a, b, c, "\n\n")
 		a, b, c = bs.GetStats("mega rayquza")
-		fmt.Println(a, b, c)
+		fmt.Println(a, b, c, "\n\n")
+
+		x, y, z := bs.ReverseGetEggGroups("water 2")
+		fmt.Println(x, y, z, "\n\n")
+		x, y, z = bs.ReverseGetEggGroups("fiel D")
+		fmt.Println(x, y, z, "\n\n")
+		x, y, z = bs.ReverseGetEggGroups("fie l d")
+		fmt.Println(x, y, z, "\n\n")
+		x, y, z = bs.ReverseGetEggGroups("human like")
+		fmt.Println(x, y, z, "\n\n")
 	}
 }
 
