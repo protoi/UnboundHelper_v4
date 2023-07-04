@@ -1,0 +1,3102 @@
+{
+  "NONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MASTER_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ULTRA_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GREAT_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POKE_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SAFARI_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "NET_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DIVE_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "NEST_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "REPEAT_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TIMER_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LUXURY_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PREMIER_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POTION": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ANTIDOTE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BURN_HEAL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ICE_HEAL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "AWAKENING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PARALYZE_HEAL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FULL_RESTORE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAX_POTION": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HYPER_POTION": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SUPER_POTION": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FULL_HEAL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "REVIVE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAX_REVIVE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FRESH_WATER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SODA_POP": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LEMONADE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MOOMOO_MILK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ENERGY_POWDER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ENERGY_ROOT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HEAL_POWDER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "REVIVAL_HERB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ETHER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAX_ETHER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ELIXIR": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAX_ELIXIR": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LAVA_COOKIE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLUE_FLUTE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "YELLOW_FLUTE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RED_FLUTE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLACK_FLUTE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WHITE_FLUTE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BERRY_JUICE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SACRED_ASH": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHOAL_SALT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHOAL_SHELL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RED_SHARD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLUE_SHARD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "YELLOW_SHARD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GREEN_SHARD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "034": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "035": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "036": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "037": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "038": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "039": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "03A": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "03B": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "03C": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "03D": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "03E": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HP_UP": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PROTEIN": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "IRON": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CARBOS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CALCIUM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RARE_CANDY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PP_UP": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ZINC": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PP_MAX": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "048": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GUARD_SPEC": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DIRE_HIT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "X_ATTACK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "X_DEFEND": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "X_SPEED": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "X_ACCURACY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "X_SP_ATK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POKE_DOLL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FLUFFY_TAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "X_SP_DEF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SUPER_REPEL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAX_REPEL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ESCAPE_ROPE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "REPEL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "057": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "058": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "059": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "05A": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "05B": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "05C": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SUN_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MOON_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FIRE_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "THUNDER_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WATER_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LEAF_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "063": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "064": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "065": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "066": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TINY_MUSHROOM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BIG_MUSHROOM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "069": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PEARL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BIG_PEARL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STARDUST": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STAR_PIECE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "NUGGET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HEART_SCALE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "070": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "071": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "072": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "073": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "074": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "075": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "076": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "077": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "078": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ORANGE_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HARBOR_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GLITTER_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MECH_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WOOD_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WAVE_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BEAD_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHADOW_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TROPIC_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DREAM_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FAB_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RETRO_MAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHERI_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHESTO_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PECHA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RAWST_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ASPEAR_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LEPPA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ORAN_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PERSIM_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LUM_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SITRUS_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FIGY_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WIKI_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAGO_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "AGUAV_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "IAPAPA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RAZZ_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLUK_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "NANAB_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WEPEAR_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PINAP_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POMEG_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "KELPSY_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "QUALOT_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HONDEW_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GREPA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TAMATO_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CORNN_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAGOST_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RABUTA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "NOMEL_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SPELON_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PAMTRE_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WATMEL_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DURIN_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BELUE_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LIECHI_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GANLON_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SALAC_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PETAYA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "APICOT_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LANSAT_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STARF_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ENIGMA_BERRY_OLD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ENIGMA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0B0": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0B1": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0B2": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BRIGHT_POWDER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WHITE_HERB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MACHO_BRACE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "EXP_SHARE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "QUICK_CLAW": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SOOTHE_BELL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MENTAL_HERB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHOICE_BAND": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "KINGS_ROCK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SILVER_POWDER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "AMULET_COIN": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CLEANSE_TAG": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SOUL_DEW": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DEEP_SEA_TOOTH": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DEEP_SEA_SCALE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SMOKE_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "EVERSTONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FOCUS_BAND": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LUCKY_EGG": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SCOPE_LENS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "METAL_COAT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LEFTOVERS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DRAGON_SCALE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LIGHT_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SOFT_SAND": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HARD_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MIRACLE_SEED": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLACK_GLASSES": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLACK_BELT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAGNET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MYSTIC_WATER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHARP_BEAK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POISON_BARB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "NEVER_MELT_ICE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SPELL_TAG": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TWISTED_SPOON": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHARCOAL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DRAGON_FANG": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SILK_SCARF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "UP_GRADE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHELL_BELL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SEA_INCENSE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LAX_INCENSE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LUCKY_PUNCH": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "METAL_POWDER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "THICK_CLUB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LEEK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0E2": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0E3": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0E4": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0E5": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0E6": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0E7": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0E8": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0E9": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0EA": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0EB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0EC": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0ED": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0EE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0EF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F0": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F1": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F2": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F3": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F4": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F5": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F6": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F7": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F8": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0F9": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0FA": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0FB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0FC": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "0FD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RED_SCARF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLUE_SCARF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PINK_SCARF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GREEN_SCARF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "YELLOW_SCARF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MACH_BIKE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "COIN_CASE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ITEMFINDER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "OLD_ROD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GOOD_ROD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SUPER_ROD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SS_TICKET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CONTEST_PASS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "10B": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WAILMER_PAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DEVON_GOODS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SOOT_SACK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BASEMENT_KEY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ACRO_BIKE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POKEBLOCK_CASE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LETTER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "EON_TICKET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RED_ORB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLUE_ORB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SCANNER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GO_GOGGLES": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "METEORITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROOM_1_KEY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROOM_2_KEY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROOM_4_KEY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROOM_6_KEY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STORAGE_KEY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROOT_FOSSIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CLAW_FOSSIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DEVON_SCOPE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RARE_BONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PEARL_STRING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BIG_NUGGET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "COMET_SHARD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BALM_MUSHROOM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HONEY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BIG_MALASADA": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CASTELIACONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LUMIOSE_GALETTE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RAGE_CANDY_BAR": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHALOUR_SABLE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "OLD_GATEAU": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SKULL_FOSSIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ARMOR_FOSSIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "COVER_FOSSIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PLUME_FOSSIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "JAW_FOSSIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SAIL_FOSSIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POWER_BRACER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POWER_BELT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POWER_LENS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POWER_BAND": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POWER_ANKLET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POWER_WEIGHT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ADAMANT_ORB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LUSTROUS_ORB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GRISEOUS_ORB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "EXPERT_BELT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POWER_HERB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WIDE_LENS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ZOOM_LENS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DESTINY_KNOT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SMOOTH_ROCK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DAMP_ROCK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HEAT_ROCK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ICY_ROCK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BIG_ROOT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LIGHT_CLAY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SAFETY_GOGGLES": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROCKY_HELMET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WEAKNESS_POLICY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ASSAULT_VEST": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "EVIOLITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ABSORB_BULB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "AIR_BALLOON": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ADRENALINE_ORB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BINDING_BAND": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CELL_BATTERY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "EJECT_BUTTON": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FLOAT_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FOCUS_SASH": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GRIP_CLAW": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "IRON_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LAGGING_TAIL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LUMINOUS_MOSS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "QUICK_POWDER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "METRONOME": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MUSCLE_BAND": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PROTECTIVE_PADS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RED_CARD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RING_TARGET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHED_SHELL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SNOWBALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STICKY_BARB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TERRAIN_EXTENDER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WISE_GLASSES": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ELECTRIC_SEED": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GRASSY_SEED": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MISTY_SEED": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PSYCHIC_SEED": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LIFE_ORB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TOXIC_ORB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FLAME_ORB": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLACK_SLUDGE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHOICE_SPECS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHOICE_SCARF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LUCK_INCENSE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FULL_INCENSE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ODD_INCENSE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PURE_INCENSE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROCK_INCENSE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROSE_INCENSE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WAVE_INCENSE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "NORMAL_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FIGHTING_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FLYING_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POISON_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GROUND_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROCK_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BUG_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GHOST_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STEEL_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FIRE_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WATER_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GRASS_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ELECTRIC_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PSYCHIC_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ICE_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DRAGON_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DARK_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FAIRY_GEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FIST_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SKY_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TOXIC_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "EARTH_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STONE_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "INSECT_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SPOOKY_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "IRON_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FLAME_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SPLASH_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEADOW_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ZAP_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MIND_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ICICLE_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DRACO_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DREAD_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PIXIE_PLATE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEGA_RING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ULTRANECROZIUM_Z": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "VENUSAURITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHARIZARDITE_X": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHARIZARDITE_Y": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLASTOISINITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BEEDRILLITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PIDGEOTITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ALAKAZITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SLOWBRONITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GENGARITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "KANGASKHANITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PINSIRITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GYARADOSITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "AERODACTYLITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEWTWONITE_X": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEWTWONITE_Y": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "AMPHAROSITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STEELIXITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SCIZORITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HERACRONITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HOUNDOOMINITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TYRANITARITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SCEPTILITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLAZIKENITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SWAMPERTITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GARDEVOIRITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SABLENITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAWILITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "AGGRONITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEDICHAMITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MANECTITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHARPEDONITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CAMERUPTITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ALTARIANITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BANETTITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ABSOLITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GLALITITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SALAMENCITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "METAGROSSITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LATIASITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LATIOSITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LOPUNNITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GARCHOMPITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LUCARIONITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ABOMASITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GALLADITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "AUDINITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DIANCITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "OCCA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PASSHO_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WACAN_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RINDO_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "YACHE_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHOPLE_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "KEBIA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHUCA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "COBA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PAYAPA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TANGA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHARTI_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "KASIB_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HABAN_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "COLBUR_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BABIRI_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHILAN_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MICLE_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CUSTAP_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "JABOCA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROWAP_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROSELI_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "KEE_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MARANGA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PARK_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHERISH_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DUSK_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HEAL_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "QUICK_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FAST_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LEVEL_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LURE_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HEAVY_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LOVE_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FRIEND_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MOON_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SPORT_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BEAST_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DREAM_BALL": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BURN_DRIVE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DOUSE_DRIVE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHOCK_DRIVE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHILL_DRIVE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FIGHTING_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FLYING_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POISON_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GROUND_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROCK_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BUG_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GHOST_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STEEL_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FIRE_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WATER_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GRASS_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ELECTRIC_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PSYCHIC_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ICE_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DRAGON_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DARK_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FAIRY_MEMORY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HEALTH_WING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MUSCLE_WING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RESIST_WING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GENIUS_WING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CLEVER_WING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SWIFT_WING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PRETTY_WING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ODD_KEYSTONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BOTTLE_CAP": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GOLD_BOTTLE_CAP": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ABILITY_CAPSULE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DREAM_MIST": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WISHING_PIECE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAX_POWDER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RED_NECTAR": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "YELLOW_NECTAR": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PINK_NECTAR": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PURPLE_NECTAR": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LINK_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DUSK_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DAWN_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHINY_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "OVAL_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ICE_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PROTECTOR": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAGMARIZER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PRISM_SCALE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SACHET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "WHIPPED_DREAM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RAZOR_CLAW": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RAZOR_FANG": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "REAPER_CLOTH": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DUBIOUS_DISC": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ELECTIRIZER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SWEET_APPLE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "TART_APPLE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CRACKED_POT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CHIPPED_POT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STRAWBERRY_SWEET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BERRY_SWEET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LOVE_SWEET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CLOVER_SWEET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FLOWER_SWEET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RIBBON_SWEET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "STAR_SWEET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GALARICA_CUFF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GALARICA_WREATH": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLACK_AUGURITE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PEAT_BLOCK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HISUI_ROCK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GRACIDEA": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DNA_SPLICERS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "REVEAL_GLASS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "PRISON_BOTTLE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "REINS_OF_UNITY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "OVAL_CHARM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SHINY_CHARM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "CATCHING_CHARM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RAINBOW_WING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SILVER_WING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MAGMA_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "N_SOLARIZER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "N_LUNARIZER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SUN_FLUTE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MOON_FLUTE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "LIGHT_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DARK_STONE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DYNAMAX_BAND": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RELIC_COPPER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RELIC_SILVER": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RELIC_GOLD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RELIC_VASE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RELIC_BAND": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RELIC_STATUE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RELIC_CROWN": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "EJECT_PACK": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ROOM_SERVICE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "BLUNDER_POLICY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "HEAVY_DUTY_BOOTS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "UTILITY_UMBRELLA": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "THROAT_SPRAY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RUSTED_SWORD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "RUSTED_SHIELD": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ODDISH_LEAF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "ENIGMA_BERRY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "DOWSING_MACHINE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "GRUBBY_HANKY": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "UNIFORM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "FASHION_CASE": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "POKE_BALL_KEY_ITEM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "KEY_CARD_1": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "KEY_CARD_2": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "KEY_CARD_3": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "QUEST_LOG": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "SMELLY_SOCKS": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "COSTUME_BOX": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEGA_CUFF": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEGA_BONNET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEGA_EARING": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEGA_CHARM": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEGA_BRACELET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEGA_ANKLET": {
+    "name": "",
+    "description": "",
+    "location": ""
+  },
+  "MEGA_PENDANT": {
+    "name": "",
+    "description": "",
+    "location": ""
+  }
+}
