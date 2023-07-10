@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"strings"
 	"unbound_helper_v4/utils"
 )
 
@@ -125,14 +126,19 @@ func (tmAndTutor TmTutorMoves) reverseMapTM() {
 
 func (tmAndTutor TmTutorMoves) GetCompatibleTM(targetPokemon string) (string, []string, bool) {
 
-	pokemonNameMatches := utils.FindClosestMatches(targetPokemon, *tmAndTutor.listOfPokemonsNames)
+	//pokemonNameMatches := utils.FindClosestMatches(targetPokemon, *tmAndTutor.listOfPokemonsNames)
+	//if len(pokemonNameMatches) == 0 {
+	//	return "", []string{}, false
+	//}
 
-	if len(pokemonNameMatches) == 0 {
+	maxThresh := len(strings.TrimSpace(targetPokemon)) / 3
+	pokemonNameMatches, status := utils.FindClosestString(targetPokemon, *tmAndTutor.listOfPokemonsNames, maxThresh)
+	if !status {
 		return "", []string{}, false
 	}
 
-	if tuple, found := (*tmAndTutor.tmAndTutor)[pokemonNameMatches[0]]; found == true {
-		return pokemonNameMatches[0], tuple.TM, true
+	if tuple, found := (*tmAndTutor.tmAndTutor)[pokemonNameMatches]; found == true {
+		return pokemonNameMatches, tuple.TM, true
 	}
 
 	return "", []string{}, false
@@ -140,14 +146,19 @@ func (tmAndTutor TmTutorMoves) GetCompatibleTM(targetPokemon string) (string, []
 
 func (tmAndTutor TmTutorMoves) GetCompatibleTutor(targetPokemon string) (string, []string, bool) {
 
-	pokemonNameMatches := utils.FindClosestMatches(targetPokemon, *tmAndTutor.listOfPokemonsNames)
+	//pokemonNameMatches := utils.FindClosestMatches(targetPokemon, *tmAndTutor.listOfPokemonsNames)
+	//if len(pokemonNameMatches) == 0 {
+	//	return "", []string{}, false
+	//}
 
-	if len(pokemonNameMatches) == 0 {
+	maxThresh := len(strings.TrimSpace(targetPokemon)) / 3
+	pokemonNameMatches, status := utils.FindClosestString(targetPokemon, *tmAndTutor.listOfPokemonsNames, maxThresh)
+	if !status {
 		return "", []string{}, false
 	}
 
-	if tuple, found := (*tmAndTutor.tmAndTutor)[pokemonNameMatches[0]]; found == true {
-		return pokemonNameMatches[0], tuple.Tutor, true
+	if tuple, found := (*tmAndTutor.tmAndTutor)[pokemonNameMatches]; found == true {
+		return pokemonNameMatches, tuple.Tutor, true
 	}
 
 	return "", []string{}, false
@@ -155,14 +166,19 @@ func (tmAndTutor TmTutorMoves) GetCompatibleTutor(targetPokemon string) (string,
 
 func (tmAndTutor TmTutorMoves) ReverseGetCompatibleTM(targetTM string) (string, []string, bool) {
 
-	tmMatches := utils.FindClosestMatches(targetTM, *tmAndTutor.listOfTmMoveNames)
+	//tmMatches := utils.FindClosestMatches(targetTM, *tmAndTutor.listOfTmMoveNames)
+	//if len(tmMatches) == 0 {
+	//	return "", []string{}, false
+	//}
 
-	if len(tmMatches) == 0 {
+	maxThresh := len(strings.TrimSpace(targetTM)) / 3
+	tmMatches, status := utils.FindClosestString(targetTM, *tmAndTutor.listOfTmMoveNames, maxThresh)
+	if !status {
 		return "", []string{}, false
 	}
 
-	if pokemons, found := (*tmAndTutor.reverseTM)[tmMatches[0]]; found == true {
-		return tmMatches[0], pokemons.Pokemons.ToList(), true
+	if pokemons, found := (*tmAndTutor.reverseTM)[tmMatches]; found == true {
+		return tmMatches, pokemons.Pokemons.ToList(), true
 	}
 
 	return "", []string{}, false
@@ -170,14 +186,19 @@ func (tmAndTutor TmTutorMoves) ReverseGetCompatibleTM(targetTM string) (string, 
 
 func (tmAndTutor TmTutorMoves) ReverseGetCompatibleTutor(targetTutor string) (string, []string, bool) {
 
-	tutorMatches := utils.FindClosestMatches(targetTutor, *tmAndTutor.listOfTutorMoveNames)
+	//tutorMatches := utils.FindClosestMatches(targetTutor, *tmAndTutor.listOfTutorMoveNames)
+	//if len(tutorMatches) == 0 {
+	//	return "", []string{}, false
+	//}
 
-	if len(tutorMatches) == 0 {
+	maxThresh := len(strings.TrimSpace(targetTutor)) / 3
+	tutorMatches, status := utils.FindClosestString(targetTutor, *tmAndTutor.listOfTutorMoveNames, maxThresh)
+	if !status {
 		return "", []string{}, false
 	}
 
-	if pokemons, found := (*tmAndTutor.reverseTutor)[tutorMatches[0]]; found == true {
-		return tutorMatches[0], pokemons.Pokemons.ToList(), true
+	if pokemons, found := (*tmAndTutor.reverseTutor)[tutorMatches]; found == true {
+		return tutorMatches, pokemons.Pokemons.ToList(), true
 	}
 
 	return "", []string{}, false

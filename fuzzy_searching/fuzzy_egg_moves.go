@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"strings"
 	"unbound_helper_v4/utils"
 )
 
@@ -117,14 +118,19 @@ func (eggmove PokemonEggMoves) GetEggMoves(targetPokemon string) (string, []stri
 func (eggmove PokemonEggMoves) ReverseGetEggMoves(targetEggMove string) (string, []string, bool) {
 
 	// fuzzy search for the pokemon name inside eggmove.listOfEggMoves
-	eggMoveMatches := utils.FindClosestMatches(targetEggMove, *eggmove.listOfEggMoves)
+	//eggMoveMatches := utils.FindClosestMatches(targetEggMove, *eggmove.listOfEggMoves)
+	//if len(eggMoveMatches) == 0 {
+	//	return "", []string{}, false
+	//}
 
-	if len(eggMoveMatches) == 0 {
+	maxThresh := len(strings.TrimSpace(targetEggMove)) / 3
+	eggMoveMatches, status := utils.FindClosestString(targetEggMove, *eggmove.listOfEggMoves, maxThresh)
+	if !status {
 		return "", []string{}, false
 	}
 
-	if egg_move_set, found := (*eggmove.reverseEggMoves)[eggMoveMatches[0]]; found == true {
-		return eggMoveMatches[0], egg_move_set.Pokemons.ToList(), true
+	if egg_move_set, found := (*eggmove.reverseEggMoves)[eggMoveMatches]; found == true {
+		return eggMoveMatches, egg_move_set.Pokemons.ToList(), true
 	}
 	return "", []string{}, false
 }

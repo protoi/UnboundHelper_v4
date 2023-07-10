@@ -28,11 +28,11 @@ func PowersOfTwoSum(n int) []int {
 
 // FindClosestString returns false if minimum levenshtein distance was greater than threshold
 func FindClosestString(target string, list []string, threshold int) (string, bool) {
-	targetLower := strings.ToLower(target)
+	targetLower := strings.TrimSpace(strings.ToLower(target))
 	currentMinStr, currentMinDist := "", 100
 
 	for _, str := range list {
-		strLower := strings.ToLower(str)
+		strLower := strings.TrimSpace(strings.ToLower(str))
 		distance := fuzzy.LevenshteinDistance(strLower, targetLower)
 		if distance > threshold {
 			continue
@@ -51,11 +51,11 @@ func FindClosestString(target string, list []string, threshold int) (string, boo
 }
 
 func FindClosestMatches(target string, list []string) []string {
-	targetLower := strings.ToLower(target)
+	targetLower := strings.TrimSpace(strings.ToLower(target))
 	matches := make([]str_and_dist, 0)
 
 	for _, str := range list {
-		strLower := strings.ToLower(str)
+		strLower := strings.TrimSpace(strings.ToLower(str))
 		distance := fuzzy.LevenshteinDistance(strLower, targetLower)
 		matches = append(matches, str_and_dist{
 			distance, str,

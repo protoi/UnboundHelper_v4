@@ -23,8 +23,8 @@ func main() {
 	//fuzzy_searching.Test_fuzzy_tm_tutor_moves()
 	//fuzzy_searching.Test_fuzzy_abilities()
 	//fuzzy_searching.Test_fuzzy_battle_moves()
-	fuzzy_searching.Test_fuzzy_tm_location()
-
+	//fuzzy_searching.Test_fuzzy_tm_location()
+	fuzzy_searching.Test_fuzzy_all_moves()
 	/*	abd, status := initAbilityDesc()
 
 		if status == false {

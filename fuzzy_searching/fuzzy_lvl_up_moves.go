@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"strings"
 	"unbound_helper_v4/utils"
 )
 
@@ -117,14 +118,19 @@ func (levelup PokemonLvlUpMoves) reverseMap() {
 func (levelup PokemonLvlUpMoves) GetLvlUpMoves(targetPokemon string) (string, LvlUpMoves, bool) {
 
 	// fuzzy search for the pokemon name inside eggmove.listOfPokemons
-	pokemonNameMatches := utils.FindClosestMatches(targetPokemon, *levelup.listOfPokemonNames)
+	//pokemonNameMatches := utils.FindClosestMatches(targetPokemon, *levelup.listOfPokemonNames)
+	//if len(pokemonNameMatches) == 0 {
+	//	return "", LvlUpMoves{}, false
+	//}
 
-	if len(pokemonNameMatches) == 0 {
+	maxThresh := len(strings.TrimSpace(targetPokemon)) / 3
+	pokemonNameMatches, status := utils.FindClosestString(targetPokemon, *levelup.listOfLvlUpMoves, maxThresh)
+	if !status {
 		return "", LvlUpMoves{}, false
 	}
 
-	if moves, found := (*levelup.lvlUpMoves)[pokemonNameMatches[0]]; found == true {
-		return pokemonNameMatches[0], moves, true
+	if moves, found := (*levelup.lvlUpMoves)[pokemonNameMatches]; found == true {
+		return pokemonNameMatches, moves, true
 	}
 
 	return "", LvlUpMoves{}, false
@@ -133,14 +139,19 @@ func (levelup PokemonLvlUpMoves) GetLvlUpMoves(targetPokemon string) (string, Lv
 func (levelup PokemonLvlUpMoves) ReverseGetLvlUpMoves(targetLvlUpMove string) (string, []string, bool) {
 
 	// fuzzy search for the pokemon name inside eggmove.listOfPokemons
-	pokemonLvlUpMoveMatches := utils.FindClosestMatches(targetLvlUpMove, *levelup.listOfLvlUpMoves)
+	//pokemonLvlUpMoveMatches := utils.FindClosestMatches(targetLvlUpMove, *levelup.listOfLvlUpMoves)
+	//if len(pokemonLvlUpMoveMatches) == 0 {
+	//	return "", []string{}, false
+	//}
 
-	if len(pokemonLvlUpMoveMatches) == 0 {
+	maxThresh := len(strings.TrimSpace(targetLvlUpMove)) / 3
+	pokemonLvlUpMoveMatches, status := utils.FindClosestString(targetLvlUpMove, *levelup.listOfLvlUpMoves, maxThresh)
+	if !status {
 		return "", []string{}, false
 	}
 
-	if lvlup_move_set, found := (*levelup.reverseLvlUpMoves)[pokemonLvlUpMoveMatches[0]]; found == true {
-		return pokemonLvlUpMoveMatches[0], lvlup_move_set.Pokemons.ToList(), true
+	if lvlup_move_set, found := (*levelup.reverseLvlUpMoves)[pokemonLvlUpMoveMatches]; found == true {
+		return pokemonLvlUpMoveMatches, lvlup_move_set.Pokemons.ToList(), true
 	}
 	return "", []string{}, false
 }
