@@ -18,11 +18,12 @@ func main() {
 	PrintMemUsage()
 
 	//fuzzy_searching.Test_fuzzy_egg_moves()
-	fuzzy_searching.Test_fuzzy_base_stats()
+	//fuzzy_searching.Test_fuzzy_base_stats()
 	//fuzzy_searching.Test_fuzzy_lvl_up_moves()
 	//fuzzy_searching.Test_fuzzy_tm_tutor_moves()
 	//fuzzy_searching.Test_fuzzy_abilities()
 	//fuzzy_searching.Test_fuzzy_battle_moves()
+	fuzzy_searching.Test_fuzzy_tm_location()
 
 	/*	abd, status := initAbilityDesc()
 
