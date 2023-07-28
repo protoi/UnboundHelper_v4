@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"runtime"
-	"unbound_helper_v4/fuzzy_searching"
 )
 
 var (
@@ -24,7 +23,9 @@ func main() {
 	//fuzzy_searching.Test_fuzzy_abilities()
 	//fuzzy_searching.Test_fuzzy_battle_moves()
 	//fuzzy_searching.Test_fuzzy_tm_location()
-	fuzzy_searching.Test_fuzzy_all_moves()
+	//fuzzy_searching.Test_fuzzy_all_moves()
+	//fuzzy_searching.Test_fuzzy_z_location()
+	//fuzzy_searching.Test_fuzzy_mega_location()
 	/*	abd, status := initAbilityDesc()
 
 		if status == false {
